@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="hero-grid">
+    <div class="hero-copy card glass">
+      <p class="hero-kicker">Built for every IGCSE subject, every revision style</p>
+      <h1>ExamDino turns huge revision chaos into a working study framework.</h1>
+      <p class="hero-text">
+        Courses, notes, past papers, quizzes, slides-to-notes, and revision planning all sit
+        in one place so students can move from learning to recall to timed practice without jumping tabs.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ url_for('courses') }}">Browse courses</a>
+        <a class="btn btn-ghost" href="{{ url_for('upload_page') }}">Upload a slideshow</a>
+      </div>
+      <div class="metric-row">
+        {% for highlight in highlights %}
+          <article class="metric-card">
+            <span>{{ highlight.title }}</span>
+            <strong>{{ highlight.value }}</strong>
+            <p>{{ highlight.detail }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    <aside class="hero-panel card glass">
+      <div class="panel-chip">Live study cockpit</div>
+      <div class="cockpit-focus">
+        <p class="eyebrow">Today's focus</p>
+        <h2>{{ spotlight[0].name if spotlight else "Study Sprint" }}</h2>
+        <p>{{ spotlight[0].overview if spotlight else "Quick recall, practice, and review." }}</p>
+        <div class="progress">
+          <span style="width: 72%"></span>
+        </div>
+      </div>
+      <div class="cockpit-grid">
+        {% for course in spotlight %}
+          <article>
+            <span>{{ course.code }}</span>
+            <strong>{{ course.name }}</strong>
+            <p>{{ course.checkpoint }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </aside>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Everything in one place</p>
+      <h2>The full ExamDino toolkit</h2>
+    </div>
+    <div class="feature-grid">
+      {% for feature in features %}
+        <a class="feature-card card" href="{{ url_for(feature.slug if feature.slug != 'upload' else 'upload_page') }}">
+          <span class="feature-pill">{{ feature.eyebrow }}</span>
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.summary }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section split-layout">
+    <div class="section-heading">
+      <p class="eyebrow">Study routes</p>
+      <h2>Move from syllabus pages to active recall without leaving ExamDino.</h2>
+      <p class="section-copy">
+        The framework is built around the actual rhythm of exam prep: subject overview, chapter maps,
+        practice packs, quiz checks, then a revision plan.
+      </p>
+    </div>
+    <div class="collection-grid">
+      {% for collection in collections %}
+        <article class="collection-card card">
+          <h3>{{ collection.title }}</h3>
+          <p>{{ collection.description }}</p>
+          <ul>
+            {% for item in collection["items"] %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Course map</p>
+      <h2>Core subject pathways</h2>
+    </div>
+    <div class="course-grid">
+      {% for course in spotlight %}
+        <a class="course-card card" href="{{ url_for('course_detail', slug=course.slug) }}">
+          <p class="eyebrow">{{ course.board }} | {{ course.level }}</p>
+          <h3>{{ course.name }}</h3>
+          <p>{{ course.overview }}</p>
+          <div class="course-meta">
+            <span>{{ course.code }}</span>
+            <span>{{ course.checkpoint }}</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

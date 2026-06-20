@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Notes studio</p>
+    <h1>Paste a lesson, and ExamDino turns it into revision assets.</h1>
+    <p class="hero-text">This page uses local extraction first, so it stays usable even without an API key.</p>
+  </section>
+
+  <section class="section two-col">
+    <form class="card form-card" method="post">
+      <label>
+        Subject
+        <select name="subject">
+          {% for course in courses %}
+            <option value="{{ course.slug }}" {% if selected_subject == course.slug %}selected{% endif %}>
+              {{ course.name }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Source text
+        <textarea name="source_text" rows="16" placeholder="Paste lecture notes, revision text, or a copied slide deck here.">{{ source_text }}</textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Build notes</button>
+    </form>
+
+    <article class="card">
+      {% if generated %}
+        <p class="eyebrow">Generated notes</p>
+        <h2>Summary</h2>
+        <ul class="bullet-list">
+          {% for line in generated.summary %}
+            <li>{{ line }}</li>
+          {% endfor %}
+        </ul>
+        <h3>Key terms</h3>
+        <div class="chip-row">
+          {% for term in generated.terms %}
+            <span class="chip">{{ term }}</span>
+          {% endfor %}
+        </div>
+        <h3>Flashcards</h3>
+        <div class="stack">
+          {% for card in generated.flashcards %}
+            <div class="mini-card">
+              <strong>{{ card.front }}</strong>
+              <p>{{ card.back }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="eyebrow">What happens here</p>
+        <p>
+          Paste study content and get a concise summary, term map, and flashcards you can review later.
+        </p>
+      {% endif %}
+    </article>
+  </section>
+{% endblock %}

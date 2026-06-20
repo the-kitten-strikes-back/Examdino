@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="auth-shell">
+    <div class="card auth-card">
+      <p class="hero-kicker">Account access</p>
+      <h1>Log in to save your study work.</h1>
+      <p class="hero-text">Your notes, revision plans, and upload packs are stored in SQL once you sign in.</p>
+
+      {% if errors %}
+        <div class="auth-errors">
+          {% for error in errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <form class="form-card auth-form" method="post">
+        <input type="hidden" name="next" value="{{ request.args.get('next', '') }}" />
+        <label>
+          Username or email
+          <input type="text" name="identifier" value="{{ identifier }}" autocomplete="username" required />
+        </label>
+        <label>
+          Password
+          <input type="password" name="password" autocomplete="current-password" required />
+        </label>
+        <button class="btn btn-primary" type="submit">Log in</button>
+      </form>
+      <div class="auth-links">
+        <a href="{{ url_for('forgot_password') }}">Forgot your password?</a>
+        <a href="{{ url_for('confirm_email_request') }}">Resend confirmation</a>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Past papers</p>
+    <h1>Search paper packs by subject, difficulty, and practice style.</h1>
+    <p class="hero-text">These are framework paper lanes, linked back to the official Cambridge resource centre.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ url_for('paper_lab') }}">Open Paper Lab</a>
+      <a class="btn btn-ghost" href="{{ url_for('library') }}">Browse library</a>
+    </div>
+    <form class="inline-form" method="get" action="{{ url_for('papers') }}">
+      <select name="subject">
+        <option value="">All subjects</option>
+        {% for course in subjects %}
+          <option value="{{ course.slug }}" {% if subject_filter == course.slug %}selected{% endif %}>
+            {{ course.name }}
+          </option>
+        {% endfor %}
+      </select>
+      <select name="difficulty">
+        <option value="">Any difficulty</option>
+        <option value="balanced" {% if difficulty_filter == "balanced" %}selected{% endif %}>Balanced</option>
+        <option value="challenging" {% if difficulty_filter == "challenging" %}selected{% endif %}>Challenging</option>
+        <option value="moderate" {% if difficulty_filter == "moderate" %}selected{% endif %}>Moderate</option>
+        <option value="flexible" {% if difficulty_filter == "flexible" %}selected{% endif %}>Flexible</option>
+      </select>
+      <input type="search" name="q" value="{{ query }}" placeholder="Search practice lane" />
+      <button class="btn btn-primary" type="submit">Filter</button>
+    </form>
+  </section>
+
+  <section class="section paper-grid">
+    {% for paper in papers %}
+      <article class="card">
+        <p class="eyebrow">{{ paper.course_name }}</p>
+        <h2>{{ paper.title }}</h2>
+        <p>{{ paper.description }}</p>
+        <div class="course-meta">
+          <span>{{ paper.format }}</span>
+          <span>{{ paper.difficulty }}</span>
+        </div>
+        <a class="btn btn-ghost" href="{{ paper.course_url }}">Open course detail</a>
+      </article>
+    {% else %}
+      <article class="card">
+        <h2>No papers matched</h2>
+        <p>Clear the filters or search a different subject.</p>
+      </article>
+    {% endfor %}
+  </section>
+{% endblock %}

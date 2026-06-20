@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="auth-shell">
+    <div class="card auth-card">
+      <p class="hero-kicker">Confirm email</p>
+      <h1>Request a new confirmation link.</h1>
+      <p class="hero-text">Enter the email address you used to create your ExamDino account.</p>
+
+      {% if errors %}
+        <div class="auth-errors">
+          {% for error in errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <form class="form-card auth-form" method="post">
+        <label>
+          Email
+          <input type="email" name="email" value="{{ email }}" autocomplete="email" required />
+        </label>
+        <button class="btn btn-primary" type="submit">Send confirmation</button>
+      </form>
+    </div>
+  </section>
+{% endblock %}

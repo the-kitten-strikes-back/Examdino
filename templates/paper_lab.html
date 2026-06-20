@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">IGCSE Paper Lab</p>
+    <h1>Scrape, extract, classify, and generate a paper set.</h1>
+    <p class="hero-text">
+      This feature is ported from the IGCSE generator codebase and folded into ExamDino as a usable study tool.
+      You can fetch past papers from the web, upload your own text or PDF, and generate a sample paper bundle.
+    </p>
+  </section>
+
+  <section class="section two-col">
+    <form class="card form-card" method="post" enctype="multipart/form-data">
+      <label>
+        Subject
+        <select name="subject_name">
+          {% for subject in subject_names %}
+            <option value="{{ subject }}" {% if selected_subject_name == subject %}selected{% endif %}>
+              {{ subject }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Subject code
+        <select name="subject_code">
+          {% for subject in subject_names %}
+            {% set code = subject_codes[subject] %}
+            <option value="{{ code }}" {% if selected_subject_code == code %}selected{% endif %}>
+              {{ subject }} ({{ code }})
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Year range
+        <input type="text" name="year_range" value="{{ year_range }}" placeholder="2018-2023" />
+      </label>
+      <label>
+        Session browser
+        <select name="session_url">
+          <option value="">Auto-pick a session</option>
+          {% for session in browser_sessions %}
+            <option value="{{ session.page_url }}" {% if selected_session_url == session.page_url %}selected{% endif %}>
+              {{ session.year }} - {{ session.title[:70] }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Max PDFs to parse
+        <input type="number" name="max_pdfs" min="1" max="20" value="{{ max_pdfs }}" />
+      </label>
+      <label>
+        Max questions to keep
+        <input type="number" name="max_questions" min="100" max="5000" value="{{ max_questions }}" />
+      </label>
+      <label>
+        Upload text, PDF, or PPTX
+        <input type="file" name="file" accept=".txt,.md,.csv,.pdf,.pptx,.json,.log" />
+      </label>
+      <label>
+        Or paste source text
+        <textarea name="pasted_text" rows="10" placeholder="Paste extracted paper text or notes here.">{{ pasted_text }}</textarea>
+      </label>
+      {% if paper_folders %}
+        <label>
+          Save to folder
+          <select name="folder_id">
+            <option value="">Default paper sessions</option>
+            {% for folder in paper_folders %}
+              <option value="{{ folder.id }}" {% if selected_folder_id == folder.id %}selected{% endif %}>
+                {{ folder.name }}
+              </option>
+            {% endfor %}
+          </select>
+        </label>
+      {% endif %}
+      <label class="inline-check">
+        <input type="checkbox" name="use_web" {% if use_web %}checked{% endif %} />
+        <span>Fetch current papers from the web</span>
+      </label>
+      <button class="btn btn-primary" type="submit">Run Paper Lab</button>
+      {% if uploaded_name %}
+        <p class="note">Loaded file: {{ uploaded_name }}</p>
+      {% endif %}
+      <p class="note">
+        Web mode scrapes paper links from the public paper archive, then extracts and classifies questions locally.
+      </p>
+    </form>
+
+    <article class="card">
+      {% if bundle %}
+        <p class="eyebrow">Run {{ run_id }}</p>
+        <h2>Output summary</h2>
+        <div class="facts-grid">
+          <div><span>Source mode</span><strong>{{ source_mode }}</strong></div>
+          <div><span>Questions</span><strong>{{ bundle.questions | length }}</strong></div>
+          <div><span>MCQ</span><strong>{{ bundle.mcq_questions | length }}</strong></div>
+          <div><span>Text</span><strong>{{ bundle.text_questions | length }}</strong></div>
+        </div>
+
+        <h3>Paper structure</h3>
+        <ul class="bullet-list">
+          {% for section, kind, count in structure %}
+            <li>{{ section }} - {{ kind }} - {{ count }} questions</li>
+          {% endfor %}
+        </ul>
+
+        <h3>Artifact downloads</h3>
+        <div class="chip-row">
+          {% for name, link in artifact_links.items() %}
+            <a class="chip chip-large" href="{{ link }}">{{ name }}</a>
+          {% endfor %}
+        </div>
+        {% if artifact_links.get("generated_paper.pdf") %}
+          <div style="margin-top: 1rem;">
+            <a class="btn btn-primary" href="{{ artifact_links.get('generated_paper.pdf') }}">Download generated paper as PDF</a>
+          </div>
+        {% endif %}
+
+        <h3>Sample paper preview</h3>
+        <pre class="preview-box">{{ bundle.sample_text[:3500] }}</pre>
+
+        {% if browser_sessions %}
+          <h3>Session browser</h3>
+          <div class="stack">
+            {% for session in browser_sessions %}
+              <article class="mini-card">
+                <strong>{{ session.year }} - {{ session.title }}</strong>
+                <p><a href="{{ session.page_url }}" target="_blank" rel="noreferrer">{{ session.page_url }}</a></p>
+              </article>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if fetch_links %}
+          <h3>Scraped source links</h3>
+          <ul class="source-list">
+            {% for link in fetch_links[:10] %}
+              <li><a href="{{ link }}" target="_blank" rel="noreferrer">{{ link }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        <h3>Raw question preview</h3>
+        <div class="stack">
+          {% for question in bundle.questions[:4] %}
+            <div class="mini-card">
+              <strong>Question {{ loop.index }}</strong>
+              <p>{{ question[:450] }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <h2>No run yet</h2>
+        <p>
+          Choose a subject, either upload/paste your own source text or fetch from the web, then run the paper lab.
+        </p>
+        <p>
+          For Cambridge subjects, the lab can generate a paper bundle using the structure map ported from the IGCSE project.
+        </p>
+      {% endif %}
+    </article>
+  </section>
+{% endblock %}

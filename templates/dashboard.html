@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Dashboard</p>
+    <h1>Your saved study work lives here.</h1>
+    <p class="hero-text">
+      Notes, revision plans, and upload packs are stored in SQL for your account and can be revisited or removed anytime.
+    </p>
+    <div class="chip-row">
+      <span class="chip">{{ "Email confirmed" if current_user.email_confirmed else "Email pending" }}</span>
+      <span class="chip">{{ folders|length }} folders</span>
+    </div>
+  </section>
+
+  <section class="section two-col">
+    <article class="card auth-card">
+      <p class="eyebrow">Profile</p>
+      <h2>{{ current_user.username }}</h2>
+      <p>{{ current_user.email }}</p>
+      <div class="chip-row">
+        <span class="chip">Joined {{ current_user.created_at.strftime("%d %b %Y") }}</span>
+        {% if current_user.last_login_at %}
+          <span class="chip">Last login {{ current_user.last_login_at.strftime("%d %b %Y") }}</span>
+        {% endif %}
+      </div>
+    </article>
+
+    <article class="card auth-card">
+      <p class="eyebrow">Saved items</p>
+      <h2>{{ artifacts|length }} items</h2>
+      <p>Your most recent generated study packs appear below.</p>
+    </article>
+  </section>
+
+  <section class="section two-col">
+    <article class="card auth-card">
+      <p class="eyebrow">Create folder</p>
+      <h2>Organize quiz and paper history</h2>
+      <form class="form-card auth-form" method="post" action="{{ url_for('create_folder') }}">
+        <label>
+          Folder name
+          <input type="text" name="name" placeholder="Year 11 biology" required />
+        </label>
+        <label>
+          Folder type
+          <select name="kind">
+            <option value="quiz">Quiz history</option>
+            <option value="paper">Paper sessions</option>
+            <option value="general">General</option>
+          </select>
+        </label>
+        <button class="btn btn-primary" type="submit">Create folder</button>
+      </form>
+    </article>
+
+    <article class="card auth-card">
+      <p class="eyebrow">Folders</p>
+      <h2>Saved groups</h2>
+      <div class="stack">
+        {% for folder in folders %}
+          <div class="mini-card">
+            <strong>{{ folder.name }}</strong>
+            <p>{{ folder.kind }} · Created {{ folder.created_at.strftime("%d %b %Y") }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  </section>
+
+  <section class="section two-col">
+    <article class="card auth-card">
+      <p class="eyebrow">Quiz history</p>
+      <h2>{{ quiz_history|length }} sessions</h2>
+      <div class="stack">
+        {% for session in quiz_history[:5] %}
+          <div class="mini-card">
+            <strong>{{ session.subject_slug }}</strong>
+            <p>{{ session.prompt_text[:120] if session.prompt_text else "Generated subject quiz" }}</p>
+            <span class="note">Saved {{ session.created_at.strftime("%d %b %Y, %H:%M") }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+
+    <article class="card auth-card">
+      <p class="eyebrow">Paper sessions</p>
+      <h2>{{ paper_history|length }} sessions</h2>
+      <div class="stack">
+        {% for session in paper_history[:5] %}
+          <div class="mini-card">
+            <strong>{{ session.subject_name }}</strong>
+            <p>{{ session.source_mode }} · {{ session.year_range or "any years" }}</p>
+            <span class="note">Saved {{ session.created_at.strftime("%d %b %Y, %H:%M") }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  </section>
+
+  <section class="section">
+    {% if artifacts %}
+      <div class="stack">
+        {% for artifact in artifacts %}
+          <article class="card dashboard-item">
+            <div class="dashboard-head">
+              <div>
+                <p class="eyebrow">{{ artifact.kind }}</p>
+                <h3>{{ artifact.title }}</h3>
+              </div>
+              <form method="post" action="{{ url_for('delete_artifact', artifact_id=artifact.id) }}">
+                <button class="btn btn-ghost" type="submit">Delete</button>
+              </form>
+            </div>
+            <p class="note">
+              {% if artifact.subject %}{{ artifact.subject }} · {% endif %}
+              Saved {{ artifact.created_at.strftime("%d %b %Y, %H:%M") }}
+            </p>
+
+            {% set payload = artifact.payload %}
+            {% if artifact.kind == "notes" or artifact.kind == "upload_pack" %}
+              <h4>Summary</h4>
+              <ul class="bullet-list">
+                {% for line in payload.get("summary", []) %}
+                  <li>{{ line }}</li>
+                {% endfor %}
+              </ul>
+              {% if payload.get("terms") %}
+                <div class="chip-row">
+                  {% for term in payload.get("terms", []) %}
+                    <span class="chip">{{ term }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% elif artifact.kind == "planner" %}
+              <h4>Plan preview</h4>
+              <ul class="bullet-list">
+                {% for step in payload.get("plan", [])[:4] %}
+                  <li>{{ step.day }} - {{ step.task }}: {{ step.focus }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <pre class="artifact-json">{{ artifact.payload_json }}</pre>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <article class="card auth-card">
+        <h2>No saved items yet</h2>
+        <p>Generate notes, upload a file, or build a revision plan while logged in and it will appear here.</p>
+      </article>
+    {% endif %}
+  </section>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">404</p>
+    <h1>That page wandered off the revision map.</h1>
+    <p class="hero-text">Head back to the home page or jump straight into the course catalogue.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ url_for('home') }}">Return home</a>
+      <a class="btn btn-ghost" href="{{ url_for('courses') }}">Open courses</a>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Slide studio</p>
+    <h1>Upload slides, PDFs, or text and get study notes back.</h1>
+    <p class="hero-text">
+      This page handles PPTX, PDF, and text files. If the file is plain text, the extractor will
+      summarize it immediately; if it is a deck, ExamDino will mine the visible text first.
+    </p>
+  </section>
+
+  <section class="section two-col">
+    <form class="card form-card" method="post" enctype="multipart/form-data">
+      <label>
+        Subject
+        <select name="subject">
+          {% for course in courses %}
+            <option value="{{ course.slug }}" {% if selected_subject == course.slug %}selected{% endif %}>
+              {{ course.name }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Upload file
+        <input type="file" name="file" accept=".txt,.md,.csv,.pdf,.pptx,.json,.log" />
+      </label>
+      <label>
+        Or paste text
+        <textarea name="pasted_text" rows="14" placeholder="Paste slide text or notes here.">{{ pasted_text }}</textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Generate study pack</button>
+      {% if uploaded_name %}
+        <p class="note">Processed: {{ uploaded_name }}</p>
+      {% endif %}
+    </form>
+
+    <article class="card">
+      {% if result %}
+        {% if result.error %}
+          <h2>Upload problem</h2>
+          <p>{{ result.error }}</p>
+        {% else %}
+          <p class="eyebrow">Generated study pack</p>
+          <h2>Summary bullets</h2>
+          <ul class="bullet-list">
+            {% for line in result.summary %}
+              <li>{{ line }}</li>
+            {% endfor %}
+          </ul>
+          <h3>Key terms</h3>
+          <div class="chip-row">
+            {% for term in result.terms %}
+              <span class="chip">{{ term }}</span>
+            {% endfor %}
+          </div>
+          <h3>Flashcards</h3>
+          <div class="stack">
+            {% for card in result.flashcards %}
+              <div class="mini-card">
+                <strong>{{ card.front }}</strong>
+                <p>{{ card.back }}</p>
+              </div>
+            {% endfor %}
+          </div>
+          <h3>Next steps</h3>
+          <ul class="bullet-list">
+            {% for step in result.next_steps %}
+              <li>{{ step.day }} - {{ step.task }}: {{ step.focus }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% else %}
+        <h2>How it works</h2>
+        <p>Choose a subject, upload content, and get a concise study bundle back in the browser.</p>
+      {% endif %}
+    </article>
+  </section>
+{% endblock %}

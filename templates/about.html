@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">About ExamDino</p>
+    <h1>A massive study framework, not just a landing page.</h1>
+    <p class="hero-text">
+      ExamDino is designed to help IGCSE students find their course, collect notes, practice
+      with past-paper style drills, and assemble a realistic revision plan in one deployable app.
+    </p>
+  </section>
+
+  <section class="section two-col">
+    <article class="card">
+      <p class="eyebrow">How it works</p>
+      <h2>Local-first, with AI as a fallback layer</h2>
+      <p>
+        The app first uses deterministic processing: keyword extraction, extractive summaries,
+        flashcards, and quiz generation. That keeps it reliable on Render without needing a model key.
+      </p>
+      <p>
+        If you want to connect a hosted AI service later, the upload and notes pipeline already
+        has a clean slot for it. For now, the framework is fully usable with local heuristics.
+      </p>
+    </article>
+    <article class="card">
+      <p class="eyebrow">Scraped sources</p>
+      <h2>Official Cambridge pages seed the catalog</h2>
+      <ul class="source-list">
+        {% for source in scraped_sources %}
+          <li><a href="{{ source }}" target="_blank" rel="noreferrer">{{ source }}</a></li>
+        {% endfor %}
+      </ul>
+      <p class="note">
+        The subject pages use the official Cambridge IGCSE product pages and resource-centre entry points
+        as the source of truth for titles and study directions.
+      </p>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Feature list</p>
+      <h2>What you can do today</h2>
+    </div>
+    <div class="feature-grid">
+      <article class="card">
+        <h3>Courses</h3>
+        <p>Use chapter maps and focus lists for the core Cambridge IGCSE subjects.</p>
+      </article>
+      <article class="card">
+        <h3>Notes</h3>
+        <p>Paste lesson content and turn it into summaries, terms, and flashcards.</p>
+      </article>
+      <article class="card">
+        <h3>Upload Studio</h3>
+        <p>Upload PDFs, PPTX decks, and text files to extract study material automatically.</p>
+      </article>
+      <article class="card">
+        <h3>Past Papers</h3>
+        <p>Search practice packs and link back into the course map for each subject.</p>
+      </article>
+    </div>
+  </section>
+{% endblock %}

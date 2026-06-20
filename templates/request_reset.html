@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="auth-shell">
+    <div class="card auth-card">
+      <p class="hero-kicker">Password reset</p>
+      <h1>We’ll send a reset link to your email.</h1>
+      <p class="hero-text">If an account exists, we’ll issue a password reset token for it.</p>
+
+      {% if errors %}
+        <div class="auth-errors">
+          {% for error in errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <form class="form-card auth-form" method="post">
+        <label>
+          Email
+          <input type="email" name="email" value="{{ email }}" autocomplete="email" required />
+        </label>
+        <button class="btn btn-primary" type="submit">Send reset link</button>
+      </form>
+    </div>
+  </section>
+{% endblock %}

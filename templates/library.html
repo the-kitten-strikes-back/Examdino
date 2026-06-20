@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Library</p>
+    <h1>A giant study library that still feels navigable.</h1>
+    <p class="hero-text">
+      This is the place to park official links, generated notes, practice lanes, and revision workflows.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="resource-grid">
+      {% for collection in collections %}
+          <article class="card">
+          <p class="eyebrow">{{ collection.title }}</p>
+          <p>{{ collection.description }}</p>
+          <ul class="bullet-list">
+            {% for item in collection["items"] %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Workbench</p>
+      <h2>What belongs here</h2>
+    </div>
+    <div class="feature-grid">
+      {% for resource in resources %}
+        <article class="card">
+          <h3>{{ resource.title }}</h3>
+          <p>{{ resource.description }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

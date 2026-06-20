@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Revision planner</p>
+    <h1>Generate a schedule that matches the actual time left.</h1>
+    <p class="hero-text">Pick a subject, add your exam date, and set weak topics to get a realistic plan.</p>
+  </section>
+
+  <section class="section two-col">
+    <form class="card form-card" method="post">
+      <label>
+        Subject
+        <select name="subject">
+          {% for item in courses %}
+            <option value="{{ item.slug }}" {% if selected_subject == item.slug %}selected{% endif %}>
+              {{ item.name }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Exam date
+        <input type="date" name="exam_date" value="{{ exam_date }}" />
+      </label>
+      <label>
+        Revision days
+        <input type="number" min="3" max="21" name="study_days" value="{{ study_days }}" />
+      </label>
+      <label>
+        Weak topics
+        <textarea name="weak_topics" rows="6" placeholder="Comma-separated topics">{{ weak_topics_input }}</textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Build plan</button>
+    </form>
+
+    <div class="stack">
+      {% for step in plan %}
+        <article class="card plan-card">
+          <span>{{ step.day }}</span>
+          <h2>{{ step.task }}</h2>
+          <p>{{ step.focus }}</p>
+          <small>{{ step.goal }}</small>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

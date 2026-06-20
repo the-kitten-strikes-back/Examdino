@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">{{ course.board }} | {{ course.level }}</p>
+    <h1>{{ course.name }}</h1>
+    <p class="hero-text">{{ course.overview }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ url_for('papers', subject=course.slug) }}">Open paper pack</a>
+      <a class="btn btn-ghost" href="{{ url_for('planner', subject=course.slug) }}">Build revision plan</a>
+      <a class="btn btn-ghost" href="{{ course.source_url }}" target="_blank" rel="noreferrer">Official source</a>
+    </div>
+  </section>
+
+  <section class="section two-col">
+    <article class="card">
+      <p class="eyebrow">Course facts</p>
+      <div class="facts-grid">
+        <div><span>Code</span><strong>{{ course.code }}</strong></div>
+        <div><span>Board</span><strong>{{ course.board }}</strong></div>
+        <div><span>Checkpoint</span><strong>{{ course.checkpoint }}</strong></div>
+        <div><span>Resource centre</span><strong><a href="{{ course.resource_url }}" target="_blank" rel="noreferrer">Open</a></strong></div>
+      </div>
+    </article>
+    <article class="card">
+      <p class="eyebrow">Common mistakes</p>
+      <ul class="bullet-list">
+        {% for item in course.common_mistakes %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Chapters</p>
+      <h2>Chapter map</h2>
+    </div>
+    <div class="chip-row">
+      {% for chapter in course.chapters %}
+        <span class="chip chip-large">{{ chapter }}</span>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section two-col">
+    <article class="card">
+      <p class="eyebrow">Paper lanes</p>
+      <h2>Practice packs</h2>
+      <ul class="bullet-list">
+        {% for lane in course.paper_lanes %}
+          <li>{{ lane }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+    <article class="card">
+      <p class="eyebrow">Quiz preview</p>
+      <h2>Quick recall drill</h2>
+      <div class="quiz-preview">
+        {% for item in quiz_items %}
+          <div class="quiz-card">
+            <strong>{{ item.prompt }}</strong>
+            <p>{{ item.explanation }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Revision plan</p>
+      <h2>Seven-day path</h2>
+    </div>
+    <div class="plan-grid">
+      {% for step in revision_plan %}
+        <article class="plan-card card">
+          <span>{{ step.day }}</span>
+          <h3>{{ step.task }}</h3>
+          <p>{{ step.focus }}</p>
+          <small>{{ step.goal }}</small>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <a class="btn btn-primary" href="{{ url_for('notes') }}?subject={{ course.slug }}">Generate notes for this subject</a>
+  </section>
+{% endblock %}

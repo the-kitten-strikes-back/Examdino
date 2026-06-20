@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Search</p>
+    <h1>Find a course, feature, or paper lane fast.</h1>
+    <form class="inline-form" method="get">
+      <input type="search" name="q" value="{{ query }}" placeholder="Search ExamDino" />
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+  </section>
+
+  <section class="section result-grid">
+    {% for item in results %}
+      <a class="card search-card" href="{{ item.link }}">
+        <p class="eyebrow">{{ item.kind }}</p>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </a>
+    {% else %}
+      <article class="card">
+        <h2>No results</h2>
+        <p>Try a subject name, feature name, or paper term.</p>
+      </article>
+    {% endfor %}
+  </section>
+{% endblock %}

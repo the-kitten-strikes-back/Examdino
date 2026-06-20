@@ -1,0 +1,9 @@
+Flask>=3.0,<4
+gunicorn>=21,<23
+Flask-Login>=0.6,<1
+Flask-SQLAlchemy>=3.1,<4
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+pypdf>=5.0,<6
+python-pptx>=1.0,<2
+psycopg2-binary>=2.9,<3

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Course maps</p>
+    <h1>Study by subject, then chapter, then question style.</h1>
+    <p class="hero-text">
+      Search a subject, open its detail page, and jump into a planner, quiz, or paper pack from there.
+    </p>
+    <form class="inline-form" method="get" action="{{ url_for('courses') }}">
+      <input type="search" name="q" value="{{ query }}" placeholder="Search subjects, focus areas, or chapters" />
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+  </section>
+
+  <section class="section">
+    <div class="course-grid">
+      {% for course in courses %}
+        <a class="course-card card" href="{{ url_for('course_detail', slug=course.slug) }}">
+          <p class="eyebrow">{{ course.board }}</p>
+          <h3>{{ course.name }}</h3>
+          <p>{{ course.overview }}</p>
+          <div class="chip-row">
+            {% for part in course.chapters %}
+              <span class="chip">{{ part }}</span>
+            {% endfor %}
+          </div>
+          <div class="course-meta">
+            <span>{{ course.code }}</span>
+            <span>{{ course.level }}</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="auth-shell">
+    <div class="card auth-card">
+      <p class="hero-kicker">Create account</p>
+      <h1>Start a proper ExamDino workspace.</h1>
+      <p class="hero-text">Create an account once, then keep your generated study packs saved in SQL.</p>
+
+      {% if errors %}
+        <div class="auth-errors">
+          {% for error in errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <form class="form-card auth-form" method="post">
+        <input type="hidden" name="next" value="{{ request.args.get('next', '') }}" />
+        <label>
+          Username
+          <input type="text" name="username" value="{{ username }}" autocomplete="username" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" value="{{ email }}" autocomplete="email" required />
+        </label>
+        <label>
+          Password
+          <input type="password" name="password" autocomplete="new-password" required />
+        </label>
+        <label>
+          Confirm password
+          <input type="password" name="confirm_password" autocomplete="new-password" required />
+        </label>
+        <button class="btn btn-primary" type="submit">Create account</button>
+      </form>
+      <p class="note">After sign-up, we send a confirmation link before the account can log in.</p>
+    </div>
+  </section>
+{% endblock %}

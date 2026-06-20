@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="page-hero card glass">
+    <p class="hero-kicker">Quiz lab</p>
+    <h1>Generate recall checks from a subject or from pasted text.</h1>
+    <p class="hero-text">Local generation first. No waiting around, no dependency on a remote service.</p>
+    <div class="hero-actions">
+      <span class="chip chip-large" id="quiz-score" data-total="{{ quiz_items|length }}">Score: 0 / {{ quiz_items|length }}</span>
+    </div>
+  </section>
+
+  <section class="section two-col">
+    <form class="card form-card" method="post">
+      <label>
+        Subject
+        <select name="subject">
+          {% for course in courses %}
+            <option value="{{ course.slug }}" {% if selected_subject == course.slug %}selected{% endif %}>
+              {{ course.name }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        Optional source text
+        <textarea name="prompt_text" rows="14" placeholder="Paste a revision note, glossary, or slide excerpt.">{{ prompt_text }}</textarea>
+      </label>
+      {% if quiz_folders %}
+        <label>
+          Save to folder
+          <select name="folder_id">
+            <option value="">Default quiz history</option>
+            {% for folder in quiz_folders %}
+              <option value="{{ folder.id }}" {% if selected_folder_id == folder.id %}selected{% endif %}>
+                {{ folder.name }}
+              </option>
+            {% endfor %}
+          </select>
+        </label>
+      {% endif %}
+      <button class="btn btn-primary" type="submit">Generate quiz</button>
+    </form>
+
+    <div class="stack">
+      {% for item in quiz_items %}
+        <article class="card quiz-card" data-correct="{{ item.answer_index }}">
+          <p class="eyebrow">Question {{ loop.index }}</p>
+          <h2>{{ item.prompt }}</h2>
+          <div class="quiz-options">
+            {% for option in item.options %}
+              <button class="quiz-option" type="button" data-index="{{ loop.index0 }}">{{ option }}</button>
+            {% endfor %}
+          </div>
+          <p class="quiz-feedback">{{ item.explanation }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}
