@@ -1,0 +1,5992 @@
+--- tmpg32err1lpdf | Page 1 ---
+This document has 16 pages Any blank pages are indicated
+IB24 06_0625_23/2RP
+© UCLES 2024 [Turn over
+*1922152000*
+™
+Cambridge IGCSE
+PHYSICS 0625/23
+Paper 2 Multiple Choice (Extended) May/June 2024
+45 minutes
+You must answer on the multiple choice answer sheet
+You will need: Multiple choice answer sheet
+Soft clean eraser
+Soft pencil (type B or HB is recommended)
+instructions
+ There are forty questions on this paper Answer all questions
+ For each question there are four possible answers A, B, C and D Choose the one you consider correct
+and record your choice in soft pencil on the multiple choice answer sheet
+ Follow the instructions on the multiple choice answer sheet
+ Write in soft pencil
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the
+spaces provided unless this has been done for you
+ Do not use correction fluid
+ Do not write on any bar codes
+ You may use a calculator
+ Take the weight of 10kg to be 98N (acceleration of free fall = 98m/s2)
+INFORMATION
+ The total mark for this paper is 40
+ Each correct answer will score one mark
+ Any rough working should be done on this question paper
+
+--- tmpg32err1lpdf | Page 2 ---
+2
+1 A student measures the volume of a small, irregularly shaped stone
+Which apparatus must be used?
+A a ruler and a measuring cylinder containing water
+B a measuring cylinder containing water only
+C a ruler and an empty measuring cylinder
+D a ruler only
+2 Which quantity is a vector?
+A electric field strength
+B energy
+C mass
+D temperature
+3 An athlete runs 24km in 12 minutes
+What is the average speed of the athlete?
+A 020m/s B 33m/s C 29m/s D 200m/s
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 3 ---
+3
+4 The graph shows how the speed of a car changes during a period of 50s
+25
+speed
+m / s 20
+15
+10
+5
+0
+0 5 10 15 20 25 30 35 40 45 50
+time / s
+Which row gives the car’s greatest acceleration and the car’s greatest deceleration?
+greatest greatest
+acceleration deceleration
+m/s2 m/s2
+A 075 10
+B 075 30
+C 13 10
+D 13 30
+5 Which statement about gravitational field strength g is correct?
+mass
+A g =
+weight
+B g = mass  weight
+C g is defined as the mass per unit force
+D g is equal to the acceleration of free fall
+6 Which property of an object cannot be changed by applying forces?
+A mass
+B shape
+C speed
+D volume
+© UCLES 2024 0625/23/M/J/24 [Turn over
+
+--- tmpg32err1lpdf | Page 3 | Table 1 ---
+ |  |  | 
+ |  |  | 
+
+--- tmpg32err1lpdf | Page 3 | Table 2 ---
+ | greatest
+acceleration
+m/s2 | greatest
+deceleration
+m/s2
+A
+B
+C
+D | 075
+075
+13
+13 | 10
+30
+10
+30
+
+--- tmpg32err1lpdf | Page 4 ---
+4
+7 A small ball of mass 010kg travels horizontally at a speed of 600m/s It strikes a stationary
+wooden block of mass 19kg resting on a frictionless horizontal surface
+The ball stays in the block
+What is the speed of the ball and the block immediately after the impact?
+A 30m/s B 32m/s C 60m/s D 130m/s
+8 An object taken underwater will be damaged if the total pressure acting on it is greater than
+21MPa
+What is the maximum depth that the object can be taken underwater before it breaks?
+atmospheric pressure = 101000Pa
+density of water = 1000kg/m3
+A 103m B 204m C 214m D 225m
+9 A piece of solid metal melts to become a liquid
+How do the particles of metal or their behaviour change?
+A They increase in size
+B They move around each other
+C They move much further apart
+D They vibrate more about their fixed positions
+10 Brownian motion of particles is observed
+Which statements describe the movement of the particles?
+1 The particles all travel along a curved path
+2 The particles move randomly
+3 The particles all travel in the same direction
+A 1 and 3 B 1 only C 2 and 3 D 2 only
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 5 ---
+5
+11 A fixed mass of air in a cylinder is compressed by a piston so that the volume of the air
+decreases at constant temperature
+How do the air particles now collide with the cylinder walls?
+A less often with a greater velocity
+B less often with the same velocity
+C more often with a greater velocity
+D more often with the same velocity
+12 The diagram shows a quantity of gas trapped in a cylinder The piston is pushed in slowly and the
+gas is compressed The temperature of the gas does not change
+gas piston pushed in
+piston
+Which graph shows the relationship between the pressure and the volume of the gas?
+A B
+pressure pressure
+0 0
+0 volume 0 volume
+C D
+pressure pressure
+0 0
+0 volume 0 volume
+© UCLES 2024 0625/23/M/J/24 [Turn over
+
+--- tmpg32err1lpdf | Page 5 | Table 1 ---
+gas | 
+ | 
+
+--- tmpg32err1lpdf | Page 6 ---
+6
+13 The liquid level in a thermometer rises when the thermometer is placed in hot water
+What causes this?
+A The liquid contracts
+B The liquid evaporates
+C The liquid expands
+D The liquid freezes
+14 Which statement describes what happens as ice at 0C melts to become water?
+A Energy is absorbed and the temperature remains constant
+B Energy is absorbed and the temperature rises
+C Energy is released and the temperature remains constant
+D Energy is released and the temperature rises
+15 Which row explains how increasing the surface area of a fixed volume of liquid water and blowing
+air over the surface speeds up evaporation?
+increasing the surface area blowing air over the surface
+A increases the total number increases the energy in the
+of water molecules present kinetic store of the liquid water
+B increases the total number removes water molecules from
+of water molecules present above the surface of the water
+C increases the number of water increases the energy in the
+molecules close to the surface kinetic store of the liquid water
+D increases the number of water removes water molecules from
+molecules close to the surface above the surface of the water
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 6 | Table 1 ---
+ | increasing the surface area | blowing air over the surface
+A
+B
+C
+D | increases the total number
+of water molecules present
+increases the total number
+of water molecules present
+increases the number of water
+molecules close to the surface
+increases the number of water
+molecules close to the surface | increases the energy in the
+kinetic store of the liquid water
+removes water molecules from
+above the surface of the water
+increases the energy in the
+kinetic store of the liquid water
+removes water molecules from
+above the surface of the water
+
+--- tmpg32err1lpdf | Page 7 ---
+7
+16 The table shows the state of materials P, Q, R and S, and whether each one contains free
+electrons
+contains
+gas liquid solid
+free electrons
+P (cid:22) (cid:26) (cid:26) (cid:26)
+Q (cid:26) (cid:22) (cid:26) (cid:26)
+R (cid:26) (cid:26) (cid:22) (cid:22)
+S (cid:26) (cid:26) (cid:22) (cid:26)
+Using the information in the table, which comparison of the thermal conduction in the materials is
+correct?
+A It is better in P than in Q and S
+B It is better in Q than in R and P
+C It is better in R than in Q and P
+D It is better in S than in R and Q
+17 A seismic wave has a frequency of 50Hz and a speed of 10km/s
+What is the wavelength of the wave?
+A 020km B 050km C 20km D 50km
+18 Sound waves will diffract when going through a gap or passing the edge of a barrier
+Which size of wavelength gives the most diffraction in each case?
+passing the edge
+passing through a gap
+of a barrier
+A small wavelength small wavelength
+B small wavelength large wavelength
+C wavelength similar to gap size small wavelength
+D wavelength similar to gap size large wavelength
+© UCLES 2024 0625/23/M/J/24 [Turn over
+
+--- tmpg32err1lpdf | Page 7 | Table 1 ---
+ | gas | liquid | solid | contains
+free electrons
+P
+Q
+R
+S | (cid:22)
+(cid:26)
+(cid:26)
+(cid:26) | (cid:26)
+(cid:22)
+(cid:26)
+(cid:26) | (cid:26)
+(cid:26)
+(cid:22)
+(cid:22) | (cid:26)
+(cid:26)
+(cid:22)
+(cid:26)
+
+--- tmpg32err1lpdf | Page 7 | Table 2 ---
+ | passing through a gap | passing the edge
+of a barrier
+A
+B
+C
+D | small wavelength
+small wavelength
+wavelength similar to gap size
+wavelength similar to gap size | small wavelength
+large wavelength
+small wavelength
+large wavelength
+
+--- tmpg32err1lpdf | Page 8 ---
+8
+19 A boy is having his eyes tested A letter is printed on a card placed over his head He sees the
+card in a plane mirror placed in front of him
+He sees the letter ‘R’ in the mirror
+How is it printed on the card?
+A B C D
+20 A ray of light is refracted as it enters air from glass, as shown
+50(cid:1)
+air
+glass 60(cid:1)
+What is the speed of light in the glass?
+A 20  108m/s
+B 22  108m/s
+C 23  108m/s
+D 27  108m/s
+21 A converging lens is being used as a magnifying glass
+Which statement is correct?
+A The image is further away from the lens than the object is
+B The image is inverted
+C The image is real
+D The object must be placed at the principal focus of the lens
+22 Which colours of visible light are in the correct order of increasing wavelength?
+A red  yellow  blue
+B orange  green  violet
+C indigo  green  red
+D blue  green  violet
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 9 ---
+9
+23 The diagram shows three types of electromagnetic radiation listed in a particular order The
+electromagnetic radiation is travelling in a vacuum
+microwaves infrared X-rays
+Which quantities increase in magnitude going from left to right across the list?
+A both speed and frequency
+B frequency only
+C speed only
+D neither speed nor frequency
+24 Which row gives the typical values of the speed of sound at room temperature in the materials
+stated?
+speed of sound
+m/s
+air water iron
+A 340 1500 5100
+B 340 5100 1500
+C 5100 1500 340
+D 30  108 30  108 30  108
+25 Two small compasses are placed close to a strong bar magnet
+In which directions do the compass needles point?
+A B C D
+N N N N
+S S S S
+© UCLES 2024 0625/23/M/J/24 [Turn over
+
+--- tmpg32err1lpdf | Page 9 | Table 1 ---
+ | speed of sound
+m/s |  | 
+ | air | water | iron
+A
+B
+C
+D | 340
+340
+5100
+30  108 | 1500
+5100
+1500
+30  108 | 5100
+1500
+340
+30  108
+
+--- tmpg32err1lpdf | Page 10 ---
+10
+26 Students are asked for a statement about magnetic fields
+Three statements are listed
+1 A magnetic field is described as a region in which a stationary electric charge
+experiences a force
+2 The direction of a magnetic field at a point is the direction of the force on an S pole
+at that point
+3 The relative strength of a magnetic field is shown by the spacing of the magnetic
+field lines
+Which statements are correct for magnetic fields?
+A 1, 2 and 3 B 1 and 2 only C 2 and 3 only D 3 only
+27 A student rubs a plastic rod with a cloth
+The rod becomes electrically charged and is attracted by a negatively charged object
+Which statement about the rod is correct?
+A It is negatively charged because it has gained electrons
+B It is negatively charged because it has lost electrons
+C It is positively charged because it has gained electrons
+D It is positively charged because it has lost electrons
+28 Which circuit shows the directions of the conventional current I and the flow of electrons?
+A B
+I electrons I electrons
+C D
+I electrons I electrons
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 11 ---
+11
+29 A cell has an electromotive force (emf) of 15V
+How much energy is transferred by the cell when it drives 60C of charge round a complete
+circuit?
+A 40J B 40W C 90J D 90W
+30 A metal resistance wire of length l and cross-sectional area A has resistance R
+What is the resistance of a metal wire of the same material that has length 2l and cross-sectional
+A
+area ?
+2
+R
+A B R C 2R D 4R
+4
+31 The diagram shows two circuits
+Each relay is normally open when there is no current in the coil
+circuit 1 circuit 2
+6 V 6 V
+0 V 0 V
+Which environmental conditions will cause the light-emitting diodes in circuit 1 and circuit 2 both
+to emit light?
+temperature light intensity
+A high high
+B high low
+C low high
+D low low
+© UCLES 2024 0625/23/M/J/24 [Turn over
+
+--- tmpg32err1lpdf | Page 11 | Table 1 ---
+ | 
+
+--- tmpg32err1lpdf | Page 11 | Table 2 ---
+ | 
+
+--- tmpg32err1lpdf | Page 11 | Table 3 ---
+ | 
+
+--- tmpg32err1lpdf | Page 11 | Table 4 ---
+ | 
+
+--- tmpg32err1lpdf | Page 11 | Table 5 ---
+ | 
+
+--- tmpg32err1lpdf | Page 11 | Table 6 ---
+ | 
+
+--- tmpg32err1lpdf | Page 11 | Table 7 ---
+ | temperature | light intensity
+A
+B
+C
+D | high
+high
+low
+low | high
+low
+high
+low
+
+--- tmpg32err1lpdf | Page 12 ---
+12
+32 A transformer is 100% efficient
+Which pair of equations are both valid for the transformer?
+V V
+A I V = I V p = s
+p p s s
+N N
+p s
+V V
+B p = s N V = N V
+p p s s
+I I
+p s
+V V V V
+C p = s p = s
+I I N N
+p s p s
+D I V = I V N V = N V
+p p s s p p s s
+33 Which diagram shows the structure of a neutral atom?
+A B
+– –
+key
++ +
+n n n = neutral subatomic particles
++ n
++
++ = positive subatomic particles
+– = negative subatomic particles
+–
+C D
+– –
++
++
+n n
+n n
++
+–
+34 What is nuclear fission?
+A the merging of two nuclei to create a heavier nucleus
+B the process by which electrons are removed from an atom
+C the process by which stars generate energy
+D the splitting of a nucleus to create two smaller nuclei
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 13 ---
+13
+35 The diagram represents the paths of three types of ionising radiation, X, Y and Z, through a
+magnetic field
+The three types of radiation are alpha, beta and gamma
+magnetic field
+X
+Y
+Z
+Which statement about the ionising radiation is correct?
+A X is positively charged
+B Y is negatively charged
+C Z is the most strongly ionising
+D X has a smaller mass than Y
+36 Which row correctly matches three radioactive sources to their uses?
+emits alpha-particles emits beta-particles emits gamma radiation
+and has a long half-life and has a long half-life and has a short half-life
+A monitoring the thickness smoke alarm tracer to be injected
+of aluminium foil to detect cancer
+B monitoring the thickness tracer to be injected smoke alarm
+of aluminium foil to detect cancer
+C smoke alarm monitoring the thickness tracer to be injected
+of aluminium foil to detect cancer
+D smoke alarm tracer to be injected monitoring the thickness
+to detect cancer of aluminium foil
+37 Why are some radioactive sources stored in boxes made from lead?
+A Lead absorbs emissions from the radioactive sources
+B Lead decreases the half-life of radioactive sources
+C Lead increases the half-life of radioactive sources
+D Lead repels all radioactive emissions
+© UCLES 2024 0625/23/M/J/24 [Turn over
+
+--- tmpg32err1lpdf | Page 13 | Table 1 ---
+
+
+
+--- tmpg32err1lpdf | Page 13 | Table 2 ---
+ | emits alpha-particles
+and has a long half-life | emits beta-particles
+and has a long half-life | emits gamma radiation
+and has a short half-life
+A
+B
+C
+D | monitoring the thickness
+of aluminium foil
+monitoring the thickness
+of aluminium foil
+smoke alarm
+smoke alarm | smoke alarm
+tracer to be injected
+to detect cancer
+monitoring the thickness
+of aluminium foil
+tracer to be injected
+to detect cancer | tracer to be injected
+to detect cancer
+smoke alarm
+tracer to be injected
+to detect cancer
+monitoring the thickness
+of aluminium foil
+
+--- tmpg32err1lpdf | Page 14 ---
+14
+38 The average distance from the Earth to the Sun is 15  1011m
+What is the orbital speed of the Earth?
+A 40  105km/day
+B 13  106km/day
+C 26  106km/day
+D 19  1014km/day
+39 In which order are the objects listed formed during the life cycle of a star?
+A protostar  red giant  supernova  stable star
+B protostar  stable star  red giant  supernova
+C red giant  stable star  protostar  supernova
+D red giant  supernova  protostar  stable star
+40 What is the distance travelled by light in one year?
+A 59  1015m
+B 59  1015km
+C 95  1015m
+D 95  1015km
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 15 ---
+15
+BLANK PAGE
+© UCLES 2024 0625/23/M/J/24
+
+--- tmpg32err1lpdf | Page 16 ---
+16
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/23/M/J/24
+
+--- tmplj05vw1fpdf | Page 1 ---
+This document has 16 pages Any blank pages are indicated
+IB24 06_0625_13/3RP
+© UCLES 2024 [Turn over
+*3189786416*
+™
+Cambridge IGCSE
+PHYSICS 0625/13
+Paper 1 Multiple Choice (Core) May/June 2024
+45 minutes
+You must answer on the multiple choice answer sheet
+You will need: Multiple choice answer sheet
+Soft clean eraser
+Soft pencil (type B or HB is recommended)
+instructions
+ There are forty questions on this paper Answer all questions
+ For each question there are four possible answers A, B, C and D Choose the one you consider correct
+and record your choice in soft pencil on the multiple choice answer sheet
+ Follow the instructions on the multiple choice answer sheet
+ Write in soft pencil
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the
+spaces provided unless this has been done for you
+ Do not use correction fluid
+ Do not write on any bar codes
+ You may use a calculator
+ Take the weight of 10kg to be 98N (acceleration of free fall = 98m/s2)
+INFORMATION
+ The total mark for this paper is 40
+ Each correct answer will score one mark
+ Any rough working should be done on this question paper
+
+--- tmplj05vw1fpdf | Page 2 ---
+2
+1 A student wishes to find the volume of a small, irregularly shaped stone
+stone
+A ruler and a measuring cylinder containing some water are available
+Which apparatus is needed?
+A neither the ruler nor the measuring cylinder
+B the measuring cylinder only
+C the ruler and the measuring cylinder
+D the ruler only
+2 A car travels along a road at a constant speed
+What correctly describes the speed–time graph of the car?
+A a horizontal line
+B a vertical line
+C a diagonal line upwards
+D a curved line with increasing gradient
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 3 ---
+3
+3 Four objects are moving along a straight line
+The distance of each object from a fixed point on the line is plotted against time
+Which object is decelerating?
+A B
+distance from distance from
+fixed point fixed point
+0 0
+0 time 0 time
+C D
+distance from distance from
+fixed point fixed point
+0 0
+0 time 0 time
+4 An object is taken from the Earth to the Moon
+The acceleration of free fall is 98m/s2 on the Earth and is 16m/s2 on the Moon
+Which row describes the mass and the weight of the object on the Moon compared to on the
+Earth?
+mass weight
+A greater than on the Earth same as on the Earth
+B less than on the Earth same as on the Earth
+C same as on the Earth greater than on the Earth
+D same as on the Earth less than on the Earth
+© UCLES 2024 0625/13/M/J/24 [Turn over
+
+--- tmplj05vw1fpdf | Page 3 | Table 1 ---
+ | mass | weight
+A
+B
+C
+D | greater than on the Earth
+less than on the Earth
+same as on the Earth
+same as on the Earth | same as on the Earth
+same as on the Earth
+greater than on the Earth
+less than on the Earth
+
+--- tmplj05vw1fpdf | Page 4 ---
+4
+5 The diagram shows some liquid in a measuring cylinder
+The mass of the liquid is 16g
+25
+cm3
+20
+15
+10
+5
+What is the density of the liquid?
+A 080 g / cm 3 B 13 g / cm 3 C 36 g / cm 3 D 320 g / cm 3
+6 A single force acts upon an object and the volume of the object does not change
+Which statement is correct?
+A The density of the object changes
+B The velocity of the object changes
+C The mass of the object changes
+D The weight of the object changes
+7 Four electric motors do the same quantity of work when they lift a weight of 10N through the
+same distance
+The times taken by each motor to lift the weight are shown
+What is the time taken by the motor which produces the most power?
+A 15s B 60s C 15s D 60s
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 5 ---
+5
+8 Which row describes how the pressure beneath the surface of a liquid depends on the depth
+below the surface and on the density of the liquid?
+depth below surface density of liquid
+A pressure decreases pressure decreases
+with increasing depth with increasing density
+B pressure decreases pressure increases
+with increasing depth with increasing density
+C pressure increases pressure decreases
+with increasing depth with increasing density
+D pressure increases pressure increases
+with increasing depth with increasing density
+9 In which process does a gas turn into a liquid?
+A boiling
+B condensing
+C freezing
+D melting
+10 A pollen grain in a beaker of still water is viewed through a microscope
+Which diagram shows the most likely movement of the pollen grain?
+A B C D
+11 What is the relationship between temperatures in kelvin (T) and temperatures in degrees Celsius
+()?
+A  = T + 273 B  = T – 273 C  = T + 373 D  = T – 373
+© UCLES 2024 0625/13/M/J/24 [Turn over
+
+--- tmplj05vw1fpdf | Page 5 | Table 1 ---
+ | depth below surface | density of liquid
+A
+B
+C
+D | pressure decreases
+with increasing depth
+pressure decreases
+with increasing depth
+pressure increases
+with increasing depth
+pressure increases
+with increasing depth | pressure decreases
+with increasing density
+pressure increases
+with increasing density
+pressure decreases
+with increasing density
+pressure increases
+with increasing density
+
+--- tmplj05vw1fpdf | Page 6 ---
+6
+12 In a famous experiment, a scientist showed that, when water in an insulated tub is stirred, its
+temperature increases
+What can be concluded from this experiment?
+A Temperature is a store of energy
+B The water absorbs heat from the surroundings
+C Work done by stirring increases the internal energy of the water
+D Energy is not conserved
+13 Solids expand when heated and contract when cooled
+In which example is there a useful application of expansion and not an unwanted effect?
+A bridges
+B railway lines
+C telephone cables
+D thermostats
+14 A rod is made half of aluminium and half of glass
+A pin is attached to each end of the rod by wax
+The rod is heated at the centre
+A pin falls off when the wax melts
+aluminium glass
+wax wax
+pin P pin Q
+heat
+Which statement is correct?
+A Pin P falls off first because aluminium is a better thermal conductor than glass
+B Pin P falls off first because aluminium is a worse thermal conductor than glass
+C Pin Q falls off first because glass is a better thermal conductor than aluminium
+D Pin Q falls off first because glass is a worse thermal conductor than aluminium
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 6 | Table 1 ---
+ | 
+
+--- tmplj05vw1fpdf | Page 7 ---
+7
+15 In countries where it is usually hot, houses are often painted white
+What is the reason for this?
+A White surfaces are good reflectors of infrared radiation
+B White surfaces are good conductors of infrared radiation
+C White surfaces are good absorbers of infrared radiation
+D White surfaces are good emitters of infrared radiation
+16 What is the name of the distance from one crest in a transverse wave to the next crest?
+A amplitude
+B period
+C wavefront
+D wavelength
+17 Waves on the surface of water travel from deep water to shallow water
+Which diagram shows the correct path of the waves in the shallow water?
+A B
+deep shallow deep shallow
+water water water water
+C D
+shallow shallow
+deep water deep water
+water water
+© UCLES 2024 0625/13/M/J/24 [Turn over
+
+--- tmplj05vw1fpdf | Page 8 ---
+8
+18 The diagram shows a thin converging lens with principal focuses at F and F 
+1 2
+principal axis
+F F
+1 2
+A small light source is placed at F  A beam of light from the source passes through the lens
+1
+Which statement correctly describes the beam of light emerging from the lens?
+A The beam converges to F 
+2
+B The beam converges to a point to the right of F 
+2
+C The beam diverges from a point to the left of F 
+1
+D The beam travels parallel to the principal axis
+19 A student reads the following relationship in his physics book
+i = r
+What is the student reading about?
+A diffraction due to a gap
+B dispersion of light by a prism
+C reflection in a plane mirror
+D refraction as light enters glass
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 9 ---
+9
+20 The table shows information about different colours of light
+colour
+frequency/Hz
+of light
+violet 72  1014
+blue 63  1014
+yellow 52  1014
+red 45  1014
+Using the data, what is the frequency of orange light?
+A 40  1014Hz
+B 50  1014Hz
+C 60  1014Hz
+D 70  1014Hz
+21 The table gives the wavelengths of three electromagnetic waves
+electromagnetic
+wavelength/m
+wave
+P 32  10–3
+Q 50  10–9
+R 26  103
+Which row correctly identifies P, Q and R?
+P Q R
+A microwave radio wave X-ray
+B microwave X-ray radio wave
+C radio wave microwave X-ray
+D radio wave X-ray microwave
+22 A healthy human ear is able to hear a range of frequencies
+What is this approximate range?
+A 10Hz to 1000Hz
+B 20Hz to 2000Hz
+C 20Hz to 20000Hz
+D 200Hz to 200000Hz
+© UCLES 2024 0625/13/M/J/24 [Turn over
+
+--- tmplj05vw1fpdf | Page 9 | Table 1 ---
+colour
+of light | frequency/Hz
+violet
+blue
+yellow
+red | 72  1014
+63  1014
+52  1014
+45  1014
+
+--- tmplj05vw1fpdf | Page 9 | Table 2 ---
+electromagnetic
+wave | wavelength/m
+P
+Q
+R | 32  10–3
+50  10–9
+26  103
+
+--- tmplj05vw1fpdf | Page 9 | Table 3 ---
+ | P | Q | R
+A
+B
+C
+D | microwave
+microwave
+radio wave
+radio wave | radio wave
+X-ray
+microwave
+X-ray | X-ray
+radio wave
+X-ray
+microwave
+
+--- tmplj05vw1fpdf | Page 10 ---
+10
+23 A student hits two wooden blocks together in front of a wall and calculates the speed of sound to
+be 340m/s
+The time between the student hitting the blocks and hearing the echo is 059s
+NOT TO
+SCALE
+What is the distance between the student and the wall?
+A 100m B 200m C 290m D 570m
+24 The diagram shows part of the magnetic field between two bar magnets
+X Y
+Which statement about the ends of the magnets is correct?
+A X and Y are both N poles
+B X and Y are both S poles
+C X is an N pole and Y is an S pole
+D X is an S pole and Y is an N pole
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 11 ---
+11
+25 Diagrams 1, 2 and 3 show an experiment to compare two magnets 1 and 2
+W magnet 1 Y magnet 2
+X Z
+N N N
+magnet magnet magnet
+S S S
+1253 g 1249 g 1267 g
+diagram 1 diagram 2 diagram 3
+Which row explains the readings on the balances?
+polarity of magnet 1 polarity of magnet 2
+A X is an N pole Z is an N pole
+B X is an N pole Z is an S pole
+C X is an S pole Z is an N pole
+D X is an S pole Z is an S pole
+26 Which graph of voltage against time shows an ac voltage?
+A B
+voltage voltage
+0 0
+0 time 0 time
+C D
+voltage voltage
+0 0
+0 time 0 time
+© UCLES 2024 0625/13/M/J/24 [Turn over
+
+--- tmplj05vw1fpdf | Page 11 | Table 1 ---
+ | polarity of magnet 1 | polarity of magnet 2
+A
+B
+C
+D | X is an N pole
+X is an N pole
+X is an S pole
+X is an S pole | Z is an N pole
+Z is an S pole
+Z is an N pole
+Z is an S pole
+
+--- tmplj05vw1fpdf | Page 12 ---
+12
+27 There is a current I in a resistor for a time t The potential difference (pd) across the resistor is V
+What does the product IVt represent?
+A the charge flowing through the resistor
+B the energy transferred by the resistor
+C the power dissipated by the resistor
+D the resistance of the resistor
+28 A student designs a circuit to turn on a fan when the temperature increases
+Which component does the student need to use in her circuit?
+A B C D
+29 Four statements about safety when designing electrical products are listed
+1 If the outer casing is a conductor, it should be earthed
+2 If the outer casing is a conductor, it should not be earthed
+3 If the outer casing is an insulator, it should be earthed
+4 If the outer casing is an insulator, it should not be earthed
+Which statements are correct?
+A 1 and 3 B 1 and 4 C 2 and 3 D 2 and 4
+30 A transformer has 400 turns on the primary coil connected to the 240V mains supply
+There are two secondary coils to serve different parts of a television Secondary coil 1 has
+2500 turns and secondary coil 2 has 20 turns
+Which row is correct?
+pd across pd across
+secondary coil 1/V secondary coil 2/V
+A 12 32
+B 1500 12
+C 4200 12
+D 4200 33
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 12 | Table 1 ---
+
+
+
+--- tmplj05vw1fpdf | Page 12 | Table 2 ---
+
+
+
+--- tmplj05vw1fpdf | Page 12 | Table 3 ---
+
+
+
+--- tmplj05vw1fpdf | Page 12 | Table 4 ---
+ | pd across
+secondary coil 1/V | pd across
+secondary coil 2/V
+A
+B
+C
+D | 12
+1500
+4200
+4200 | 32
+12
+12
+33
+
+--- tmplj05vw1fpdf | Page 13 ---
+13
+31 A class is designing a dc motor To achieve a greater turning effect, three suggestions are
+made
+1 Have a larger current in the coil of the motor
+2 Have a stronger magnet in the motor
+3 Put a larger number of turns on the coil
+Which suggestions will help to increase the turning effect?
+A 1, 2 and 3 B 1 and 2 only C 1 and 3 only D 2 and 3 only
+32 Which statement about the structure of an atom is correct?
+A It contains positively charged particles only
+B It contains negatively charged particles only
+C It contains no charged particles
+D It contains positively charged particles and negatively charged particles
+33 A nuclide of strontium is represented by 90Sr
+38
+Which row gives the number and location of the electrons in an atom of 90Sr?
+38
+number of
+location of electrons
+electrons
+A 38 in the nucleus
+B 38 surrounding the nucleus
+C 52 in the nucleus
+D 52 surrounding the nucleus
+34 A radiation detector in a laboratory is measuring background radiation
+Which row describes the readings and the cause?
+readings cause
+A vary with no pattern background radiation is random
+B vary with no pattern radiation detectors are unstable
+C slowly increase during the day background radiation increases
+as temperature increases
+D slowly reduce during the day background radiation decreases
+as temperature increases
+© UCLES 2024 0625/13/M/J/24 [Turn over
+
+--- tmplj05vw1fpdf | Page 13 | Table 1 ---
+ | number of
+electrons | location of electrons
+A
+B
+C
+D | 38
+38
+52
+52 | in the nucleus
+surrounding the nucleus
+in the nucleus
+surrounding the nucleus
+
+--- tmplj05vw1fpdf | Page 13 | Table 2 ---
+ | readings | cause
+A
+B
+C
+D | vary with no pattern
+vary with no pattern
+slowly increase during the day
+slowly reduce during the day | background radiation is random
+radiation detectors are unstable
+background radiation increases
+as temperature increases
+background radiation decreases
+as temperature increases
+
+--- tmplj05vw1fpdf | Page 14 ---
+14
+35 The nuclei of the atoms in a substance are changing randomly and emitting radiation
+What is happening to the substance?
+A It is undergoing electromagnetic induction
+B It is undergoing magnetisation
+C It is undergoing solidification
+D It is undergoing radioactive decay
+36 What is the safest way to store a radioactive source?
+A in a lead-lined box in a metal cabinet
+B on a shelf away from other radioactive materials
+C in a glass bottle containing oil
+D in a fume cupboard
+37 Which row explains the apparent daily motion of the Sun across the sky and the cycle of phases
+of the Moon?
+the daily motion of the cycle of
+the Sun across the sky phases of the Moon
+A the Earth rotates on its axis the Earth orbits the Sun once
+once every 24 hours approximately every 365 days
+B the Earth rotates on its axis the Moon orbits the Earth
+once every 24 hours approximately once every month
+C the Moon orbits the Earth the Earth orbits the Sun once
+approximately once every month approximately every 365 days
+D the Moon orbits the Earth the Earth rotates on its axis
+approximately once every month once every 24 hours
+38 The nearest star to the Sun is 4 light-years away
+A spaceship travels at 01% of the speed of light
+What is the total time taken for a journey from the Sun to the star and back again?
+A 400 years
+B 800 years
+C 4000 years
+D 8000 years
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 14 | Table 1 ---
+ | the daily motion of
+the Sun across the sky | the cycle of
+phases of the Moon
+A
+B
+C
+D | the Earth rotates on its axis
+once every 24 hours
+the Earth rotates on its axis
+once every 24 hours
+the Moon orbits the Earth
+approximately once every month
+the Moon orbits the Earth
+approximately once every month | the Earth orbits the Sun once
+approximately every 365 days
+the Moon orbits the Earth
+approximately once every month
+the Earth orbits the Sun once
+approximately every 365 days
+the Earth rotates on its axis
+once every 24 hours
+
+--- tmplj05vw1fpdf | Page 15 ---
+15
+39 In which regions of the electromagnetic spectrum does the Sun radiate most of its energy?
+A microwave to infrared
+B ultraviolet to X-ray
+C infrared to ultraviolet
+D radio to infrared
+40 What is the approximate diameter of the Milky Way?
+A 100000 kilometres
+B 1000000 kilometres
+C 100000 light-years
+D 1000000 light-years
+© UCLES 2024 0625/13/M/J/24
+
+--- tmplj05vw1fpdf | Page 16 ---
+16
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/13/M/J/24
+
+--- tmpnufrmqkvpdf | Page 1 ---
+This document has 16 pages Any blank pages are indicated
+IB24 06_0625_12/2RP
+© UCLES 2024 [Turn over
+*0796495719*
+™
+Cambridge IGCSE
+PHYSICS 0625/12
+Paper 1 Multiple Choice (Core) May/June 2024
+45 minutes
+You must answer on the multiple choice answer sheet
+You will need: Multiple choice answer sheet
+Soft clean eraser
+Soft pencil (type B or HB is recommended)
+instructions
+ There are forty questions on this paper Answer all questions
+ For each question there are four possible answers A, B, C and D Choose the one you consider correct
+and record your choice in soft pencil on the multiple choice answer sheet
+ Follow the instructions on the multiple choice answer sheet
+ Write in soft pencil
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the
+spaces provided unless this has been done for you
+ Do not use correction fluid
+ Do not write on any bar codes
+ You may use a calculator
+ Take the weight of 10kg to be 98N (acceleration of free fall = 98m/s2)
+INFORMATION
+ The total mark for this paper is 40
+ Each correct answer will score one mark
+ Any rough working should be done on this question paper
+
+--- tmpnufrmqkvpdf | Page 2 ---
+2
+1 Four athletes run twice around a track The table shows their times at the end of each lap
+Which athlete runs the second lap the fastest?
+time at end of time at end of
+first lap/s second lap/s
+A 2299 4704
+B 2304 4700
+C 2316 4718
+D 2339 4724
+2 A racing car is fitted with an on-board computer Every time the car passes the starting line, the
+computer records the distance travelled in the following two seconds
+Which set of data shows that the car is increasing in speed during the two seconds?
+A B
+distance distance
+time/s time/s
+travelled/m travelled/m
+0 0 0 0
+1 100 1 90
+2 200 2 180
+C D
+distance distance
+time/s time/s
+travelled/m travelled/m
+0 0 0 0
+1 80 1 100
+2 190 2 180
+3 Which row shows the gravitational field strength on the Earth and the definition of velocity?
+gravitational field
+definition of velocity
+strength on the Earth
+A 98kg/N the change in the speed
+B 98N/kg the change in the speed
+C 98kg/N the speed in a given direction
+D 98N/kg the speed in a given direction
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 2 | Table 1 ---
+ | time at end of
+first lap/s | time at end of
+second lap/s
+A
+B
+C
+D | 2299
+2304
+2316
+2339 | 4704
+4700
+4718
+4724
+
+--- tmpnufrmqkvpdf | Page 2 | Table 2 ---
+time/s | distance
+travelled/m
+0
+1
+2 | 0
+100
+200
+
+--- tmpnufrmqkvpdf | Page 2 | Table 3 ---
+time/s | distance
+travelled/m
+0
+1
+2 | 0
+90
+180
+
+--- tmpnufrmqkvpdf | Page 2 | Table 4 ---
+time/s | distance
+travelled/m
+0
+1
+2 | 0
+80
+190
+
+--- tmpnufrmqkvpdf | Page 2 | Table 5 ---
+time/s | distance
+travelled/m
+0
+1
+2 | 0
+100
+180
+
+--- tmpnufrmqkvpdf | Page 2 | Table 6 ---
+ | gravitational field
+strength on the Earth | definition of velocity
+A
+B
+C
+D | 98kg/N
+98N/kg
+98kg/N
+98N/kg | the change in the speed
+the change in the speed
+the speed in a given direction
+the speed in a given direction
+
+--- tmpnufrmqkvpdf | Page 3 ---
+3
+4 Which statement about the weight of an object is correct?
+A The weight of an object is the gravitational force per unit mass
+B The weight of an object is the gravitational force on an object
+C The weight is zero when the object is falling at constant speed in the Earth’s atmosphere
+D The weight is zero when the object is in orbit around the Earth
+5 The diagram shows a load–extension graph for a steel spring
+The length of the spring with no load attached is 20cm
+20
+18
+16
+load / N
+14
+12
+10
+08
+06
+04
+02
+0
+0 10 20 30 40 50 60 70 80
+extension / cm
+Which load increases the length of the spring to 60cm?
+A 05N B 10N C 15N D 20N
+6 Which force between two solid surfaces opposes motion?
+A friction
+B gravity
+C kinetic
+D weight
+© UCLES 2024 0625/12/M/J/24 [Turn over
+
+--- tmpnufrmqkvpdf | Page 3 | Table 1 ---
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- tmpnufrmqkvpdf | Page 4 ---
+4
+7 A box of mass 20kg and weight 20N is carried to the top of some stairs
+12 m
+box
+18 m
+How is the work done against gravity on the box calculated?
+A 20  18 B 20  12 C 20  12 D 20  12  18
+8 Four submarines are submerged The density of fresh water is 1000kg/m3 and the density of
+sea water is 1020kg/m3
+Which submarine experiences the greatest pressure due to the water?
+A B
+water surface water surface
+fresh water fresh water
+100 m
+120 m
+submarine
+submarine
+C D
+water surface water surface
+sea water sea water
+100 m
+120 m
+submarine
+submarine
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 5 ---
+5
+9 The diagram shows the changes in state, 1, 2, 3 and 4, between solids, liquids and gases
+1 2
+solid liquid gas
+3 4
+What are processes 2 and 3?
+2 3
+A condensation melting
+B condensation freezing
+C evaporation melting
+D evaporation freezing
+10 Copper has a melting point of 1100C
+What is the melting point in kelvin?
+A 727K B 827K C 1373K D 1473K
+11 A liquid at room temperature fills a flask and a glass tube to level X
+X
+Y
+liquid
+The flask is placed in ice and the liquid level in the tube changes to level Y
+Why does the level change to level Y?
+A The flask contracts
+B The flask expands
+C The liquid contracts
+D The liquid expands
+© UCLES 2024 0625/12/M/J/24 [Turn over
+
+--- tmpnufrmqkvpdf | Page 5 | Table 1 ---
+ | 2 | 3
+A
+B
+C
+D | condensation
+condensation
+evaporation
+evaporation | melting
+freezing
+melting
+freezing
+
+--- tmpnufrmqkvpdf | Page 6 ---
+6
+12 Which row correctly describes the state of water at the temperatures shown?
+250K 300K 350K 400K
+A liquid liquid gas gas
+B solid solid liquid liquid
+C solid liquid liquid gas
+D solid liquid gas gas
+13 A liquid is evaporating The liquid is not boiling
+Which statement about the liquid at an instant in time is correct?
+A Any molecule can escape and from any part of the liquid
+B Any molecule can escape, but only from the liquid’s surface
+C Only molecules with enough energy can escape and only from the liquid’s surface
+D Only molecules with enough energy can escape, but from any part of the liquid
+14 A student stirs a hot liquid in a pan with a spoon
+Which row explains which material the spoon should be made from so that the student does not
+burn their hand?
+material of spoon explanation
+A metal it is a good conductor
+B metal it is a good insulator
+C wood it is a good conductor
+D wood it is a good insulator
+15 Thermal radiation is emitted from all objects
+Which mediums can thermal radiation travel through?
+glass water air vacuum
+A (cid:22) (cid:22) (cid:22) (cid:22) key
+B (cid:22) (cid:22) (cid:22) (cid:26) (cid:22)= can travel through this medium
+C (cid:26) (cid:22) (cid:22) (cid:22) (cid:26) = cannot travel through this medium
+D (cid:26) (cid:26) (cid:26) (cid:22)
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 6 | Table 1 ---
+ | 250K | 300K | 350K | 400K
+A
+B
+C
+D | liquid
+solid
+solid
+solid | liquid
+solid
+liquid
+liquid | gas
+liquid
+liquid
+gas | gas
+liquid
+gas
+gas
+
+--- tmpnufrmqkvpdf | Page 6 | Table 2 ---
+ | material of spoon | explanation
+A
+B
+C
+D | metal
+metal
+wood
+wood | it is a good conductor
+it is a good insulator
+it is a good conductor
+it is a good insulator
+
+--- tmpnufrmqkvpdf | Page 6 | Table 3 ---
+ | glass | water | air | vacuum
+A
+B
+C
+D | (cid:22)
+(cid:22)
+(cid:26)
+(cid:26) | (cid:22)
+(cid:22)
+(cid:22)
+(cid:26) | (cid:22)
+(cid:22)
+(cid:22)
+(cid:26) | (cid:22)
+(cid:26)
+(cid:22)
+(cid:22)
+
+--- tmpnufrmqkvpdf | Page 7 ---
+7
+16 The radius of a circular pond is 30m
+Circular waves are made at the centre of the pond
+There are 10 whole waves between the centre and the edge of the pond and it takes 50s for all
+10 waves to reach the edge
+What is the wavelength and the frequency of the waves?
+wavelength/m frequency/Hz
+A 030 050
+B 030 20
+C 060 050
+D 060 20
+17 How does the direction of vibration of a longitudinal wave compare to its direction of propagation
+and which wave example is longitudinal?
+direction of vibration
+compared to direction wave example
+of propagation
+A at right angles ultrasound waves
+B at right angles ultraviolet waves
+C parallel ultrasound waves
+D parallel ultraviolet waves
+© UCLES 2024 0625/12/M/J/24 [Turn over
+
+--- tmpnufrmqkvpdf | Page 7 | Table 1 ---
+ | wavelength/m | frequency/Hz
+A
+B
+C
+D | 030
+030
+060
+060 | 050
+20
+050
+20
+
+--- tmpnufrmqkvpdf | Page 7 | Table 2 ---
+ | direction of vibration
+compared to direction
+of propagation | wave example
+A
+B
+C
+D | at right angles
+at right angles
+parallel
+parallel | ultrasound waves
+ultraviolet waves
+ultrasound waves
+ultraviolet waves
+
+--- tmpnufrmqkvpdf | Page 8 ---
+8
+18 The diagram shows a ray of light reflecting from a mirror
+mirror
+x
+Z
+y
+Which row shows the correct names for x, y and Z?
+x y Z
+A angle of incidence angle of reflection normal
+B angle of incidence angle of reflection principal focus
+C angle of reflection angle of refraction normal
+D angle of reflection angle of refraction principal focus
+19 A converging lens forms an image of an object placed in front of it
+object
+F
+F image
+What are the characteristics of the image?
+A real, inverted, diminished
+B real, upright, enlarged
+C virtual, inverted, diminished
+D virtual, upright, enlarged
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 8 | Table 1 ---
+ | x | y | Z
+A
+B
+C
+D | angle of incidence
+angle of incidence
+angle of reflection
+angle of reflection | angle of reflection
+angle of reflection
+angle of refraction
+angle of refraction | normal
+principal focus
+normal
+principal focus
+
+--- tmpnufrmqkvpdf | Page 9 ---
+9
+20 White light can be split into different colours by passing it through a prism
+What is the name of this process?
+A diffraction
+B dispersion
+C reflection
+D refraction
+21 Excessive exposure to some regions of the electromagnetic spectrum can cause harmful effects
+to people
+Which regions cause mutation of cells in the body, skin burns and internal heating of body cells?
+internal heating
+mutation of cells skin burns
+of body cells
+A radio waves infrared visible light
+B radio waves ultraviolet microwaves
+C X-rays infrared microwaves
+D X-rays ultraviolet visible light
+22 A pulse of sound is produced at the bottom of a boat The sound travels through the water and is
+reflected from a shoal of fish The sound reaches the boat again 12s after it is produced The
+speed of sound in the water is 1500m/s
+boat
+shoal of fish
+How far below the bottom of the boat is the shoal of fish?
+A 450m B 900m C 1800m D 3600m
+23 The frequency of a sound wave increases from 31000Hz to 32000Hz
+What is the nature of the wave and how does it sound to a human with normal hearing?
+A It is a longitudinal wave with a decreasing pitch
+B It is a transverse wave with an increasing pitch
+C It is a longitudinal wave that cannot be heard by a human with normal hearing
+D It is a transverse wave that cannot be heard by a human with normal hearing
+© UCLES 2024 0625/12/M/J/24 [Turn over
+
+--- tmpnufrmqkvpdf | Page 9 | Table 1 ---
+ | mutation of cells | skin burns | internal heating
+of body cells
+A
+B
+C
+D | radio waves
+radio waves
+X-rays
+X-rays | infrared
+ultraviolet
+infrared
+ultraviolet | visible light
+microwaves
+microwaves
+visible light
+
+--- tmpnufrmqkvpdf | Page 10 ---
+10
+24 Small compasses are used to determine the direction of a magnetic field
+Which diagram shows the direction that the compass needles point when placed near the N and
+S poles of a bar magnet?
+A B
+N S N S
+C D
+N S N S
+25 A metal bar is placed inside a current-carrying coil, as shown in diagram 1
+There is a small current in the coil The bar holds a few nails, as shown in diagram 2
+nails
+diagram 1 diagram 2
+When there is no current in the coil, the nails drop off
+Which row is correct?
+metal from which effect of a larger
+the bar is made current in the coil
+A soft iron it makes no difference
+B soft iron the bar holds more nails
+C steel it makes no difference
+D steel the bar holds more nails
+26 There is a current I in a resistor of resistance R The potential difference (pd) across the resistor
+is V
+Which equation gives the power P dissipated by the resistor?
+I I
+A P = IR B P = IV C P = D P =
+R V
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 10 | Table 1 ---
+ | metal from which
+the bar is made | effect of a larger
+current in the coil
+A
+B
+C
+D | soft iron
+soft iron
+steel
+steel | it makes no difference
+the bar holds more nails
+it makes no difference
+the bar holds more nails
+
+--- tmpnufrmqkvpdf | Page 11 ---
+11
+27 A student tests the electrical conduction of four materials
+● aluminium
+● iron
+● plastic
+● silver
+Which materials are good conductors of electricity?
+A aluminium, iron and silver
+B aluminium and silver only
+C iron, silver and plastic
+D plastic only
+28 This question is about the potential difference (pd) across, and the current in, a variable resistor
+pd
+current
+variable
+resistor
+The resistance of the variable resistor is increased
+Which statement is correct?
+A The current can remain constant if the pd is decreased
+B The current can remain constant if the pd is increased
+C The pd can remain constant if the current is kept constant
+D The pd can remain constant if the current is increased
+© UCLES 2024 0625/12/M/J/24 [Turn over
+
+--- tmpnufrmqkvpdf | Page 11 | Table 1 ---
+ | 
+ | 
+
+--- tmpnufrmqkvpdf | Page 12 ---
+12
+29 Diagram 1 shows a resistor connected in a circuit Diagram 2 shows an identical resistor
+connected in parallel with the first resistor
+diagram 1 diagram 2
+What is the combined resistance of the two resistors in diagram 2?
+A greater than in the circuit of diagram 1
+B less than in the circuit of diagram 1, but greater than zero
+C the same as in the circuit of diagram 1
+D zero
+30 Where must a fuse be connected in a mains electric circuit?
+A the earth wire only
+B the live wire only
+C the neutral wire only
+D the live wire and the earth wire
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 12 | Table 1 ---
+
+
+
+--- tmpnufrmqkvpdf | Page 12 | Table 2 ---
+
+
+
+--- tmpnufrmqkvpdf | Page 12 | Table 3 ---
+
+
+
+--- tmpnufrmqkvpdf | Page 12 | Table 4 ---
+
+
+
+--- tmpnufrmqkvpdf | Page 13 ---
+13
+31 Which graph does not show the correct trend for the force F causing the turning effect on the coil
+in a dc motor?
+A B
+F F
+0 0
+0 number of turns 0 current
+on the coil
+C D
+F F
+0 0
+0 strength of the 0 weight of
+magnetic field the motor
+32 Which statement about the structure of an atom is correct?
+A Negative electrons surround a neutral nucleus
+B Negative electrons surround a positive nucleus
+C Positive electrons surround a neutral nucleus
+D Positive electrons surround a negative nucleus
+33 Four statements about isotopes of a certain element are listed
+Which statement about the isotopes must be correct?
+A They are radioactive
+B They are unstable
+C They have the same number of neutrons
+D They have the same number of protons
+34 What makes a contribution to a person’s annual dose of ionising radiation?
+A food and drink
+B greenhouse gases
+C mobile phone masts
+D radio and TV transmissions
+© UCLES 2024 0625/12/M/J/24 [Turn over
+
+--- tmpnufrmqkvpdf | Page 14 ---
+14
+35 The emissions from a radioactive source pass through a sheet of lead that is 10mm thick
+Which type of radiation is emitted from the source and how is the radiation affected by an electric
+field?
+type of radiation effect of electric field on radiation
+A  radiation deflected
+B  radiation not deflected
+C  radiation deflected
+D  radiation not deflected
+36 Radioactive waste is often mixed with liquid glass This mixture solidifies and is stored in steel
+drums
+Why is this process used to store radioactive waste?
+A It reduces the decay rate
+B It reduces the half-life of the waste
+C The waste is contained in a solid block so it cannot leak out
+D The glass is transparent so the waste can be seen
+37 Which planet is classed as a rocky planet?
+A Jupiter
+B Saturn
+C Uranus
+D Venus
+38 What is the cause of the phases of the Moon?
+A the movement of the Earth around the Sun
+B the movement of the Moon around the Sun
+C the movement of the Moon around the Earth
+D the movement of the Sun around the Moon
+39 What makes up the Universe?
+A many billions of galaxies
+B Mercury, Venus, the Earth, Mars, Jupiter, Saturn, Uranus and Neptune only
+C the Sun, the Earth and the Moon only
+D the Solar System only
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 14 | Table 1 ---
+ | type of radiation | effect of electric field on radiation
+A
+B
+C
+D | 
+
+
+ | radiation deflected
+radiation not deflected
+radiation deflected
+radiation not deflected
+
+--- tmpnufrmqkvpdf | Page 15 ---
+15
+40 The Sun mostly consists of which gases?
+A helium and hydrogen
+B helium and nitrogen
+C hydrogen and oxygen
+D oxygen and nitrogen
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpnufrmqkvpdf | Page 16 ---
+16
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/12/M/J/24
+
+--- tmpsch1n0g3pdf | Page 1 ---
+This document has 16 pages Any blank pages are indicated
+IB24 06_0625_21/3RP
+© UCLES 2024 [Turn over
+*0570088499*
+™
+Cambridge IGCSE
+PHYSICS 0625/21
+Paper 2 Multiple Choice (Extended) May/June 2024
+45 minutes
+You must answer on the multiple choice answer sheet
+You will need: Multiple choice answer sheet
+Soft clean eraser
+Soft pencil (type B or HB is recommended)
+instructions
+ There are forty questions on this paper Answer all questions
+ For each question there are four possible answers A, B, C and D Choose the one you consider correct
+and record your choice in soft pencil on the multiple choice answer sheet
+ Follow the instructions on the multiple choice answer sheet
+ Write in soft pencil
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the
+spaces provided unless this has been done for you
+ Do not use correction fluid
+ Do not write on any bar codes
+ You may use a calculator
+ Take the weight of 10kg to be 98N (acceleration of free fall = 98m/s2)
+INFORMATION
+ The total mark for this paper is 40
+ Each correct answer will score one mark
+ Any rough working should be done on this question paper
+
+--- tmpsch1n0g3pdf | Page 2 ---
+2
+1 In which row are quantities correctly categorised into scalar quantities and vector quantities?
+scalar quantities vector quantities
+A mass and energy weight and acceleration
+B gravitational field strength and time force and electric field strength
+C speed and momentum distance and force
+D distance and energy velocity and temperature
+2 Which name is given to the quantity of matter in an object?
+A density
+B mass
+C volume
+D weight
+3 A body is moved from place X to place Y where the gravitational field strength is different
+What happens to its mass and to its weight due to the move?
+mass weight
+A changes changes
+B changes stays the same
+C stays the same changes
+D stays the same stays the same
+4 The mass of an object is 25kg The volume of the object is 480cm3
+What is the density of the object?
+A 52  10–3g/cm3
+B 52g/cm3
+C 190g/cm3
+D 12  103g/cm3
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 2 | Table 1 ---
+ | scalar quantities | vector quantities
+A
+B
+C
+D | mass and energy
+gravitational field strength and time
+speed and momentum
+distance and energy | weight and acceleration
+force and electric field strength
+distance and force
+velocity and temperature
+
+--- tmpsch1n0g3pdf | Page 2 | Table 2 ---
+ | mass | weight
+A
+B
+C
+D | changes
+changes
+stays the same
+stays the same | changes
+stays the same
+changes
+stays the same
+
+--- tmpsch1n0g3pdf | Page 3 ---
+3
+5 Four objects each have two forces acting on them
+Which object is in equilibrium?
+A B C D
+10 N 10 N 10 N
+10 N 10 N
+10 N
+10 N 10 N
+6 A ball of mass m falls vertically and hits a hard surface
+Its speed on hitting the surface is v 
+1
+It rebounds vertically upwards with speed v 
+2
+What is the change in momentum of the ball?
+A mv B mv C m(v + v ) D m(v – v )
+1 2 1 2 2 1
+7 A stone is dropped from a tall tower and falls a distance of 50m to the ground
+The stone has a mass of 30kg
+At which speed does the stone hit the ground?
+A 17m/s B 31m/s C 54m/s D 150m/s
+8 A coal-fired power station generates electricity Coal is burned and the energy released is used to
+boil water The steam from the water makes the generator move and this produces electricity
+Which row gives the name of the energy store in the coal and the energy store of the moving
+generator?
+coal generator
+A chemical hydroelectric
+B chemical kinetic
+C geothermal hydroelectric
+D geothermal kinetic
+© UCLES 2024 0625/21/M/J/24 [Turn over
+
+--- tmpsch1n0g3pdf | Page 3 | Table 1 ---
+ | coal | generator
+A
+B
+C
+D | chemical
+chemical
+geothermal
+geothermal | hydroelectric
+kinetic
+hydroelectric
+kinetic
+
+--- tmpsch1n0g3pdf | Page 4 ---
+4
+9 A man puts some ice into a glass of water on a warm day
+After a short time, he notices that the ice disappears and that water droplets appear on the
+outside of the glass
+ice
+droplets
+of water
+Which two changes of state are taking place?
+A condensation and freezing
+B condensation and melting
+C boiling and melting
+D freezing and evaporation
+10 Gas of volume 200cm3 is trapped inside a container by a piston
+The piston is pushed to the right and the volume of the gas decreases to 100cm3
+The temperature of the gas remains constant
+trapped gas
+piston container
+Which row states the effect that this has on the kinetic energy of the gas particles and the force
+per unit area exerted by the particles colliding with the inside walls of the container?
+kinetic energy force per unit area
+A doubles doubles
+B doubles stays the same
+C stays the same doubles
+D stays the same stays the same
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 4 | Table 1 ---
+ | 
+
+--- tmpsch1n0g3pdf | Page 4 | Table 2 ---
+ | kinetic energy | force per unit area
+A
+B
+C
+D | doubles
+doubles
+stays the same
+stays the same | doubles
+stays the same
+doubles
+stays the same
+
+--- tmpsch1n0g3pdf | Page 5 ---
+5
+11 Which graph shows the relationship between the pressure and volume of a fixed mass of gas at
+constant temperature?
+A B
+pressure pressure
+0 0
+0 volume 0 volume
+C D
+pressure pressure
+0 0
+0 volume 0 volume
+12 During evaporation of a liquid, the most energetic particles escape The temperature of the
+remaining liquid changes
+Which row identifies where these particles escape from and describes the temperature change?
+place from which temperature of
+the particles escape remaining liquid
+A body of the liquid decreases
+B body of the liquid increases
+C surface of the liquid decreases
+D surface of the liquid increases
+13 Wet clothes are put out on a line to allow the water in the clothes to evaporate
+Which type of weather would cause the water to evaporate most quickly?
+A a cold day with no wind
+B a cold day with wind
+C a hot day with no wind
+D a hot day with wind
+© UCLES 2024 0625/21/M/J/24 [Turn over
+
+--- tmpsch1n0g3pdf | Page 5 | Table 1 ---
+ | place from which
+the particles escape | temperature of
+remaining liquid
+A
+B
+C
+D | body of the liquid
+body of the liquid
+surface of the liquid
+surface of the liquid | decreases
+increases
+decreases
+increases
+
+--- tmpsch1n0g3pdf | Page 6 ---
+6
+14 Due to an issue with question 14, the question has been removed from the question paper
+15 A solar water heater is designed to absorb energy from sunlight
+Which surface texture and colour would be best for the solar water heater?
+A dull black
+B shiny black
+C dull white
+D shiny white
+16 Which statement about waves is correct?
+A Waves do not transfer either energy or matter
+B Waves transfer both energy and matter
+C Waves transfer energy without transferring matter
+D Waves transfer matter without transferring energy
+17 The angle of incidence of a ray of light incident on a plane mirror is gradually increased
+To the nearest degree, what is the maximum possible angle between the incident and reflected
+rays?
+A 0 B 45 C 90 D 180
+18 Which conditions are necessary for light to be totally internally reflected?
+incident light angle of incidence
+A is in the less dense medium less than the critical angle
+B is in the less dense medium greater than the critical angle
+C is in the more dense medium less than the critical angle
+D is in the more dense medium greater than the critical angle
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 6 | Table 1 ---
+ | incident light | angle of incidence
+A
+B
+C
+D | is in the less dense medium
+is in the less dense medium
+is in the more dense medium
+is in the more dense medium | less than the critical angle
+greater than the critical angle
+less than the critical angle
+greater than the critical angle
+
+--- tmpsch1n0g3pdf | Page 7 ---
+7
+19 The diagram shows a ray of light passing from air into a transparent substance
+400(cid:1)
+air
+transparent
+substance
+300(cid:1)
+What is the refractive index of the transparent substance?
+A 133 B 129 C 0778 D 0750
+20 The diagram shows a ray of light in an optical fibre
+Which statement correctly explains the condition for the maximum transmission of light by the
+optical fibre?
+A The glass must slow the light as little as possible to make the critical angle for the fibre as
+large as possible
+B The glass must slow the light as little as possible to make the critical angle for the fibre as
+small as possible
+C The glass must slow the light as much as possible to make the critical angle for the fibre as
+large as possible
+D The glass must slow the light as much as possible to make the critical angle for the fibre as
+small as possible
+21 Which region of the electromagnetic spectrum is used for detecting fake bank notes?
+A radio
+B microwaves
+C ultraviolet
+D X-rays
+22 A sound wave travels at 330m/s The distance between the centre of a compression and the
+centre of the nearest rarefaction in the sound wave is 25cm
+What is the frequency of the sound wave?
+A 66Hz B 130Hz C 6600Hz D 13000Hz
+© UCLES 2024 0625/21/M/J/24 [Turn over
+
+--- tmpsch1n0g3pdf | Page 8 ---
+8
+23 Which waves are used in the medical scanning of soft tissue?
+A gamma rays
+B infrared
+C microwaves
+D ultrasound
+24 Which row describes suitable materials for use in a temporary magnet and in a permanent
+magnet?
+temporary permanent
+magnet magnet
+A soft iron soft iron
+B soft iron steel
+C steel soft iron
+D steel steel
+25 A magnetic field is represented in the diagram by magnetic field lines
+At which point is the magnetic field strongest?
+B
+A
+C
+D
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 8 | Table 1 ---
+ | temporary
+magnet | permanent
+magnet
+A
+B
+C
+D | soft iron
+soft iron
+steel
+steel | soft iron
+steel
+soft iron
+steel
+
+--- tmpsch1n0g3pdf | Page 9 ---
+9
+26 A student determines the resistance of resistor R She uses a circuit including a voltmeter and an
+ammeter
+Which circuit does she use?
+A B C D
+V A V V A
+R R R R
+A A V
+27 A diode and a resistor are connected across a variable dc supply Terminal X is initially positive
+and at a maximum value The potential difference (pd) across XY is adjusted so that it changes,
+as shown by the graph
+X
+pd across XY
+0
+0
+time
+Y
+Which graph shows how the current in the circuit (from X to Y) varies during the same time
+interval?
+A B
+current current
+0 0
+0 0
+time time
+C D
+current current
+0 0
+0 0
+time time
+© UCLES 2024 0625/21/M/J/24 [Turn over
+
+--- tmpsch1n0g3pdf | Page 9 | Table 1 ---
+V
+R
+
+
+--- tmpsch1n0g3pdf | Page 9 | Table 2 ---
+
+
+
+--- tmpsch1n0g3pdf | Page 9 | Table 3 ---
+
+
+
+--- tmpsch1n0g3pdf | Page 9 | Table 4 ---
+
+
+
+--- tmpsch1n0g3pdf | Page 9 | Table 5 ---
+
+
+
+--- tmpsch1n0g3pdf | Page 10 ---
+10
+28 When a conductor in a complete circuit cuts across a magnetic field, a current is induced in the
+conductor
+Which statement about the induced current is correct?
+A The induced current is in the same direction as the motion of the conductor
+B The induced current is in the opposite direction to the motion of the conductor
+C The direction of the induced current is in the same direction as the magnetic field
+D The direction of the induced current opposes the change causing it
+29 The diagram shows a solenoid carrying an electric current
+XX YY ZZ
+Which row compares the strength of the magnetic field due to the solenoid at points Y and Z with
+the strength of the magnetic field at point X?
+magnetic field magnetic field
+strength at Y strength at Z
+A equal to X less than X
+B equal to X greater than X
+C greater than X less than X
+D greater than X greater than X
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 10 | Table 1 ---
+ | magnetic field
+strength at Y | magnetic field
+strength at Z
+A
+B
+C
+D | equal to X
+equal to X
+greater than X
+greater than X | less than X
+greater than X
+less than X
+greater than X
+
+--- tmpsch1n0g3pdf | Page 11 ---
+11
+30 A conducting wire is placed between the poles of a magnet When an electric current in the wire
+is in the direction shown, then the force on the wire acts out of the page
+wire
+N S
+Three statements of different conditions and how the wire is affected are given
+1 When the current is towards the top of the page and the direction of the magnetic
+field is unchanged, the force produced acts into the page
+2 When the current is towards the bottom of the page and the magnetic field is
+reversed, the force produced acts into the page
+3 When the current in the wire is alternating, the wire vibrates into and out of the page
+Which statements are correct?
+A 1, 2 and 3 B 1 and 2 only C 1 and 3 only D 2 and 3 only
+31 Which types of electric current are in the primary coil and the secondary coil of a step-up
+transformer?
+primary secondary
+coil coil
+A ac ac
+B ac dc
+C dc ac
+D dc dc
+32 A scientist fires alpha-particles at a very thin sheet of gold and detects the particles that pass
+through
+Which statement about the results of the scattering experiment is correct?
+A Alpha-particles are attracted to the nucleus of the atoms in the metal sheet
+B Half the mass of the atom is concentrated in the nucleus
+C Most of the alpha-particles are deflected, showing that the nucleus is very dense
+D Only a small number of alpha-particles are deflected, but some of these are deflected
+through large angles
+© UCLES 2024 0625/21/M/J/24 [Turn over
+
+--- tmpsch1n0g3pdf | Page 11 | Table 1 ---
+ | primary
+coil | secondary
+coil
+A
+B
+C
+D | ac
+ac
+dc
+dc | ac
+dc
+ac
+dc
+
+--- tmpsch1n0g3pdf | Page 12 ---
+12
+33 The notation represents the nucleus of a gold atom
+197Au
+79
+The relative charge on a proton is +1
+What is the relative charge on the gold nucleus?
+A +79 B +118 C +197 D +276
+34 An isotope of hydrogen has the nuclide notation 2H
+1
+How many neutrons are in the nucleus of this isotope and what is the relative charge on the
+nucleus?
+number of relative
+neutrons charge
+A 1 +1
+B 1 +2
+C 2 +1
+D 2 +2
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 12 | Table 1 ---
+ | number of
+neutrons | relative
+charge
+A
+B
+C
+D | 1
+1
+2
+2 | +1
++2
++1
++2
+
+--- tmpsch1n0g3pdf | Page 13 ---
+13
+35 A radioactive source is placed near a detector
+The radiation arriving at the detector from the source is measured for 10 minutes with different
+materials placed between the source and the detector
+materials
+placed here
+radioactive detector
+source
+material between radiation detected
+source and detector /counts
+none 5626
+sheet of paper 5629
+thick sheet of aluminium 2226
+thick sheet of lead 255
+Which types of radiation are emitted by the source?
+A -particles and -rays
+B -particles only
+C -particles and -rays
+D -particles only
+36 The reading on a detector placed near a radioactive material is 536 counts per second
+The background count rate is 44 counts per second
+The half-life of the radioactive material is 34 hours
+What is the reading on the detector after 68 hours?
+A 44 counts per second
+B 123 counts per second
+C 134 counts per second
+D 167 counts per second
+© UCLES 2024 0625/21/M/J/24 [Turn over
+
+--- tmpsch1n0g3pdf | Page 13 | Table 1 ---
+material between
+source and detector | radiation detected
+/counts
+none
+sheet of paper
+thick sheet of aluminium
+thick sheet of lead | 5626
+5629
+2226
+255
+
+--- tmpsch1n0g3pdf | Page 14 ---
+14
+37 A planet in the Solar System is at the point in its orbit where it is closest to the Sun
+Which row is correct?
+energy in gravitational
+orbital speed
+potential store
+A at its maximum at its maximum
+B at its maximum at its minimum
+C at its minimum at its maximum
+D at its minimum at its minimum
+38 What is the main process that powers the Sun?
+A burning of helium and oxygen
+B burning of hydrogen and oxygen
+C nuclear fusion of hydrogen to form helium
+D nuclear fission of helium to form hydrogen
+39 A galaxy is 30  1020km from the Earth
+At which speed is the galaxy moving away from the Earth?
+A 660km/s B 6600km/s C 660m/s D 6600m/s
+40 An astronomer observes a distant galaxy
+The table shows how the distance and the speed of recession of the galaxy are determined
+Which row is correct?
+distance speed of recession
+A brightness of a change in wavelength of
+supernova in the galaxy starlight from the galaxy
+B brightness of a brightness of
+supernova in the galaxy the galaxy
+C brightness of change in wavelength of
+the galaxy starlight from the galaxy
+D brightness of brightness of
+the galaxy a supernova
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 14 | Table 1 ---
+ | orbital speed | energy in gravitational
+potential store
+A
+B
+C
+D | at its maximum
+at its maximum
+at its minimum
+at its minimum | at its maximum
+at its minimum
+at its maximum
+at its minimum
+
+--- tmpsch1n0g3pdf | Page 14 | Table 2 ---
+ | distance | speed of recession
+A
+B
+C
+D | brightness of a
+supernova in the galaxy
+brightness of a
+supernova in the galaxy
+brightness of
+the galaxy
+brightness of
+the galaxy | change in wavelength of
+starlight from the galaxy
+brightness of
+the galaxy
+change in wavelength of
+starlight from the galaxy
+brightness of
+a supernova
+
+--- tmpsch1n0g3pdf | Page 15 ---
+15
+BLANK PAGE
+© UCLES 2024 0625/21/M/J/24
+
+--- tmpsch1n0g3pdf | Page 16 ---
+16
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/21/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 1 ---
+This document has 16 pages Any blank pages are indicated
+IB24 06_0625_22/RP
+© UCLES 2024 [Turn over
+*2606023054*
+™
+Cambridge IGCSE
+PHYSICS 0625/22
+Paper 2 Multiple Choice (Extended) May/June 2024
+45 minutes
+You must answer on the multiple choice answer sheet
+You will need: Multiple choice answer sheet
+Soft clean eraser
+Soft pencil (type B or HB is recommended)
+instructions
+ There are forty questions on this paper Answer all questions
+ For each question there are four possible answers A, B, C and D Choose the one you consider correct
+and record your choice in soft pencil on the multiple choice answer sheet
+ Follow the instructions on the multiple choice answer sheet
+ Write in soft pencil
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the
+spaces provided unless this has been done for you
+ Do not use correction fluid
+ Do not write on any bar codes
+ You may use a calculator
+ Take the weight of 10kg to be 98N (acceleration of free fall = 98m/s2)
+INFORMATION
+ The total mark for this paper is 40
+ Each correct answer will score one mark
+ Any rough working should be done on this question paper
+
+--- tmp4h_7ab7ppdf | Page 2 ---
+2
+1 A student wishes to measure accurately the volume of approximately 40cm3 of water She has
+two measuring cylinders, a larger one that can hold 100cm3, and a smaller one that can hold
+50cm3 The water forms a meniscus where it touches the glass
+top of
+meniscus
+bottom of
+meniscus
+Which cylinder and which water level does the student use to ensure an accurate result?
+cylinder water level
+A larger one bottom of meniscus
+B larger one top of meniscus
+C smaller one bottom of meniscus
+D smaller one top of meniscus
+2 The motion of an object is represented by the speed–time graph shown
+speed
+area under
+the graph
+0
+0 time
+Which quantity is equal to the area under the graph?
+A acceleration
+B average speed
+C distance travelled
+D kinetic energy
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 2 | Table 1 ---
+ | cylinder | water level
+A
+B
+C
+D | larger one
+larger one
+smaller one
+smaller one | bottom of meniscus
+top of meniscus
+bottom of meniscus
+top of meniscus
+
+--- tmp4h_7ab7ppdf | Page 3 ---
+3
+3 An astronaut of mass 80kg is standing on a planet with gravitational field strength
+g = 38N/kg
+What is the weight of the astronaut on this planet?
+A 780N B 300N C 210N D 21N
+4 A sealed container of volume 2000cm3 contains air at high pressure
+The container is placed on a top-pan balance
+The balance reads 20000g
+All the air is removed by a vacuum pump and the balance reading changes to 19600g
+What was the density of the pressurised air?
+A 000200g/cm3
+B 0098g/cm3
+C 400g/cm3
+D 102g/cm3
+5 Each diagram shows three forces on a beam
+In which situation is it possible for the three forces shown to be in equilibrium?
+A B
+C D
+© UCLES 2024 0625/22/M/J/24 [Turn over
+
+--- tmp4h_7ab7ppdf | Page 4 ---
+4
+6 A gymnast jumps down from a high piece of apparatus
+She gradually bends her knees as she lands
+Which effect does this have?
+A She will have a smaller change of momentum as she lands
+B She will lose less kinetic energy as she lands
+C She will exert a smaller impulse on the ground as she lands
+D She will experience a smaller force from the ground as she lands
+7 The table gives four energy resources and states whether the main source of energy for the
+resource is the Sun
+Which row is correct?
+main source of
+energy resource
+energy is the Sun
+A geothermal yes
+B oil no
+C water held behind a dam yes
+D wind no
+8 The equation p = gh can be used for a liquid
+What is the meaning of the term ?
+A pressure due to the liquid
+B density of the liquid
+C total pressure due to the liquid and the air above the liquid
+D density of an object placed in the liquid
+9 What are the correct terms for each change of state?
+liquid to solid liquid to gas
+A solidification condensation
+B melting condensation
+C solidification evaporation
+D melting evaporation
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 4 | Table 1 ---
+ | energy resource | main source of
+energy is the Sun
+A
+B
+C
+D | geothermal
+oil
+water held behind a dam
+wind | yes
+no
+yes
+no
+
+--- tmp4h_7ab7ppdf | Page 4 | Table 2 ---
+ | liquid to solid | liquid to gas
+A
+B
+C
+D | solidification
+melting
+solidification
+melting | condensation
+condensation
+evaporation
+evaporation
+
+--- tmp4h_7ab7ppdf | Page 5 ---
+5
+10 Extremely small pollen grains in water are viewed through a microscope The grains are seen to
+move continually and randomly
+What is the reason for this random movement?
+A The grains are moved by randomly moving water molecules
+B The grains are moved by random convection currents in the water
+C The grains are moved by random rays of light reflecting off them
+D The grains are moved by the random motion of their own atoms
+11 Which graph shows how the volume of a fixed mass of gas at constant temperature varies with its
+pressure?
+A B
+volume volume
+0 0
+0 pressure 0 pressure
+C D
+volume volume
+0 0
+0 pressure 0 pressure
+12 Which effect is caused by thermal expansion?
+A a metal surface heating up in direct sunlight
+B ice-cream melting on a hot day
+C a railway track buckling on a hot day
+D ice forming on a pond on a cold day
+© UCLES 2024 0625/22/M/J/24 [Turn over
+
+--- tmp4h_7ab7ppdf | Page 6 ---
+6
+13 The temperature of the water at the bottom of a waterfall is greater than the temperature of the
+water at the top
+The energy in the gravitational potential store of the water at the top is transferred to the thermal
+store at the bottom
+The specific heat capacity of water is 4200J/(kgC)
+What is the temperature difference for a waterfall of height 21m?
+A 00050C B 0049C C 20C D 200C
+14 An ice cube is placed in a beaker and is heated
+The ice melts to form water, which evaporates at first and then boils
+The steam condenses on a cold window in the room
+Which process involves a transfer of energy from the ice, water or steam to the surroundings?
+A melting
+B evaporating
+C boiling
+D condensing
+15 A teacher shows his class a polystyrene cup The polystyrene is a thick plastic with lots of tiny air
+bubbles in it
+He asks the class why the cup is so good at keeping a hot drink warm Three suggestions are
+made
+1 It contains air which is a poor thermal conductor
+2 The air is trapped in tiny bubbles so very little convection is possible
+3 The plastic is a poor thermal conductor
+Which suggestions are correct?
+A 1, 2 and 3 B 1 and 2 only C 1 and 3 only D 2 and 3 only
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 7 ---
+7
+16 Two samples of the same material have the same mass but different surface areas
+Each sample is heated to the same temperature and then left to cool to room temperature
+Each sample is allowed to cool to the same final temperature
+X Y
+small surface area large surface area
+Which row correctly compares the decrease in internal energy and the initial rate of cooling for
+each sample?
+decrease in internal energy initial rate of cooling
+A X loses more internal energy than Y X cools down faster than Y
+B Y loses more internal energy than X Y cools down faster than X
+C X and Y lose the same quantity of energy X cools down faster than Y
+D X and Y lose the same quantity of energy Y cools down faster than X
+17 In which type of wave is the direction of vibration parallel to the direction of travel?
+A electromagnetic waves
+B seismic P-waves
+C seismic S-waves
+D water waves
+18 Waves in a ripple tank are diffracted as they pass through a narrow gap
+What can be done to make the spreading due to diffraction greater?
+A Decrease the frequency of the waves and keep the speed constant
+B Decrease the speed of the waves and keep the frequency constant
+C Increase the frequency of the waves and keep the speed constant
+D Increase the frequency of the waves and decrease the speed
+© UCLES 2024 0625/22/M/J/24 [Turn over
+
+--- tmp4h_7ab7ppdf | Page 7 | Table 1 ---
+ | decrease in internal energy | initial rate of cooling
+A
+B
+C
+D | X loses more internal energy than Y
+Y loses more internal energy than X
+X and Y lose the same quantity of energy
+X and Y lose the same quantity of energy | X cools down faster than Y
+Y cools down faster than X
+X cools down faster than Y
+Y cools down faster than X
+
+--- tmp4h_7ab7ppdf | Page 8 ---
+8
+19 Diagram 1 shows the page of a book in front of a plane mirror
+An eye is looking at the image of the page
+Diagram 2 shows a large letter G on the page facing the mirror
+diagram 1 diagram 2
+plane mirror eye
+page of book
+What is the appearance of the image of G seen by the eye?
+A B C D
+20 The diagram shows a ray of light passing from air into diamond
+60(cid:1)
+air
+diamond
+78(cid:1)
+What is the refractive index of the diamond?
+A 089 B 11 C 24 D 25
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 9 ---
+9
+21 The ray diagrams show the formation of an image by two different converging lenses
+diagram 1 diagram 2
+Which row describes the images produced?
+diagram 1 diagram 2
+A real real
+B real virtual
+C virtual real
+D virtual virtual
+22 White light enters a glass prism The light leaving the other side of the prism is separated into
+colours
+glass glass
+prism prism
+white white
+light colour 1 light colour 1
+colour 2 colour 2
+diagram 1 diagram 2
+Which row correctly describes what happens?
+path taken
+colour 1 colour 2
+by the light
+A diagram 1 red violet
+B diagram 1 violet red
+C diagram 2 red violet
+D diagram 2 violet red
+© UCLES 2024 0625/22/M/J/24 [Turn over
+
+--- tmp4h_7ab7ppdf | Page 9 | Table 1 ---
+ | diagram 1 | diagram 2
+A
+B
+C
+D | real
+real
+virtual
+virtual | real
+virtual
+real
+virtual
+
+--- tmp4h_7ab7ppdf | Page 9 | Table 2 ---
+ | path taken
+by the light | colour 1 | colour 2
+A
+B
+C
+D | diagram 1
+diagram 1
+diagram 2
+diagram 2 | red
+violet
+red
+violet | violet
+red
+violet
+red
+
+--- tmp4h_7ab7ppdf | Page 10 ---
+10
+23 Thermal radiation is part of the electromagnetic spectrum
+What is the name of this region of the spectrum?
+A gamma rays
+B infrared
+C ultraviolet
+D visible light
+24 A remote-controlled vehicle is travelling on the surface of a planet The vehicle senses an
+obstacle ahead It sends a radio message to the control room from where it is being controlled
+The control room is 24  106km away from the vehicle The control room sends a message back
+to the vehicle telling it to stop
+What is the minimum time that elapses between the vehicle sensing the obstacle and receiving
+the message back from the control room?
+A 80ms B 16ms C 80s D 16s
+25 Which statement about the direction of a magnetic field at a point is correct?
+A It is the direction of the force on an N pole placed at that point
+B It is the direction of the force on an S pole placed at that point
+C It is the direction of the force on a positive charge placed at that point
+D It is the direction of the force on a negative charge placed at that point
+26 A student draws graphs of an ac supply and a dc supply
+W X
+0
+0
+Y
+Which row shows the correct labels for W, X and Y?
+label of W ac supply dc supply
+A time X Y
+B time Y X
+C voltage X Y
+D voltage Y X
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 10 | Table 1 ---
+ |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+0 |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+
+--- tmp4h_7ab7ppdf | Page 10 | Table 2 ---
+ | label of W | ac supply | dc supply
+A
+B
+C
+D | time
+time
+voltage
+voltage | X
+Y
+X
+Y | Y
+X
+Y
+X
+
+--- tmp4h_7ab7ppdf | Page 11 ---
+11
+27 A resistor transfers 100J of energy when a charge of 10C flows through it
+What is the potential difference across the resistor?
+A 010V B 10V C 10W D 1000W
+28 Wire X and wire Y are made from the same metal
+The table gives information about the two wires
+length cross-sectional resistance
+/m area/mm2 /
+wire X 10 040 20
+wire Y 13 030
+What is the resistance of wire Y?
+A 031 B 078 C 21 D 35
+29 The diagram shows two resistors used as a potential divider
+50 k(cid:2)
+30 V
+R V
+The reading on the voltmeter is 18V
+What is the resistance of the resistor R?
+A 30k B 33k C 75k D 13k
+30 Two electrical appliances are connected to the mains supply
+The cable connected to one appliance includes an earth wire
+The cable connected to the second appliance does not need an earth wire
+What is a reason for this difference?
+A One appliance has a metal case, but the other appliance does not
+B One appliance is fitted with a fuse, but the other appliance is not
+C One appliance is fitted with a switch, but the other appliance is not
+D One appliance needs more current than the other appliance
+© UCLES 2024 0625/22/M/J/24 [Turn over
+
+--- tmp4h_7ab7ppdf | Page 11 | Table 1 ---
+ | length
+/m | cross-sectional
+area/mm2 | resistance
+/
+wire X
+wire Y | 10
+13 | 040
+030 | 20
+
+--- tmp4h_7ab7ppdf | Page 11 | Table 2 ---
+ | 
+ | R V
+
+--- tmp4h_7ab7ppdf | Page 11 | Table 3 ---
+ | 
+
+--- tmp4h_7ab7ppdf | Page 11 | Table 4 ---
+ | 
+
+--- tmp4h_7ab7ppdf | Page 12 ---
+12
+31 The diagram shows a simple ac generator The magnet rotates around a fixed coil wound round
+a fixed iron core The electromotive force (emf) output is a sine wave, a series of crests, zeros
+and troughs
+The magnet is shown in three positions, P, Q and R, during its rotation The magnetic field in the
+coil is zero at Q but changing most rapidly
+position P position Q position R
+magnet
+N S S N
+fixed coil
+Which statement about the induced emf in the coil is correct?
+A The magnitude of the emf at position Q is larger than that at position P
+B The magnitude of the emf at position Q is zero
+C The magnitude of the emf at position Q is smaller than at position R, but not zero
+D The magnitude of the emf at position R is larger than at position P
+32 A 24V power supply and a 100% efficient transformer are used to light a 60V, 12W lamp
+What is the current in the power supply?
+A 050A B 20A C 30A D 80A
+33 The scattering of particles by a thin gold foil provided scientists with evidence for the nuclear
+atom
+Which particles were scattered by the gold nuclei in the thin foil?
+A -particles
+B -particles
+C neutrons
+D protons
+34 A nucleus X has 17 protons and 18 neutrons
+Which notation is correct for this nucleus?
+A 17X B 17X C 18X D 35X
+18 35 17 17
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 12 | Table 1 ---
+N | S
+
+--- tmp4h_7ab7ppdf | Page 12 | Table 2 ---
+S | N
+
+--- tmp4h_7ab7ppdf | Page 13 ---
+13
+35 The dashed line on the graph shows the decay curve recorded from a sample of a particular
+radioactive isotope The count rate includes background radiation
+80
+count rate 70
+counts / minute 60
+50
+40
+30
+20
+10
+0
+0 1 2 3 4 5 6 7 8 9 10
+time / days
+Which curve shows the corrected count rate for the decay?
+A B
+80 80
+corrected 70 corrected 70
+count rate count rate
+60 60
+counts / minute 50 counts / minute 50
+40 40
+30 30
+20 20
+10 10
+0 0
+0 1 2 3 4 5 6 7 8 9 10 0 1 2 3 4 5 6 7 8 9 10
+time / days time / days
+C D
+80 80
+corrected 70 corrected 70
+count rate count rate
+60 60
+counts / minute 50 counts / minute 50
+40 40
+30 30
+20 20
+10 10
+0 0
+0 1 2 3 4 5 6 7 8 9 10 0 1 2 3 4 5 6 7 8 9 10
+time / days time / days
+36 Which type of radioactive source is suitable for use in measuring and controlling the thickness of
+paper in a paper-manufacturing factory?
+type of emission half-life
+A alpha long
+B alpha short
+C beta long
+D beta short
+© UCLES 2024 0625/22/M/J/24 [Turn over
+
+--- tmp4h_7ab7ppdf | Page 13 | Table 1 ---
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+
+--- tmp4h_7ab7ppdf | Page 13 | Table 2 ---
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+
+--- tmp4h_7ab7ppdf | Page 13 | Table 3 ---
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+
+--- tmp4h_7ab7ppdf | Page 13 | Table 4 ---
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+
+--- tmp4h_7ab7ppdf | Page 13 | Table 5 ---
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+
+--- tmp4h_7ab7ppdf | Page 13 | Table 6 ---
+ | type of emission | half-life
+A
+B
+C
+D | alpha
+alpha
+beta
+beta | long
+short
+long
+short
+
+--- tmp4h_7ab7ppdf | Page 14 ---
+14
+37 A medical tracer is used to investigate a tumour in a patient
+The graph shows the corrected count rate from the tracer against time
+10 000
+corrected count rate 9 000
+counts / s 8 000
+7 000
+6 000
+5 000
+4 000
+3 000
+2 000
+1 000
+0
+0 1 2 3 4 5 6 7 8 9 10
+time / min
+What is the half-life of the source?
+A 2 minutes
+B 10 minutes
+C 5000 minutes
+D 10000 minutes
+38 The Earth orbits the Sun once in approximately 365 days
+The average radius of the orbit is 15  1011m
+What is the average orbital speed of the Earth?
+A 30  104m/s
+B 11  108m/s
+C 26  109m/s
+D 13  1015m/s
+39 Which statement about the life cycle of a star is correct?
+A All stars eventually run out of hydrogen as fuel
+B A red giant forms a planetary nebula with a supernova at its centre
+C A white dwarf star eventually forms a black hole
+D Most stars expand and form protostars
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 14 | Table 1 ---
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+
+--- tmp4h_7ab7ppdf | Page 15 ---
+15
+40 A galaxy at a distance of 31  1021km is moving away from the Earth with a speed of 7000km/s
+What is the Hubble constant H calculated using this data and what is the speed of a galaxy at a
+0
+distance of 62  1021km from the Earth?
+speed of galaxy
+H /s–1
+0
+km/s
+A 23  10–18 3500
+B 23  10–18 14000
+C 44  1017 3500
+D 44  1017 14000
+© UCLES 2024 0625/22/M/J/24
+
+--- tmp4h_7ab7ppdf | Page 15 | Table 1 ---
+ | H /s–1
+0 | speed of galaxy
+km/s
+A
+B
+C
+D | 23  10–18
+23  10–18
+44  1017
+44  1017 | 3500
+14000
+3500
+14000
+
+--- tmp4h_7ab7ppdf | Page 16 ---
+16
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/22/M/J/24
+
+--- tmpjpuhr06lpdf | Page 1 ---
+Cambridge IGCSE™
+This document has 16 pages Any blank pages are indicated
+DC (KN/SG) 329990/3
+© UCLES 2024 [Turn over
+*6545666267*
+* 0019654991001 *
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:2)(cid:44)
+(cid:172)(cid:79)(cid:138)(cid:46)(cid:160)(cid:51)(cid:109)(cid:69)(cid:119)(cid:103)(cid:121)(cid:101)(cid:130)(cid:63)(cid:114)(cid:54)(cid:112)(cid:87)
+(cid:172)(cid:150)(cid:150)(cid:99)(cid:69)(cid:166)(cid:81)(cid:97)(cid:82)(cid:139)(cid:131)(cid:116)(cid:122)(cid:121)(cid:171)(cid:156)(cid:105)(cid:130)
+(cid:165)(cid:69)(cid:165)(cid:149)(cid:53)(cid:149)(cid:133)(cid:53)(cid:85)(cid:117)(cid:101)(cid:85)(cid:149)(cid:85)(cid:101)(cid:69)(cid:133)(cid:85)
+PHYSICS 0625/32
+Paper 3 Theory (Core) May/June 2024
+1 hour 15 minutes
+You must answer on the question paper
+No additional materials are needed
+instructions
+● Answer all questions
+● Use a black or dark blue pen You may use an HB pencil for any diagrams or graphs
+● Write your name, centre number and candidate number in the boxes at the top of the page
+● Write your answer to each question in the space provided
+● Do not use an erasable pen or correction fluid
+● Do not write on any bar codes
+● You may use a calculator
+● You should show all your working and use appropriate units
+● Take the weight of 10 kg to be 98 N (acceleration of free fall = 98 m / s2)
+INFORMATION
+● The total mark for this paper is 80
+● The number of marks for each question or part question is shown in brackets [ ]
+
+--- tmpjpuhr06lpdf | Page 1 | Table 1 ---
+ |  |  |  | 
+
+--- tmpjpuhr06lpdf | Page 1 | Table 2 ---
+ |  |  | 
+
+--- tmpjpuhr06lpdf | Page 2 ---
+* 0019654991002 *
+2
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:3)(cid:44)
+1 Fig 11 shows the speed–time graph for a car travelling along a flat straight road
+20
+speed
+m / s
+15
+10
+5
+0
+00 20 40 60 80 100 120 140
+time / s
+Fig 11
+(a) Describe the motion of the car between time = 0 and time = 20 s
+ [1]
+(b) State the value of the acceleration of the car between time = 40 s and time = 80 s
+ [1]
+(c) Calculate the distance travelled by the car between time = 80 s and time = 140 s
+distance travelled =  m [3]
+[Total: 5]
+(cid:300)(cid:205)(cid:266)(cid:174)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:190)(cid:244)(cid:184)(cid:238)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:280)(cid:228)(cid:200)(cid:290)(cid:213)(cid:199)(cid:233)(cid:246)(cid:245)(cid:271)(cid:194)(cid:259)(cid:219)(cid:228)(cid:225)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:277)(cid:245)(cid:277)(cid:245)(cid:245)(cid:197)(cid:213)(cid:293)(cid:181)(cid:245)(cid:277)(cid:277)(cid:277)(cid:197)(cid:261)(cid:229)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 2 | Table 1 ---
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- tmpjpuhr06lpdf | Page 3 ---
+* 0019654991003 *
+3
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:4)(cid:44)
+2 A student wants to find the volume of a piece of metal The student can use any of the items of
+equipment shown in Fig 21
+measuring water in displacement piece of metal
+cylinder beaker (eureka) can
+Fig 21
+(a) Describe how the student can find the volume of the piece of metal by using equipment from
+Fig 21
+
+
+
+
+
+ [4]
+(b) The volume of a different piece of metal is 30 cm3 The mass of this piece of metal is 192 g
+Calculate the density of the metal Include the unit
+density of the metal = 
+unit 
+[4]
+[Total: 8]
+© UCLES 2024 (cid:300) (cid:300) (cid:207) (cid:278) (cid:266) (cid:279) (cid:174) (cid:227) (cid:288) (cid:192) (cid:179) (cid:296) (cid:237) (cid:217) (cid:197) (cid:183) (cid:247) (cid:208) (cid:231) (cid:260) (cid:249) (cid:268) (cid:229) (cid:218) (cid:258) (cid:278) (cid:190) (cid:251) (cid:242) (cid:255) (cid:184) (cid:228) (cid:238) (cid:209) (cid:215) (cid:258) 0625/32/M/J/24 [Turn over
+(cid:293)(cid:277)(cid:261)(cid:213)(cid:181)(cid:277)(cid:229)(cid:181)(cid:245)(cid:197)(cid:229)(cid:277)(cid:277)(cid:245)(cid:229)(cid:197)(cid:181)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 4 ---
+* 0019654991004 *
+4
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:5)(cid:44)
+3 Fig 31 shows two solid shapes, a cylinder and a cone, which are made from the same material
+cylinder cone
+Fig 31
+(a) State and explain which shape is the more stable
+the more stable shape is 
+explanation 
+
+[1]
+(b) The mass of the cylinder is 025 kg
+Calculate the weight of the cylinder 
+weight =  N [2]
+(c) A horizontal force of 30N tilts the cone The cone balances on one edge, as shown in Fig 32
+30 N
+22 cm
+pivot
+Fig 32
+(i) Calculate the moment of the 30 N force about the pivot in Fig 32
+moment =  N cm [3]
+(cid:300)(cid:205)(cid:266)(cid:174)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:192)(cid:244)(cid:184)(cid:240)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:279)(cid:226)(cid:192)(cid:286)(cid:235)(cid:178)(cid:235)(cid:254)(cid:259)(cid:209)(cid:184)(cid:215)(cid:221)(cid:180)(cid:233)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:229)(cid:213)(cid:213)(cid:245)(cid:277)(cid:229)(cid:277)(cid:277)(cid:293)(cid:213)(cid:277)(cid:213)(cid:245)(cid:261)(cid:197)(cid:229)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 5 ---
+* 0019654991005 *
+5
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:6)(cid:44)
+(ii) Determine the moment of the weight of the cone about the pivot
+Use ideas about the principle of moments
+moment of weight about pivot =  N cm [1]
+[Total: 7]
+© UCLES 2024 (cid:300) (cid:300) (cid:207) (cid:278) (cid:266) (cid:280) (cid:174) (cid:225) (cid:288) (cid:200) (cid:179) (cid:300) (cid:237) (cid:231) (cid:197) (cid:194) (cid:247) (cid:206) (cid:231) (cid:252) (cid:249) (cid:238) (cid:229) (cid:280) (cid:258) (cid:292) (cid:192) (cid:223) (cid:242) (cid:249) (cid:184) (cid:180) (cid:240) (cid:217) (cid:215) (cid:258) 0625/32/M/J/24 [Turn over
+(cid:293)(cid:229)(cid:229)(cid:277)(cid:181)(cid:245)(cid:197)(cid:245)(cid:261)(cid:277)(cid:261)(cid:277)(cid:213)(cid:277)(cid:293)(cid:261)(cid:181)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 6 ---
+* 0019654991006 *
+6
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:7)(cid:44)
+4 Fig 41 shows a flow diagram for the energy transferred in a television
+useful energy output
+= 30 J
+energy input
+= 100 J
+wasted
+energy output
+Fig 41
+(a) (i) State two ways in which useful energy is transferred from the television
+1 
+2 
+[2]
+(ii) Determine the value of the wasted energy output from the television
+wasted energy =  J [1]
+(b) Fig 42 represents a hydroelectric power station
+pipe
+reservoir
+power
+station
+Fig 42
+(i) Describe how a hydroelectric power station generates electrical power
+
+
+
+
+ [3]
+(cid:300)(cid:209)(cid:266)(cid:174)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:189)(cid:242)(cid:181)(cid:238)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:279)(cid:225)(cid:203)(cid:290)(cid:191)(cid:204)(cid:214)(cid:239)(cid:255)(cid:285)(cid:260)(cid:215)(cid:284)(cid:284)(cid:233)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:245)(cid:261)(cid:277)(cid:181)(cid:213)(cid:197)(cid:213)(cid:197)(cid:245)(cid:229)(cid:277)(cid:277)(cid:277)(cid:197)(cid:197)(cid:293)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 6 | Table 1 ---
+
+
+
+
+--- tmpjpuhr06lpdf | Page 6 | Table 2 ---
+ |  | 
+
+--- tmpjpuhr06lpdf | Page 7 ---
+* 0019654991007 *
+7
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:8)(cid:44)
+(ii) Apart from cost, state one advantage and one disadvantage of generating electrical
+power using a hydroelectric power station compared to a coal-fired power station
+advantage 
+
+disadvantage 
+
+[2]
+[Total: 8]
+© UCLES 2024 (cid:300) (cid:300) (cid:211) (cid:278) (cid:266) (cid:280) (cid:174) (cid:226) (cid:288) (cid:195) (cid:179) (cid:296) (cid:237) (cid:195) (cid:197) (cid:188) (cid:247) (cid:227) (cid:231) (cid:265) (cid:249) (cid:242) (cid:229) (cid:236) (cid:258) (cid:216) (cid:189) (cid:223) (cid:244) (cid:192) (cid:181) (cid:284) (cid:238) (cid:217) (cid:215) (cid:258) 0625/32/M/J/24 [Turn over
+(cid:293)(cid:245)(cid:245)(cid:213)(cid:245)(cid:181)(cid:229)(cid:181)(cid:213)(cid:261)(cid:245)(cid:277)(cid:277)(cid:245)(cid:229)(cid:261)(cid:245)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 8 ---
+* 0019654991008 *
+8
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:1)(cid:1)(cid:9)(cid:44)
+5 Fig 51 shows a metal block at room temperature on a table
+metal block
+table
+Fig 51
+(a) Describe the arrangement, separation and motion of the particles in the metal block
+
+
+
+ [3]
+(b) (i) The temperature of the metal block decreases
+Describe any changes in the motion and separation of the particles in the metal block
+
+ [2]
+(ii) A scientist cools the metal block until its temperature is close to absolute zero
+Describe the motion of the particles in the metal block
+
+ [1]
+(c) The weight of the metal block is 26 N The area of the metal block in contact with the table is
+42 cm2
+Calculate the pressure on the table due to the metal block
+pressure =  N / cm2 [3]
+[Total: 9]
+(cid:300)(cid:209)(cid:266)(cid:174)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:191)(cid:242)(cid:181)(cid:240)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:280)(cid:227)(cid:195)(cid:286)(cid:177)(cid:173)(cid:216)(cid:263)(cid:249)(cid:227)(cid:246)(cid:259)(cid:286)(cid:268)(cid:225)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:197)(cid:229)(cid:213)(cid:181)(cid:181)(cid:229)(cid:277)(cid:181)(cid:229)(cid:261)(cid:277)(cid:213)(cid:245)(cid:261)(cid:261)(cid:293)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 8 | Table 1 ---
+metal block
+table | 
+
+--- tmpjpuhr06lpdf | Page 8 | Table 2 ---
+
+
+
+--- tmpjpuhr06lpdf | Page 9 ---
+* 0019654991109 *
+9
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:1)(cid:10)(cid:44)
+6 A student studies different types of wave
+(a) She studies waves on the surface of water in a ripple tank The frequency of the waves is
+40 Hz The wavelength of the waves is 50 cm
+Calculate the speed of the waves
+speed =  cm / s [3]
+(b) The student puts a block into the ripple tank, as shown in Fig 61 The block sinks
+The waves travel towards the block and then over the block
+edge of block
+direction of wave travel
+block
+ripple tank
+Fig 61
+State and explain what happens to the waves as they travel over the edge of the block
+
+
+ [3]
+(c) The chart in Fig 62 shows the main regions of the electromagnetic spectrum
+radio waves microwaves infrared visible light ultraviolet X-rays gamma rays
+Fig 62
+(i) State the name of one region in Fig 62 that has longer wavelengths than visible light
+ [1]
+(ii) Describe one use of ultraviolet radiation
+ [1]
+(iii) Compare the speed of radio waves with the speed of gamma rays as they both travel
+through a vacuum
+ [1]
+[Total: 9]
+© UCLES 2024 (cid:300) (cid:300) (cid:211) (cid:278) (cid:265) (cid:280) (cid:175) (cid:225) (cid:288) (cid:192) (cid:179) (cid:289) (cid:237) (cid:194) (cid:197) (cid:219) (cid:247) (cid:231) (cid:231) (cid:262) (cid:249) (cid:261) (cid:229) (cid:280) (cid:258) (cid:189) (cid:192) (cid:195) (cid:242) (cid:286) (cid:181) (cid:188) (cid:240) (cid:217) (cid:215) (cid:258) 0625/32/M/J/24 [Turn over
+(cid:293)(cid:245)(cid:261)(cid:277)(cid:181)(cid:277)(cid:261)(cid:245)(cid:213)(cid:229)(cid:229)(cid:277)(cid:277)(cid:181)(cid:261)(cid:197)(cid:213)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 9 | Table 1 ---
+radio waves | microwaves | infrared | visible light | ultraviolet | X-rays | gamma rays
+
+--- tmpjpuhr06lpdf | Page 10 ---
+* 0019654991110 *
+10
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:2)(cid:1)(cid:44)
+7 A battery, a lamp L, a fixed resistor R and a switch S are connected as shown in Fig 71
+60 V
+R
+L
+S
+Fig 71
+(a) The potential difference (pd) across lamp L is 48 V and the current in lamp L is 040 A
+Calculate the resistance of lamp L
+resistance =  Ω [3]
+(b) State and explain how closing switch S affects the brightness of lamp L
+
+
+
+ [3]
+[Total: 6]
+(cid:300)(cid:209)(cid:265)(cid:175)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:189)(cid:244)(cid:183)(cid:238)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:278)(cid:226)(cid:189)(cid:293)(cid:198)(cid:173)(cid:208)(cid:251)(cid:243)(cid:251)(cid:245)(cid:185)(cid:206)(cid:260)(cid:209)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:229)(cid:277)(cid:277)(cid:245)(cid:245)(cid:197)(cid:277)(cid:293)(cid:293)(cid:245)(cid:213)(cid:277)(cid:245)(cid:293)(cid:261)(cid:245)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 10 | Table 1 ---
+60 V
+R
+L
+S
+
+--- tmpjpuhr06lpdf | Page 10 | Table 2 ---
+
+
+
+--- tmpjpuhr06lpdf | Page 11 ---
+* 0019654991111 *
+11
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:2)(cid:2)(cid:44)
+8 (a) The battery in a laptop computer is connected to a battery charger for 20 minutes
+The potential dif ference (pd) across the battery is 14 V The current in the battery is 18 A
+Calculate the energy transferred to the battery in 20 minutes
+energy transferred =  J [4]
+(b) The battery charger includes a transformer Fig 81 shows the transformer
+core
+input voltage output voltage
+= 240 V ac = 16 V ac
+primary coil secondary coil
+Fig 81 (not to scale)
+(i) State the name of the material used for the core of the transformer
+ [1]
+(ii) The transformer has 4800 turns on the primary (input) coil
+Calculate the number of turns on the secondary (output) coil
+Use information from Fig 81
+number of turns =  [3]
+[Total: 8]
+© UCLES 2024 (cid:300) (cid:300) (cid:211) (cid:278) (cid:265) (cid:277) (cid:175) (cid:225) (cid:288) (cid:197) (cid:179) (cid:291) (cid:237) (cid:202) (cid:197) (cid:189) (cid:247) (cid:233) (cid:231) (cid:253) (cid:249) (cid:254) (cid:229) (cid:174) (cid:258) (cid:225) (cid:189) (cid:193) (cid:242) (cid:266) (cid:183) (cid:260) (cid:238) (cid:225) (cid:215) (cid:258) 0625/32/M/J/24 [Turn over
+(cid:293)(cid:229)(cid:293)(cid:213)(cid:181)(cid:277)(cid:229)(cid:245)(cid:245)(cid:277)(cid:229)(cid:213)(cid:277)(cid:277)(cid:261)(cid:197)(cid:293)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 12 ---
+* 0019654991112 *
+12
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:2)(cid:3)(cid:44)
+9 (a) Fig 91 shows an electricity cable that has a fault
+copper wire
+plastic insulation
+Fig 91
+The cable is used for supplying electricity at a high voltage
+State the fault and describe the hazard shown in Fig 91
+fault 
+hazard 
+[2]
+(b) Fig 92 shows a piece of cable used in a mains circuit
+live wire
+wire X
+neutral wire
+Fig 92
+(i) State the name of wire X in Fig 92
+ [1]
+(ii) An electrical appliance is connected in the mains circuit One of the wires in the cable is
+connected to the switch for the appliance
+State and explain which wire is connected to the switch
+
+
+ [2]
+[Total: 5]
+(cid:300)(cid:209)(cid:265)(cid:175)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:191)(cid:244)(cid:183)(cid:240)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:277)(cid:228)(cid:197)(cid:297)(cid:188)(cid:204)(cid:206)(cid:259)(cid:261)(cid:181)(cid:259)(cid:285)(cid:236)(cid:276)(cid:217)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:277)(cid:181)(cid:213)(cid:245)(cid:277)(cid:229)(cid:213)(cid:277)(cid:181)(cid:213)(cid:213)(cid:213)(cid:277)(cid:229)(cid:197)(cid:245)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 13 ---
+* 0019654991113 *
+13
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:2)(cid:4)(cid:44)
+10 (a) U-235 and U-238 are isotopes of uranium
+Fig 101 shows the nuclide notation for U-235 and for U-238
+235 238
+U U
+92 92
+Fig 101
+(i) Compare the number of protons in one nucleus of U-235 with the number of protons in
+one nucleus of U-238
+
+ [1]
+(ii) Compare the number of neutrons in one nucleus of U-235 with the number of neutrons
+in one nucleus of U-238
+
+ [1]
+(b) A sample contains another isotope of uranium The half-life of this isotope is 24 minutes
+Calculate the time taken for the mass of this isotope in the sample to decay from 160 mg to
+40 mg
+time taken =  minutes [3]
+[Total: 5]
+© UCLES 2024 (cid:300) (cid:300) (cid:211) (cid:278) (cid:265) (cid:278) (cid:175) (cid:227) (cid:288) (cid:189) (cid:179) (cid:287) (cid:237) (cid:184) (cid:197) (cid:188) (cid:247) (cid:235) (cid:231) (cid:245) (cid:249) (cid:252) (cid:229) (cid:244) (cid:258) (cid:215) (cid:191) (cid:277) (cid:242) (cid:240) (cid:183) (cid:276) (cid:240) (cid:233) (cid:215) (cid:258) 0625/32/M/J/24 [Turn over
+(cid:293)(cid:277)(cid:197)(cid:277)(cid:181)(cid:245)(cid:197)(cid:181)(cid:261)(cid:197)(cid:261)(cid:213)(cid:213)(cid:245)(cid:197)(cid:261)(cid:293)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 14 ---
+* 0019654991114 *
+14
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:2)(cid:5)(cid:44)
+11 Table 111 shows some information about two of the planets in the Solar System
+Table 111
+time for one
+name of mass of planet distance from the Sun
+rotation on its axis
+planet / kg / km
+/ hours
+Venus 487 × 1024 1082 × 106 5832
+Earth 597 × 1024 1496 × 106 24
+(a) (i) Venus is a similar size to the Earth
+State why the gravitational field strength at the surface of the Earth is greater than the
+gravitational field strength at the surface of Venus
+ [1]
+(ii) Calculate the time, in Earth days, for one day on Venus
+time =  Earth days [3]
+(iii) Calculate the time taken for light to travel from the Sun to Venus The speed of light is
+30 × 108 m / s
+time taken =  s [4]
+(b) The star nearest to the Sun is about 425 light-years from the Sun
+Explain what is meant by one light-year 
+
+ [2]
+[Total: 10]
+(cid:300)(cid:205)(cid:265)(cid:175)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:192)(cid:241)(cid:182)(cid:242)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:277)(cid:225)(cid:192)(cid:289)(cid:203)(cid:196)(cid:217)(cid:243)(cid:239)(cid:207)(cid:251)(cid:192)(cid:252)(cid:228)(cid:225)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:181)(cid:197)(cid:213)(cid:245)(cid:277)(cid:261)(cid:277)(cid:293)(cid:213)(cid:261)(cid:277)(cid:277)(cid:181)(cid:293)(cid:197)(cid:181)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 14 | Table 1 ---
+name of
+planet | mass of planet
+/ kg | distance from the Sun
+/ km | time for one
+rotation on its axis
+/ hours
+Venus | 487 × 1024 | 1082 × 106 | 5832
+Earth | 597 × 1024 | 1496 × 106 | 24
+
+--- tmpjpuhr06lpdf | Page 15 ---
+* 0019654991115 *
+15
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:2)(cid:6)(cid:44)
+BLANK PAGE
+(cid:300)(cid:207)(cid:265)(cid:175)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:192)(cid:243)(cid:182)(cid:242)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:278)(cid:226)(cid:200)(cid:295)(cid:199)(cid:180)(cid:224)(cid:261)(cid:258)(cid:282)(cid:223)(cid:184)(cid:224)(cid:228)(cid:209)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:181)(cid:181)(cid:277)(cid:181)(cid:245)(cid:293)(cid:245)(cid:245)(cid:229)(cid:213)(cid:277)(cid:277)(cid:213)(cid:261)(cid:261)(cid:229)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmpjpuhr06lpdf | Page 16 ---
+* 0019654991116 *
+16
+(cid:44)(cid:1)(cid:1)(cid:2)(cid:10)(cid:7)(cid:6)(cid:5)(cid:10)(cid:10)(cid:2)(cid:2)(cid:2)(cid:7)(cid:44)
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+(cid:300)(cid:205)(cid:265)(cid:175)(cid:288)(cid:179)(cid:237)(cid:197)(cid:247)(cid:231)(cid:249)(cid:229)(cid:258)(cid:190)(cid:241)(cid:182)(cid:244)(cid:215)
+© UCLES 2024 (cid:300)(cid:278)(cid:278)(cid:227)(cid:200)(cid:285)(cid:181)(cid:181)(cid:219)(cid:267)(cid:265)(cid:273)(cid:253)(cid:284)(cid:254)(cid:180)(cid:233)(cid:258) 0625/32/M/J/24
+(cid:293)(cid:261)(cid:293)(cid:277)(cid:245)(cid:245)(cid:293)(cid:213)(cid:277)(cid:261)(cid:229)(cid:277)(cid:213)(cid:213)(cid:229)(cid:261)(cid:181)(cid:213)
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+NIGRAM
+SIHT
+NI
+ETIRW
+TON
+OD
+
+--- tmp52sx2ofjpdf | Page 1 ---
+™
+Cambridge IGCSE
+This document has 16 pages Any blank pages are indicated
+[Turn over
+*6955638753*
+PHYSICS 0625/41
+Paper 4 Theory (Extended) May/June 2024
+1 hour 15 minutes
+You must answer on the question paper
+No additional materials are needed
+instructions
+● Answer all questions
+● Use a black or dark blue pen You may use an HB pencil for any diagrams or graphs
+● Write your name, centre number and candidate number in the boxes at the top of the page
+● Write your answer to each question in the space provided
+● Do not use an erasable pen or correction fluid
+● Do not write on any bar codes
+● You may use a calculator
+● You should show all your working and use appropriate units
+● Take the weight of 10 kg to be 98 N (acceleration of free fall = 98 m / s2)
+INFORMATION
+● The total mark for this paper is 80
+● The number of marks for each question or part question is shown in brackets [ ]
+DC (PB/CT) 330659/2
+© UCLES 2024
+
+--- tmp52sx2ofjpdf | Page 1 | Table 1 ---
+ |  |  |  | 
+
+--- tmp52sx2ofjpdf | Page 1 | Table 2 ---
+ |  |  | 
+
+--- tmp52sx2ofjpdf | Page 2 ---
+2
+1 A long tube contains oil A small ball is held at rest at the surface of the oil At time t = 0, the ball is
+released and begins to fall vertically through the oil
+Fig 11 shows the ball falling through the oil
+oil
+ball
+Fig 11
+As the ball begins to fall through the oil, it accelerates
+(a) Define acceleration
+
+ [1]
+(b) The mass of the ball is 00075 kg
+Calculate the resultant force acting on the ball when it is accelerating downwards at 28 m / s2 
+resultant force =  [2]
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 2 | Table 1 ---
+ball |  | oil
+
+--- tmp52sx2ofjpdf | Page 3 ---
+3
+(c) As the ball falls, its speed v is recorded Fig 12 is the speed–time graph for the falling ball
+006
+v
+m / s
+004
+002
+0
+0 001 002 003 004
+t / s
+Fig 12
+(i) Describe what happens to the acceleration between t = 0 and t = 0040 s
+Explain why this happens
+
+
+
+ [4]
+(ii) By drawing a tangent on Fig 12, determine a value for the acceleration of the ball
+at t = 0010 s
+acceleration =  [3]
+[Total: 10]
+© UCLES 2024 0625/41/M/J/24 [Turn over
+
+--- tmp52sx2ofjpdf | Page 3 | Table 1 ---
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- tmp52sx2ofjpdf | Page 4 ---
+4
+2 Fig 21 shows two identical trolleys, P and Q, held at rest on a frictionless horizontal surface
+A load is fixed to trolley P
+15 kg load compressed spring
+trolley P
+trolley Q
+Fig 21
+There is a compressed spring between trolley P and trolley Q
+The trolleys are released As the spring expands, it pushes the trolleys apart
+Trolley Q moves to the right at a constant speed of 036 m / s
+The mass of each trolley is 12 kg The mass of the load on trolley P is 15 kg
+The spring has negligible mass
+(a) Calculate:
+(i) the speed at which trolley P moves to the left
+speed of P =  [3]
+(ii) the kinetic energy of trolley Q when it moves at 036 m / s
+kinetic energy of Q =  [3]
+(b) State the energy transfer that takes place as the spring expands
+
+
+ [2]
+[Total: 8]
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 4 | Table 1 ---
+15 kg load compressed spring
+trolley P
+trolley Q | 
+ | 
+
+--- tmp52sx2ofjpdf | Page 5 ---
+5
+BLANK PAGE
+© UCLES 2024 0625/41/M/J/24 [Turn over
+
+--- tmp52sx2ofjpdf | Page 6 ---
+6
+3 Fig 31 shows a small block of ice floating in a beaker of warm water
+block of ice
+warm water
+Fig 31
+(a) State one way in which the motion of the particles in ice differs from the motion of the particles
+in water
+
+ [1]
+(b) Energy is transferred from the water to the block of ice
+(i) State the name of the thermal process that transfers energy from the water to the ice
+ [1]
+(ii) Initially, there is 034 kg of water in the beaker The specific heat capacity of water
+is 4200 J / (kg °C)
+Calculate the energy transferred from this water as its temperature decreases from
+28 °C to 10 °C
+energy transferred =  [2]
+(iii) The temperature of the water near the ice decreases first
+Explain how convection causes the temperature of all the water in the beaker to decrease
+
+
+
+ [3]
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 7 ---
+7
+(iv) State what happens to the internal energy of the water as the temperature of the
+water decreases
+Describe the change in terms of the energy of the particles
+
+
+ [2]
+[Total: 9]
+© UCLES 2024 0625/41/M/J/24 [Turn over
+
+--- tmp52sx2ofjpdf | Page 8 ---
+8
+4 The lens in a magnifying glass is a converging lens
+(a) Fig 41 shows the lens of the magnifying glass, its two focal points, F and F , and its
+1 2
+principal axis
+lens
+F F
+principal axis 1 2
+Fig 41
+(i) State what is meant by ‘focal point’
+
+
+ [2]
+(ii) A student using the magnifying glass sees a magnified image of an object
+On Fig 41, mark:
+• a point X on the principal axis for a possible position of the object
+• a point E for a possible position of the student’s eye
+[1]
+(iii) Underline two words in the list that describe the image produced in (a)(ii)
+inverted real upright virtual
+[1]
+(b) The refractive index of the glass used to make the lens is 15
+(i) The speed of light in air is 30 × 108 m / s
+Calculate the speed of light in the glass
+speed in glass =  [2]
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 8 | Table 1 ---
+lens
+F F
+principal axis 1 2
+
+--- tmp52sx2ofjpdf | Page 9 ---
+9
+(ii) State what happens to the wavelength of light as it passes into the lens
+
+ [1]
+(c) Converging lenses are used in spectacles (glasses) to correct one problem with vision
+State the name of the problem and explain how a converging lens is used to correct it
+You may draw a diagram
+name of problem: 
+
+
+
+
+[3]
+[Total: 10]
+© UCLES 2024 0625/41/M/J/24 [Turn over
+
+--- tmp52sx2ofjpdf | Page 10 ---
+10
+5 (a) Describe how a longitudinal wave differs from a transverse wave
+
+
+ [2]
+(b) Fig 51 represents a seismic wave produced by an earthquake
+K
+J
+Fig 51
+(i) State whether this seismic wave is a P-wave (primary) or an S-wave (secondary)
+Justify your choice
+
+ [1]
+(ii) The wave represented in Fig 51 has a wavelength of 12 × 104 m
+Calculate the actual distance between point J and point K
+distance =  [2]
+(iii) The wave in (ii) travels through the ground at a speed of 4600 m / s
+As the wave passes a certain point, the ground completes 5 oscillations
+Calculate the time that it takes for the wave to pass Show your working
+time =  [3]
+[Total: 8]
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 11 ---
+11
+6 Fig 61 shows an isolated metal sphere suspended by an insulating thread from the ceiling
+insulating thread
+metal sphere
+Fig 61
+The sphere is negatively charged
+(a) The charge on the sphere produces an electric field in the surroundings
+(i) State what is meant by ‘electric field’
+
+ [1]
+(ii) Draw on Fig 61 to show the pattern and direction of the electric field produced by the
+charge on the sphere Draw at least four lines [3]
+(b) The magnitude of the charge on the sphere is 35 × 10–10 C
+An earthed metal wire is touched against the surface of the sphere and the sphere
+is discharged
+(i) State what happens in the wire as the sphere is discharged
+
+
+ [2]
+(ii) It takes a time of 014 ns for the sphere to discharge completely
+Calculate the average current in the earthed wire as the sphere discharges
+average current =  [3]
+[Total: 9]
+© UCLES 2024 0625/41/M/J/24 [Turn over
+
+--- tmp52sx2ofjpdf | Page 11 | Table 1 ---
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- tmp52sx2ofjpdf | Page 12 ---
+12
+7 The electromotive force (emf) of a battery is 75 V
+(a) Define the term electromotive force
+
+
+ [2]
+(b) The battery is connected in series with a variable resistor and a 30 Ω resistor The battery is
+made using 15 V cells
+(i) Draw a circuit diagram that shows all the 15 V cells connected to produce an emf
+of 75 V, the variable resistor and the 30 Ω resistor
+[3]
+(ii) The resistance of the variable resistor can be varied from 0 Ω to a maximum resistance
+of 150 Ω
+Using the axes in Fig 71, draw a graph to show how the current in the circuit varies with
+the resistance of the variable resistor as it increases from 0 Ω to 150 Ω
+Determine and label the value of the maximum current on the y-axis
+current / A
+0
+0 75 150
+resistance of variable resistor / Ω
+Fig 71
+[4]
+[Total: 9]
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 13 ---
+13
+8 The isotope thallium-208 (208Tl ) is radioactive It decays by β-decay
+81
+(a) Thallium-208 decays to an isotope of lead (Pb)
+(i) Complete the equation for this decay
+ 
+208
+Tl Pb + β
+81  
+[3]
+(ii) The β-emission of thallium-208 is accompanied by γ-emission from the nucleus
+Explain why this γ-emission does not affect the numbers in the equation in (a)(i)
+
+ [1]
+(iii) Suggest one reason why a nucleus of thallium-208 is unstable
+
+ [1]
+(b) A sample of thallium-208 is placed in a thick lead container Fig 81 shows a narrow beam of
+β-particles and γ-radiation emerging from a small hole in one side of the container
+magnetic field
+into page
+beam of
+β-particles and
+γ-radiation
+sample of
+thallium-208
+Fig 81
+The narrow beam enters a region where there is a magnetic field that is directed into the page
+On Fig 81:
+• draw a line labelled ββ to indicate the path of the β-particles in the magnetic field
+• draw a line labelled γγ to indicate the path of the γ-radiation in the magnetic field
+[3]
+[Total: 8]
+© UCLES 2024 0625/41/M/J/24 [Turn over
+
+--- tmp52sx2ofjpdf | Page 14 ---
+14
+9 The Sun is one of many billions of stars in the Milky Way The Sun emits a very large quantity of
+energy as electromagnetic radiation
+(a) State the three regions of the electromagnetic spectrum in which the Sun emits the
+most energy
+1 
+2 
+3 
+[2]
+(b) electromagnetic radiation from the Sun travels at a speed of 30 × 108 m / s The radiation
+takes 500 s to reach the Earth
+Calculate the distance from the Sun to the Earth
+distance =  [2]
+(c) approximately 46 billion years ago, the Sun formed from an interstellar cloud of gas and
+became a stable star
+(i) Describe and explain what happens as an interstellar cloud of gas forms a protostar
+
+
+ [2]
+(ii) Describe and explain what happens as a protostar becomes a stable star
+
+
+
+ [3]
+[Total: 9]
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 15 ---
+15
+BLANK PAGE
+© UCLES 2024 0625/41/M/J/24
+
+--- tmp52sx2ofjpdf | Page 16 ---
+16
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/41/M/J/24
+
+--- tmpvbi1svzopdf | Page 1 ---
+This document has 16 pages
+IB24 06_0625_11/2RP
+© UCLES 2024 [Turn over
+*8420885327*
+™
+Cambridge IGCSE
+PHYSICS 0625/11
+Paper 1 Multiple Choice (Core) May/June 2024
+45 minutes
+You must answer on the multiple choice answer sheet
+You will need: Multiple choice answer sheet
+Soft clean eraser
+Soft pencil (type B or HB is recommended)
+instructions
+ There are forty questions on this paper Answer all questions
+ For each question there are four possible answers A, B, C and D Choose the one you consider correct
+and record your choice in soft pencil on the multiple choice answer sheet
+ Follow the instructions on the multiple choice answer sheet
+ Write in soft pencil
+ Write your name, centre number and candidate number on the multiple choice answer sheet in the
+spaces provided unless this has been done for you
+ Do not use correction fluid
+ Do not write on any bar codes
+ You may use a calculator
+ Take the weight of 10kg to be 98N (acceleration of free fall = 98m/s2)
+INFORMATION
+ The total mark for this paper is 40
+ Each correct answer will score one mark
+ Any rough working should be done on this question paper
+
+--- tmpvbi1svzopdf | Page 2 ---
+2
+1 The diagram shows an enlarged drawing of the end of a metre ruler It is being used to measure
+the length of a small feather
+10 20 30
+mm
+cm 1 2 3
+What is the length of the feather?
+A 19mm B 29mm C 19cm D 29cm
+2 The diagram shows two objects, X and Y, suspended from identical springs
+The extension of each spring is different
+object X
+object Y
+Which row compares the mass and the weight of the two objects?
+mass weight
+A both objects have the same mass both objects have the same weight
+B both objects have the same mass the weight of X is less than the weight of Y
+C the mass of X is less than the mass of Y both objects have the same weight
+D the mass of X is less than the mass of Y the weight of X is less than the weight of Y
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpvbi1svzopdf | Page 2 | Table 1 ---
+ | mass | weight
+A
+B
+C
+D | both objects have the same mass
+both objects have the same mass
+the mass of X is less than the mass of Y
+the mass of X is less than the mass of Y | both objects have the same weight
+the weight of X is less than the weight of Y
+both objects have the same weight
+the weight of X is less than the weight of Y
+
+--- tmpvbi1svzopdf | Page 3 ---
+3
+3 A plastic bottle contains 750cm3 of oil The diagram shows the mass of the bottle being
+measured when it is full and then when it is empty
+650 g 50 g
+What is the density of the oil?
+A 080g/cm3 B 093g/cm3 C 11g/cm3 D 13g/cm3
+4 The extension–load graph for a spring is shown The unstretched length of the spring is 150cm
+3
+extension / cm
+2
+1
+0
+0 1 2 3 4 5
+load / N
+When an object of unknown weight is suspended on the spring, the length of the spring is
+164cm
+What is the weight of the object?
+A 055N B 067N C 35N D 41N
+© UCLES 2024 0625/11/M/J/24 [Turn over
+
+--- tmpvbi1svzopdf | Page 3 | Table 1 ---
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- tmpvbi1svzopdf | Page 4 ---
+4
+5 A student determines the position of the centre of gravity of a piece of card The diagram shows
+the equipment that is available The equipment is not drawn to scale
+clamp and stand pin weight on a pencil stop-watch card
+thin string
+Which piece of equipment is not needed?
+A pencil
+B pin
+C weight on a thin string
+D stop-watch
+6 A cyclist stops his bicycle using the brakes
+Which row about energy stores is correct?
+decreases increases
+A kinetic energy store of bicycle chemical energy store of brakes
+B kinetic energy store of bicycle thermal energy store of brakes
+C thermal energy store of brakes kinetic energy store of bicycle
+D thermal energy store of brakes chemical energy store of bicycle
+7 A man applies a force of 40N to push a box along the floor
+40 N
+40 m
+How much power is required to push the box 40m in 30 seconds?
+A 33W B 30W C 53W D 480W
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpvbi1svzopdf | Page 4 | Table 1 ---
+ |  |  | 
+ |  |  | 
+ |  |  | 
+ |  |  | 
+
+--- tmpvbi1svzopdf | Page 4 | Table 2 ---
+ | decreases | increases
+A
+B
+C
+D | kinetic energy store of bicycle
+kinetic energy store of bicycle
+thermal energy store of brakes
+thermal energy store of brakes | chemical energy store of brakes
+thermal energy store of brakes
+kinetic energy store of bicycle
+chemical energy store of bicycle
+
+--- tmpvbi1svzopdf | Page 4 | Table 3 ---
+ |  | 
+
+--- tmpvbi1svzopdf | Page 5 ---
+5
+8 Four identical submarines, P, Q, R and S, are lowered from one depth to another in water of a
+constant density
+The initial and final depths of each submarine are shown
+water surface
+submarine submarine
+P R
+10 m
+submarine
+S
+30 m
+submarine
+Q
+50 m
+70 m
+Which row is correct for the difference in pressure from the initial to the final depth of each
+submarine?
+least change greatest change
+in pressure in pressure
+A submarines P and Q submarines R and S
+B submarines P and Q submarine R only
+C submarine P only submarines R and S
+D submarine P only submarine R only
+9 Some terms describing changes of state are listed
+1 boiling
+2 solidification
+3 condensation
+4 evaporation
+Which two terms identify the same change of state?
+A 1 and 3 B 1 and 4 C 2 and 3 D 2 and 4
+© UCLES 2024 0625/11/M/J/24 [Turn over
+
+--- tmpvbi1svzopdf | Page 5 | Table 1 ---
+ | least change
+in pressure | greatest change
+in pressure
+A
+B
+C
+D | submarines P and Q
+submarines P and Q
+submarine P only
+submarine P only | submarines R and S
+submarine R only
+submarines R and S
+submarine R only
+
+--- tmpvbi1svzopdf | Page 6 ---
+6
+10 Diagram 1 shows apparatus being used to observe smoke particles
+Diagram 2 shows how a smoke particle moves randomly
+diagram 1 diagram 2
+eye
+random
+movement
+microscope
+air particles
+light and
+smoke particles
+Why do the smoke particles move randomly?
+A They are hit by air particles
+B They are less dense than air
+C They are moved by convection currents
+D They gain energy from the light
+11 How is a temperature in degrees Celsius (C) converted to a temperature in kelvin (K)?
+A Add 273 to the temperature in C
+B Divide the temperature in C by 273
+C Multiply the temperature in C by 273
+D Subtract 273 from the temperature in C
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpvbi1svzopdf | Page 6 | Table 1 ---
+
+
+
+--- tmpvbi1svzopdf | Page 7 ---
+7
+12 The diagram shows a frictionless piston inside a cylinder
+The air inside the cylinder is heated The piston moves in the direction shown
+piston
+cylinder
+movement
+of piston
+heat
+Which statement about the air inside the cylinder is correct?
+A The temperature and volume increase at constant pressure
+B The temperature and pressure increase at constant volume
+C The temperature, volume and pressure all increase
+D The volume and pressure increase at constant temperature
+13 What increases when the temperature of a copper block increases?
+A the number of copper atoms in the block
+B the melting point of the block
+C the internal energy of the block
+D the density of the block
+14 A textbook gives the description of a thermal process as ‘more-energetic molecules escape from
+the surface of a liquid which causes the liquid to cool’
+Which process is being described?
+A boiling
+B Brownian motion
+C condensation
+D evaporation
+15 In which situation is radiation the main method by which energy is transferred?
+A heating a pan of water using a gas camping stove
+B energy reaching the Earth from the Sun
+C heating the air in a room with a convection heater
+D giving gravitational potential energy to a glider when it is lifted by thermal currents
+© UCLES 2024 0625/11/M/J/24 [Turn over
+
+--- tmpvbi1svzopdf | Page 8 ---
+8
+16 The diagram represents a wave
+x
+y
+Which row gives the wavelength and the amplitude of the wave?
+wavelength amplitude
+A x y
+B y x
+y
+C x
+2
+x y
+D
+4 2
+17 Which row describes a seismic P-wave?
+type of wave direction of vibration
+A longitudinal parallel to the direction of propagation of the wave
+B longitudinal perpendicular to the direction of propagation of the wave
+C transverse parallel to the direction of propagation of the wave
+D transverse perpendicular to the direction of propagation of the wave
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpvbi1svzopdf | Page 8 | Table 1 ---
+ | wavelength | amplitude
+A
+B
+C
+D | x
+y
+x
+x
+4 | y
+x
+y
+2
+y
+2
+
+--- tmpvbi1svzopdf | Page 8 | Table 2 ---
+ | type of wave | direction of vibration
+A
+B
+C
+D | longitudinal
+longitudinal
+transverse
+transverse | parallel to the direction of propagation of the wave
+perpendicular to the direction of propagation of the wave
+parallel to the direction of propagation of the wave
+perpendicular to the direction of propagation of the wave
+
+--- tmpvbi1svzopdf | Page 9 ---
+9
+18 Which diagram shows waves diffracting?
+A B
+C D
+19 The diagram shows a ray of light in glass incident on the surface between the glass and air
+air
+glass
+What happens if the angle of incidence is made larger than the critical angle for the glass?
+A The angle of refraction becomes equal to 90
+B There is a refracted ray and a ray reflected inside the glass
+C There is a refracted ray only
+D There is only a ray reflected inside the glass
+20 Red light of frequency 430  1012Hz has a wavelength of 700  10–9m
+What is possible for blue light?
+A a frequency of 190  1012Hz and a wavelength of 450  10–9m
+B a frequency of 190  1012Hz and a wavelength of 950  10–9m
+C a frequency of 670  1012Hz and a wavelength of 450  10–9m
+D a frequency of 670  1012Hz and a wavelength of 950  10–9m
+© UCLES 2024 0625/11/M/J/24 [Turn over
+
+--- tmpvbi1svzopdf | Page 10 ---
+10
+21 Infrared is a useful type of electromagnetic radiation However, excessive exposure to infrared
+can cause harmful effects
+Which row gives a use and a harmful effect for infrared?
+use harmful effect
+A detection of cancer mutations
+B intruder alarms skin burns
+C detection of fake bank notes cell damage
+D thermal imaging internal heating of body cells
+22 The table shows data for the hearing ranges of different animals
+Which animal has the most similar hearing range to a human?
+animal hearing range/Hz
+A turtle 20–1000
+B mouse 1000–1000000
+C moth 20000–300000
+D elephant 16–12000
+23 Which description of ultrasound is correct?
+A longitudinal waves with a frequency greater than 20000Hz
+B longitudinal waves with a frequency less than 20Hz
+C transverse waves with a frequency greater than 20000Hz
+D transverse waves with a frequency less than 20Hz
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpvbi1svzopdf | Page 10 | Table 1 ---
+ | use | harmful effect
+A
+B
+C
+D | detection of cancer
+intruder alarms
+detection of fake bank notes
+thermal imaging | mutations
+skin burns
+cell damage
+internal heating of body cells
+
+--- tmpvbi1svzopdf | Page 10 | Table 2 ---
+ | animal | hearing range/Hz
+A
+B
+C
+D | turtle
+mouse
+moth
+elephant | 20–1000
+1000–1000000
+20000–300000
+16–12000
+
+--- tmpvbi1svzopdf | Page 11 ---
+11
+24 Which diagram shows the pattern and the direction of the magnetic field lines around a bar
+magnet?
+A B
+N S N S
+C D
+S N S N
+25 Which material is a good electrical conductor?
+A glass
+B copper
+C rubber
+D wood
+26 What is an electric current and how is an ammeter positioned in a circuit to measure the current
+in a resistor?
+what is an positioning
+electric current? of an ammeter
+A a flow of charge in parallel with the resistor
+B a flow of charge in series with the resistor
+C a flow of voltage in parallel with the resistor
+D a flow of voltage in series with the resistor
+© UCLES 2024 0625/11/M/J/24 [Turn over
+
+--- tmpvbi1svzopdf | Page 11 | Table 1 ---
+ | what is an
+electric current? | positioning
+of an ammeter
+A
+B
+C
+D | a flow of charge
+a flow of charge
+a flow of voltage
+a flow of voltage | in parallel with the resistor
+in series with the resistor
+in parallel with the resistor
+in series with the resistor
+
+--- tmpvbi1svzopdf | Page 12 ---
+12
+27 Which unit is used for the potential difference (pd) between two points in an electrical circuit?
+A ampere (A)
+B joule (J)
+C ohm ()
+D volt (V)
+28 The circuit in the diagram contains four switches, S , S , S and S 
+1 2 3 4
+S
+1
+S
+2
+S
+4
+S
+3
+Which three switches must be closed for the heater to work?
+A S , S and S
+1 2 3
+B S , S and S
+1 2 4
+C S , S and S
+1 3 4
+D S , S and S
+2 3 4
+29 The metal case of an electrical appliance is fitted with an earth connection
+What is the purpose of this?
+A to complete the circuit supplying the appliance so that it works
+B to ensure that the cables supplying the appliance do not become damp
+C to prevent the cables supplying the appliance from overheating
+D to protect a user of the appliance from electric shock
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpvbi1svzopdf | Page 12 | Table 1 ---
+ |  |  | 
+ |  |  | 
+
+--- tmpvbi1svzopdf | Page 12 | Table 2 ---
+
+
+
+--- tmpvbi1svzopdf | Page 13 ---
+13
+30 A student moves a magnet into a coil, as shown The voltmeter measures the magnitude of the
+electromotive force (emf) induced in the coil
+coil
+S N
+magnet
+V
+Which quantity does not affect the magnitude of the induced emf?
+A the number of turns per unit length in the coil
+B the polarity of the magnet
+C the speed of the magnet
+D the strength of the magnet
+31 A student makes a small dc motor The teacher supplies the following equipment
+● battery
+● ammeter
+● voltmeter
+● coil of wire
+● magnets
+● resistor
+The student is also able to use other equipment if he wishes
+Which equipment must be used?
+A ammeter, battery and resistor
+B ammeter, coil of wire and voltmeter
+C battery, coil of wire and magnets
+D magnets, resistor and voltmeter
+© UCLES 2024 0625/11/M/J/24 [Turn over
+
+--- tmpvbi1svzopdf | Page 14 ---
+14
+32 A simple model of the atom consists of small particles orbiting a central nucleus
+Which row is correct?
+charge on charge on
+nucleus orbiting particles
+A negative negative
+B negative positive
+C positive negative
+D positive positive
+33 What is the charge on a proton and what is the charge on a neutron?
+proton neutron
+A +1 –1
+B +1 0
+C –1 +1
+D –1 0
+34 An isotope of radon is radioactive It decays by emitting an -particle
+What happens to the nucleus of a radon atom during the emission of the -particle?
+A It becomes the nucleus of a different isotope of radon with fewer neutrons
+B It becomes the nucleus of a different isotope of radon with more neutrons
+C It becomes the nucleus of an element with a higher proton number
+D It becomes the nucleus of an element with a lower proton number
+35 The nuclide notation of the isotope strontium-90 is 90Sr
+38
+Which statement is correct?
+A A nucleus of strontium-90 has 38 neutrons
+B A nucleus of strontium-90 has 52 neutrons
+C A nucleus of strontium-90 has 90 electrons
+D A nucleus of strontium-90 has 90 neutrons
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpvbi1svzopdf | Page 14 | Table 1 ---
+ | charge on
+nucleus | charge on
+orbiting particles
+A
+B
+C
+D | negative
+negative
+positive
+positive | negative
+positive
+negative
+positive
+
+--- tmpvbi1svzopdf | Page 14 | Table 2 ---
+ | proton | neutron
+A
+B
+C
+D | +1
++1
+–1
+–1 | –1
+0
++1
+0
+
+--- tmpvbi1svzopdf | Page 15 ---
+15
+36 A box is used for storing radioactive sources
+What is the best material to use for lining the box to prevent radiation from escaping?
+A aluminium
+B lead
+C paper
+D plastic
+37 The Earth is a planet that orbits the Sun once in approximately 365 days
+What does this enable us to explain?
+A the cycle of day and night
+B the cycle of phases of the moon
+C the periodic nature of the seasons
+D the apparent daily motion of the Sun
+38 The radius of the orbit of Venus around the Sun is 110  106km
+The radius of the orbit of the Earth around the Sun is 150  106km
+Earth
+Venus
+Sun
+The speed of light is 030  106km/s
+How long does light take to travel from Venus to the Earth when these planets are closest to each
+other?
+A 130s B 370s C 500s D 870s
+39 What are the three main types of radiation emitted by the Sun?
+A infrared, radio waves and ultraviolet
+B infrared, visible light and ultraviolet
+C microwaves, visible light and X-rays
+D radio waves, X-rays and ultraviolet
+© UCLES 2024 0625/11/M/J/24 [Turn over
+
+--- tmpvbi1svzopdf | Page 16 ---
+16
+40 What is a light-year?
+A the time for light to travel 1km in space
+B the time for light to travel from the Sun to the Earth
+C the distance travelled in space by light in one year
+D the distance travelled by light from the Sun to the Earth
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/11/M/J/24
+
+--- tmpgxmh40ohpdf | Page 1 ---
+™
+Cambridge IGCSE
+PHYSICS 0625/33
+Paper 3 Theory (Core) May/June 2024
+1 hour 15 minutes
+You must answer on the question paper
+No additional materials are needed
+instructions
+● Answer all questions
+● Use a black or dark blue pen You may use an HB pencil for any diagrams or graphs
+● Write your name, centre number and candidate number in the boxes at the top of the page
+● Write your answer to each question in the space provided
+● Do not use an erasable pen or correction fluid
+● Do not write on any bar codes
+● You may use a calculator
+● You should show all your working and use appropriate units
+● Take the weight of 10 kg to be 98 N (acceleration of free fall = 98 m / s2)
+INFORMATION
+● The total mark for this paper is 80
+● The number of marks for each question or part question is shown in brackets [ ]
+This document has 16 pages Any blank pages are indicated
+[Turn over
+*1172956826*
+DC (PB/CB) 329991/2
+© UCLES 2024
+
+--- tmpgxmh40ohpdf | Page 1 | Table 1 ---
+ |  |  |  | 
+
+--- tmpgxmh40ohpdf | Page 1 | Table 2 ---
+ |  |  | 
+
+--- tmpgxmh40ohpdf | Page 2 ---
+2
+1 A girl is cycling along a straight horizontal road
+Fig 11 shows the directions of the forces acting on the cyclist as she cycles in the direction of
+force C
+force B
+force A force C
+force D
+Fig 11
+(a) State which force shows the direction of:
+(i) the force due to gravity  [1]
+(ii) the force due to air resistance  [1]
+(iii) Force A changes and becomes larger than force C
+State any effect this change has on the motion of the cyclist
+ [1]
+(b) Another cyclist travels a distance of 250 m in a time of 21 s
+(i) Calculate the average speed of the cyclist
+average speed =  m/s [3]
+© UCLES 2024 0625/33/ M/J/24
+
+--- tmpgxmh40ohpdf | Page 2 | Table 1 ---
+force B
+force A force C
+force D
+
+--- tmpgxmh40ohpdf | Page 3 ---
+3
+(ii) The cyclist exerts a force of 36 N to move the cycle forwards
+Calculate the work done by this force when the cyclist travels 250m Include the unit
+work done = 
+unit 
+[4]
+[Total: 10]
+© UCLES 2024 0625/33/M/J/24 [Turn over
+
+--- tmpgxmh40ohpdf | Page 4 ---
+4
+2 Fig 21 shows a road sign on the ground
+STOP
+base
+ground
+front view side view
+Fig 21
+(a) A strong wind blows and the sign begins to fall over A man catches the sign before it
+falls completely
+Fig 22 shows the force applied to the sign by the man
+56 N
+82 cm
+pivot
+Fig 22
+Calculate the moment of the 56N force about the pivot Use the information in Fig 22
+moment =  N cm [3]
+(b) The sign needs to be easy to move and stable The base cannot be fixed to the ground
+Suggest how to change the base so that the sign is more stable Explain your answer
+suggestion 
+explanation 
+[2]
+[Total: 5]
+© UCLES 2024 0625/33/M/J/24
+
+--- tmpgxmh40ohpdf | Page 5 ---
+5
+3 Fig 31 represents a hydroelectric power station transmitting electrical energy to homes and
+factories far away
+water behind dam hydroelectric
+power station
+200 km
+pipeline
+cables factories
+homes
+transformer
+Fig 31
+(a) (i) State the energy store for the water behind the dam
+ [1]
+(ii) In the list of equipment, draw a ring around each item that a hydroelectric power
+station requires
+boiler cooling tower generator solar cell turbine
+[1]
+(b) (i) State the type of transformer shown in Fig 31
+ [1]
+(ii) Give two reasons why the power station uses high voltages to transmit electrical energy
+over long distances
+1 
+
+2 
+
+[2]
+© UCLES 2024 0625/33/M/J/24 [Turn over
+
+--- tmpgxmh40ohpdf | Page 5 | Table 1 ---
+ | 
+ | 
+
+--- tmpgxmh40ohpdf | Page 5 | Table 2 ---
+
+
+
+--- tmpgxmh40ohpdf | Page 5 | Table 3 ---
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  | 
+
+--- tmpgxmh40ohpdf | Page 6 ---
+6
+(c) hydroelectric power stations may replace coal‑fired power stations
+State two advantages and two disadvantages of using hydroelectric power stations compared
+with coal‑fired power stations Do not include building or maintenance costs
+advantages
+1 
+
+2 
+
+disadvantages
+1 
+
+2 
+
+[4]
+[Total: 9]
+© UCLES 2024 0625/33/M/J/24
+
+--- tmpgxmh40ohpdf | Page 7 ---
+7
+4 (a) Fig 41 represents the arrangement of particles in a solid
+solid gas
+Fig 41 (not to scale) Fig 42
+(i) Describe the motion of the particles in a solid
+ [1]
+(ii) On Fig 42, draw at least 10 particles, to show the arrangement of the particles in a gas
+[2]
+(iii) Describe the motion of the particles in a gas
+
+
+[2]
+(b) At the beginning of a lesson, students measure the mass of water in a shallow dish
+Fig 43 shows the mass of water at the beginning of the lesson
+Fig 44 shows the mass of water at the end of the lesson
+water
+shallow dish
+top-pan balance
+400 g 375 g
+Fig 43 Fig 44
+The students find that the mass of water in the shallow dish decreases during the lesson
+(i) State the name of the process that decreases the mass of water in the shallow dish
+ [1]
+(ii) Describe the process that decreases the mass of water in the shallow dish Use ideas
+about particles
+
+
+ [2]
+[Total: 8]
+© UCLES 2024 0625/33/M/J/24 [Turn over
+
+--- tmpgxmh40ohpdf | Page 8 ---
+8
+5 Fig 51 represents an arrangement for heating water The hot water is stored in the metal container
+hot water flows
+out of the container water
+metal container
+electric heater
+cold water flows
+into the container
+Fig 51 (not to scale)
+(a) Explain why the hot water is available at the top of the container Use ideas about density
+
+
+
+ [3]
+(b) The electric heater is switched on for one hour every morning
+(i) State the name of the process that transfers thermal energy through the walls of the
+metal container
+ [1]
+(ii) Suggest one way of keeping the water hot after the heater is switched off
+
+ [1]
+[Total: 5]
+© UCLES 2024 0625/33/M/J/24
+
+--- tmpgxmh40ohpdf | Page 9 ---
+9
+6 (a) State the name of the type of wave in which the direction of vibration is at right angles to the
+direction of travel
+ [1]
+(b) A teacher uses a ripple tank to demonstrate a wave property Fig 61 shows the ripple tank
+viewed from above The crests of the wave are travelling from left to right
+barrier with
+wave crests
+narrow gap
+Fig 61
+(i) Complete the sentence about the wave property demonstrated in Fig 61
+Choose one word from the list
+diffraction dispersion reflection refraction
+The wave property demonstrated in Fig 61 is   [1]
+(ii) On Fig 61, indicate one wavelength Label your answer with the letter ‘w’ [1]
+(c) In a different ripple tank, the wavelength of the wave is 51 cm
+The speed of the wave is 42 cm / s
+Determine the frequency of the wave
+frequency =  Hz [3]
+[Total: 6]
+© UCLES 2024 0625/33/M/J/24 [Turn over
+
+--- tmpgxmh40ohpdf | Page 9 | Table 1 ---
+barrier with
+wave crests
+narrow gap
+
+
+--- tmpgxmh40ohpdf | Page 10 ---
+10
+7 (a) Fig 71 shows a ray of red light incident on a glass prism at point P
+The ray of red light is refracted at point P
+P
+ray of red light
+air air
+glass
+Fig 71
+On Fig 71:
+(i) draw the normal at point P [1]
+(ii) draw the path of the ray of red light through the glass prism and into the air [2]
+(b) A ray of blue light replaces the ray of red light The angle of incidence for the blue ray entering
+the prism is the same as in Fig 71
+Describe any difference between the path of the blue ray in the prism and the path of the red
+ray in the prism
+
+ [1]
+(c) Another ray enters the glass prism and is totally internally reflected
+State two conditions for a ray to be totally internally reflected
+1 
+
+2 
+
+[2]
+[Total: 6]
+© UCLES 2024 0625/33/M/J/24
+
+--- tmpgxmh40ohpdf | Page 11 ---
+11
+8 Fig 81 shows part of a circuit for measuring the resistance of a lamp
+A
+Fig 81
+(a) Draw on Fig 81 to show how to connect a voltmeter to measure the potential difference
+across the lamp Use the electrical symbol for a voltmeter
+[2]
+(b) The current in the lamp is 041 A and the potential difference across the lamp is 12 V
+Calculate the resistance of the lamp
+resistance =  Ω [3]
+(c) Calculate the electrical power transferred in the lamp Include the unit
+power transferred = 
+unit 
+[4]
+[Total: 9]
+© UCLES 2024 0625/33/M/J/24 [Turn over
+
+--- tmpgxmh40ohpdf | Page 12 ---
+12
+9 (a) Fig 91 shows three devices: a compass, a transformer and an electromagnet The main
+parts of the devices are labelled
+transformer core
+compass needle
+electromagnet core
+transformer coils
+Fig 91
+Complete Table 91 by adding a suitable metal for each part Choose from the metals in
+the list
+Each metal can be used once, more than once or not at all
+aluminium copper soft iron silver steel
+Table 91
+part metal
+compass needle
+transformer core
+transformer coils
+electromagnet core
+[2]
+(b) The primary coil of a transformer is connected to a mains supply of 220 V ac
+The primary coil has 1500 turns and the secondary coil has 650 turns
+Calculate the output voltage of the secondary coil
+output voltage =  V [3]
+[Total: 5]
+© UCLES 2024 0625/33/M/J/24
+
+--- tmpgxmh40ohpdf | Page 12 | Table 1 ---
+
+
+
+--- tmpgxmh40ohpdf | Page 12 | Table 2 ---
+part | metal
+compass needle | 
+transformer core | 
+transformer coils | 
+electromagnet core | 
+
+--- tmpgxmh40ohpdf | Page 13 ---
+13
+BLANK PAGE
+© UCLES 2024 0625/33/M/J/24 [Turn over
+
+--- tmpgxmh40ohpdf | Page 14 ---
+14
+10 (a) The nuclide notation for an atom of protactinium‑234 is:
+234
+Pa
+91
+(i) State the number of protons in an atom of protactinium‑234  [1]
+(ii) State the number of nucleons in an atom of protactinium‑234  [1]
+(b) Three forms of the element protactinium are: protactinium‑234, protactinium‑230
+and protactinium‑233
+State the name given to these different forms of the same element
+ [1]
+(c) A teacher demonstrates radioactive decay by using a sample of protactinium‑234m
+(i) The sample emits beta (β)‑particles
+State the nature of a beta (β)‑particle
+ [1]
+© UCLES 2024 0625/33/M/J/24
+
+--- tmpgxmh40ohpdf | Page 15 ---
+15
+(ii) The teacher obtains data for a decay curve Fig 101 shows the decay curve for the
+sample of protactinium‑234m
+1000
+900
+count rate
+count / s
+800
+700
+600
+500
+400
+300
+200
+100
+0
+0 50 100 150 200 250 300 350
+time / s
+Fig 101
+Calculate the half‑life of protactinium‑234m using the information in Fig 101 Clearly
+show your working on the graph or in the space provided
+half‑life =  s [3]
+(iii) Suggest a reason why the half‑life of protactinium‑234m makes it suitable for this
+demonstration in a lesson
+
+ [1]
+[Total: 8]
+© UCLES 2024 0625/33/M/J/24 [Turn over
+
+--- tmpgxmh40ohpdf | Page 15 | Table 1 ---
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- tmpgxmh40ohpdf | Page 16 ---
+16
+11 (a) The Solar System contains a number of objects Some of these objects are listed
+asteroids planets the Moon the Sun
+Write these objects in order of their size
+smallest largest
+[2]
+(b) Redshift is an increase in the observed wavelength of the light emitted from distant galaxies
+(i) State what redshift indicates about the movement of distant galaxies
+ [1]
+(ii) State why redshift in the light from distant galaxies supports the Big Bang Theory
+
+ [1]
+(c) (i) Define one light‑year
+ [1]
+(ii) Scientists can send spacecraft to planets There are many planets outside the
+Solar System
+Suggest one reason, other than cost, why scientists do not send spacecraft to planets
+outside the Solar System
+
+ [1]
+(d) An electromagnetic wave travels from the Sun to the Earth in a time of 500 s
+The speed of the electromagnetic wave in space is 30 × 108 m / s
+Calculate the distance between the Sun and the Earth
+distance =  m [3]
+[Total: 9]
+Permission to reproduce items where third‑party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer‑related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/33/M/J/24
+
+--- tmpgxmh40ohpdf | Page 16 | Table 1 ---
+ |  |  | 
+
+--- tmpgdtqtmkopdf | Page 1 ---
+This document has 16 pages Any blank pages are indicated
+[Turn over
+*9879924879*
+™
+Cambridge IGCSE
+PHYSICS 0625/31
+Paper 3 Theory (Core) May/June 2024
+1 hour 15 minutes
+You must answer on the question paper
+No additional materials are needed
+instructions
+● Answer all questions
+● Use a black or dark blue pen You may use an HB pencil for any diagrams or graphs
+● Write your name, centre number and candidate number in the boxes at the top of the page
+● Write your answer to each question in the space provided
+● Do not use an erasable pen or correction fluid
+● Do not write on any bar codes
+● You may use a calculator
+● You should show all your working and use appropriate units
+● Take the weight of 10 kg to be 98 N (acceleration of free fall = 98 m / s2)
+INFORMATION
+● The total mark for this paper is 80
+● The number of marks for each question or part question is shown in brackets [ ]
+DC (DE/JG) 329989/3
+© UCLES 2024
+
+--- tmpgdtqtmkopdf | Page 1 | Table 1 ---
+ |  |  |  | 
+
+--- tmpgdtqtmkopdf | Page 1 | Table 2 ---
+ |  |  | 
+
+--- tmpgdtqtmkopdf | Page 2 ---
+2
+1 Fig 11 shows the speed–time graph for a car
+20
+S
+speed
+R
+m / s
+15
+T
+10
+5
+0
+0 4 8 12 16 20
+time / s
+Fig 11
+(a) (i) For the graph in Fig 11, match each letter, R, S and T, with the motion at that point
+Draw one line from each letter to the correct description One has been done for you
+letter on the graph description of motion
+at rest
+R
+moving with constant speed
+S
+decelerating (negative acceleration)
+T
+accelerating (positive acceleration)
+[2]
+(ii) Determine the speed of the car at time = 40 s
+speed =  m / s [1]
+© UCLES 2024 0625/31/ M/J/24
+
+--- tmpgdtqtmkopdf | Page 2 | Table 1 ---
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | S |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  | R |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | T |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+--- tmpgdtqtmkopdf | Page 3 ---
+3
+(iii) Determine the distance moved by the car from time = 160 s to time = 200 s
+distance moved =  m [3]
+(b) Define the term velocity
+ [1]
+[Total: 7]
+© UCLES 2024 0625/31/M/J/24 [Turn over
+
+--- tmpgdtqtmkopdf | Page 4 ---
+4
+2 A student places six 100 g masses in a stack, as shown in Fig 21
+stack of six
+100 g masses
+54 cm
+Fig 21 (not to scale)
+(a) The height of the stack of masses is 54 cm
+Calculate the average thickness of one mass
+average thickness of one mass =  cm [2]
+(b) Fig 22 shows the masses, a measuring cylinder and a beaker containing some water
+stack of six
+100 g masses
+measuring beaker containing
+cylinder water
+Fig 22
+The student uses the equipment in Fig 22 to determine the total volume of the six masses
+Describe a method that the student uses
+
+
+
+
+ [3]
+[Total: 5]
+© UCLES 2024 0625/31/M/J/24
+
+--- tmpgdtqtmkopdf | Page 4 | Table 1 ---
+
+
+
+
+
+
+
+--- tmpgdtqtmkopdf | Page 4 | Table 2 ---
+
+
+
+
+
+
+
+--- tmpgdtqtmkopdf | Page 5 ---
+5
+3 Fig 31 shows the horizontal forces acting on a boat
+80 N (backwards) 200 N (forwards)
+boat
+Fig 31
+(a) (i) Calculate the resultant horizontal force on the boat in Fig 31
+size of resultant force =  N
+direction of resultant force 
+[2]
+(ii) Suggest what causes the 80 N force on the boat in Fig 31
+
+ [1]
+(iii) Another boat is travelling and the horizontal forces on this boat are balanced
+Describe the horizontal motion of this boat
+ [1]
+© UCLES 2024 0625/31/M/J/24 [Turn over
+
+--- tmpgdtqtmkopdf | Page 6 ---
+6
+(b) Fig 32 shows the wheel used to steer a boat
+60 N
+50 cm
+50 cm
+pivot
+Fig 32
+A force of 60 N acts at a perpendicular distance of 50 cm from the wheel’s pivot
+Calculate the moment of the 60 N force about the pivot Include the unit
+moment = 
+unit 
+[4]
+[Total: 8]
+© UCLES 2024 0625/31/M/J/24
+
+--- tmpgdtqtmkopdf | Page 7 ---
+7
+4 The government of a country decides to reduce the amount of fossil fuel burned for generating
+electrical power
+(a) State two reasons, apart from cost, for reducing the amount of fossil fuel burned
+1 
+
+2 
+
+[2]
+(b) (i) Describe how a hydroelectric power station generates electrical power
+
+
+
+
+ [3]
+(ii) hydroelectric power stations are expensive to build
+State two other disadvantages of using a hydroelectric power station to generate
+electrical power
+1 
+
+2 
+
+[2]
+(c) The government plans to build some wind turbines The government plans to store some of
+the electrical energy generated by the wind turbines
+Suggest one method of storing the electrical energy generated by a wind turbine
+
+ [1]
+[Total: 8]
+© UCLES 2024 0625/31/M/J/24 [Turn over
+
+--- tmpgdtqtmkopdf | Page 8 ---
+8
+5 (a) Describe the arrangement, separation and motion of gas particles
+
+
+
+
+ [3]
+(b) Fig 51 shows some gas in a container with a piston The piston can move into the container
+piston
+30 N
+gas
+container
+Fig 51
+(i) A force of 30 N pushes the piston into the container for a distance of 018 m
+Calculate the work done by the 30 N force
+work done =  J [3]
+(ii) When the piston moves into the container, the temperature of the gas does not change
+Describe and explain any change in the pressure on the walls of the container
+
+
+ [2]
+[Total: 8]
+© UCLES 2024 0625/31/M/J/24
+
+--- tmpgdtqtmkopdf | Page 9 ---
+9
+6 A student wants to compare the conduction of thermal energy through rods made of iron, copper,
+glass and aluminium Each rod is coated with wax
+Fig 61 shows the equipment that the student uses
+wax coating iron rod
+copper rod
+glass rod
+aluminium rod
+Bunsen burner heat-proof mat
+tripod stand
+Fig 61
+(a) Describe how the student can compare the conduction of thermal energy through the rods in
+Fig 61
+
+
+ [2]
+(b) The Bunsen burner emits infrared waves
+The infrared waves have a wavelength of 20 × 10– 6 m
+The velocity of the infrared waves is 30 × 108 m / s
+(i) Calculate the frequency of the infrared waves
+frequency =  Hz [3]
+(ii) State the name of a region of the electromagnetic spectrum which has a wavelength
+longer than the wavelength of infrared Give one use of the radiation in this region
+region 
+use 
+[2]
+[Total: 7]
+© UCLES 2024 0625/31/M/J/24 [Turn over
+
+--- tmpgdtqtmkopdf | Page 10 ---
+10
+7 (a) Fig 71 shows a ray of light striking a plane mirror The ray is reflected as shown
+plane
+mirror
+ray of light
+normal
+Fig 71
+The angle of incidence for the ray of light is 40°
+(i) Indicate the angle of reflection by drawing a letter R on Fig 71 [1]
+(ii) State the size of the angle of reflection in Fig 71
+angle of reflection = ° [1]
+(b) An object O is placed to the left of a thin converging lens F is the principal focus on one side
+1
+of the lens and F is the principal focus on the other side of the lens
+2
+Two rays from the top of the object are incident on the lens, as shown in Fig 72
+O F F
+1 2
+thin converging lens
+Fig 72
+(i) On Fig 72, locate the image of O by continuing the path of each ray [2]
+(ii) Draw an arrow to represent the image of O [1]
+© UCLES 2024 0625/31/M/J/24
+
+--- tmpgdtqtmkopdf | Page 10 | Table 1 ---
+ | 
+
+--- tmpgdtqtmkopdf | Page 11 ---
+11
+(c) Fig 73 shows a prism producing a spectrum of colours from a narrow beam of white light
+prism
+X
+narrow beam
+of white light spectrum of seven colours
+Z
+Fig 73
+(i) The prism refracts the white light
+State the name of the effect that produces a spectrum
+ [1]
+(ii) In the spectrum shown in Fig 73, there are seven colours
+List the seven colours in the order they appear between X and Z
+X 
+
+
+
+
+
+Z 
+[2]
+[Total: 8]
+© UCLES 2024 0625/31/M/J/24 [Turn over
+
+--- tmpgdtqtmkopdf | Page 12 ---
+12
+8 Fig 81 shows an arrangement for making an electromagnet The electromagnet consists of a
+solenoid and a core
+12 V
+variable resistor
+A
+X
+direction of
+current in
+solenoid core of electromagnet
+Fig 81
+(a) (i) The electromagnet is a temporary magnet
+State one material which is suitable for the core of the electromagnet
+ [1]
+(ii) The battery is made from cells connected in series Each cell in the battery has an
+electromotive force (emf) of 15 V
+Calculate the number of cells in the battery in Fig 81
+number of cells =  [2]
+(b) The switch is closed The direction of the current in the solenoid is shown in Fig 81
+(i) There is a magnetic field around the electromagnet
+State the name of a piece of equipment that can show the direction of a magnetic field
+ [1]
+(ii) State the name of the pole labelled X on the core of the electromagnet
+ [1]
+(c) The resistance of the solenoid is 80 Ω
+The current in the solenoid is 12 A
+Calculate the potential difference (pd) across the solenoid
+pd =  V [3]
+[Total: 8]
+© UCLES 2024 0625/31/M/J/24
+
+--- tmpgdtqtmkopdf | Page 12 | Table 1 ---
+ | 
+
+--- tmpgdtqtmkopdf | Page 13 ---
+13
+9 (a) Fig 91 shows the power cable for connecting a desktop computer to the mains electricity circuit
+power cable
+Fig 91
+(i) State the name of each of the three wires inside the power cable
+1 
+2 
+3 
+[2]
+(ii) The cable is designed for a maximum current of 13 A
+Suggest one hazard due to a current of 30 A in the cable
+ [1]
+(b) There is a transformer in the desktop computer
+The input voltage to the primary coil V is 230 V (ac)
+p
+The number of turns on the primary coil N is 720
+p
+The number of turns on the secondary coil N is 50
+s
+(i) Calculate the output voltage V of the secondary coil
+s
+secondary coil output voltage V =  V [3]
+s
+(ii) The current in the input coil of the transformer is 14 A
+Calculate the input power to the desktop computer
+input power =  W [3]
+[Total: 9]
+© UCLES 2024 0625/31/M/J/24 [Turn over
+
+--- tmpgdtqtmkopdf | Page 14 ---
+14
+10 A nucleus of strontium-90 is represented using nuclide notation as shown
+90
+Sr
+38
+(a) (i) Calculate the number of neutrons in one nucleus of strontium-90
+number of neutrons =  [2]
+(ii) Determine the number of electrons in one atom of strontium-90
+number of electrons =  [1]
+(b) Strontium-90 decays by emitting β-particles (beta-particles)
+Describe the nature of β-particles
+ [1]
+(c) Strontium-90 decays with a half-life of 29 years
+A sample contains 16 mg of strontium-90
+Calculate the time taken for the strontium-90 to decay until only 20 mg of strontium-90
+remains in the sample
+time =  years [2]
+[Total: 6]
+© UCLES 2024 0625/31/M/J/24
+
+--- tmpgdtqtmkopdf | Page 15 ---
+15
+11 (a) The Sun is the star in our Solar System Eight planets orbit the Sun
+State the names of two other categories of bodies in the Solar System
+1 
+2 
+[2]
+(b) State the name of the galaxy that includes our Solar System
+ [1]
+(c) Describe how the light from distant galaxies gives evidence to support the Big Bang Theory
+
+
+
+
+ [3]
+[Total: 6]
+© UCLES 2024 0625/31/M/J/24
+
+--- tmpgdtqtmkopdf | Page 16 ---
+16
+BLANK PAGE
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible Every
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the
+publisher will be pleased to make amends at the earliest possible opportunity
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge
+Assessment international Education Copyright acknowledgements Booklet This is produced for each series of examinations and is freely available to download
+at www cambridge international org after the live examination series
+Cambridge Assessment international Education is part of Cambridge Assessment Cambridge Assessment is the brand name of the University of Cambridge
+Local examinations Syndicate (UCLES), which is a department of the University of Cambridge
+© UCLES 2024 0625/31/M/J/24

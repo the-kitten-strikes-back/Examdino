@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-hero card glass">
+  <p class="hero-kicker">Student Practice Mode</p>
+  <h1>Interactive question practice</h1>
+  <p class="hero-text">
+    Load questions from a previous Paper Lab run and practice them one by one.
+    Works with MCQ and text-based questions from extracted IGCSE past papers.
+  </p>
+</section>
+
+<section class="section two-col">
+  <form class="card form-card" method="post">
+    <h2>Start a practice session</h2>
+
+    <label>
+      Question source
+      <select name="run_id" required>
+        <option value="">Select a run...</option>
+        {% for run in practice_runs %}
+          <option value="{{ run.id }}">{{ run.label }}</option>
+        {% endfor %}
+      </select>
+    </label>
+
+    <label>
+      Question type
+      <select name="source_type">
+        <option value="questions">All questions</option>
+        <option value="mcq">Multiple choice only</option>
+        <option value="text">Text questions only</option>
+      </select>
+    </label>
+
+    <label>
+      Number of questions
+      <input type="number" name="practice_count" min="1" max="100" value="10" />
+    </label>
+
+    <label class="inline-check">
+      <input type="checkbox" name="shuffle_questions" checked />
+      <span>Shuffle questions</span>
+    </label>
+
+    <button class="btn btn-primary" type="submit">Start Practice Session</button>
+  </form>
+
+  <article class="card">
+    <h2>Available runs</h2>
+    {% if practice_runs %}
+      <div class="stack">
+        {% for run in practice_runs %}
+          <article class="mini-card">
+            <strong>{{ run.label }}</strong>
+            <div class="facts-grid" style="margin-top: 0.25rem;">
+              <div><span>MCQ</span><strong>{{ "yes" if run.has_mcq else "no" }}</strong></div>
+              <div><span>Text</span><strong>{{ "yes" if run.has_text else "no" }}</strong></div>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No previous runs found. Run the Paper Lab first to generate question sets.</p>
+      <a class="btn btn-primary" href="{{ url_for('paper_lab') }}">Go to Paper Lab</a>
+    {% endif %}
+  </article>
+</section>
+{% endblock %}

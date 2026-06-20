@@ -1,0 +1,410 @@
+Why are some radioactive sources stored in boxes made from lead?
+A Lead absorbs emissions from the radioactive sources
+B Lead decreases the half-life of radioactive sources
+C Lead increases the half-life of radioactive sources
+D Lead repels all radioactive emissions
+
+(The question likely asks to match the correct use for each type of radioactive source based on its properties. The table below represents the options for these matches.)
+| | emits alpha-particles and has a long half-life | emits beta-particles and has a long half-life | emits gamma radiation and has a short half-life |
+|---|---|---|---|
+| A | monitoring the thickness of aluminium foil | smoke alarm | tracer to be injected to detect cancer |
+| B | monitoring the thickness of aluminium foil | tracer to be injected to detect cancer | smoke alarm |
+| C | smoke alarm | monitoring the thickness of aluminium foil | tracer to be injected to detect cancer |
+| D | smoke alarm | tracer to be injected to detect cancer | monitoring the thickness of aluminium foil |
+
+The motion of an object is represented by the speed–time graph shown. (The graph shows 'speed' on the y-axis and 'time' on the x-axis, starting from 0. An arrow points to the 'area under the graph'.)
+Which quantity is equal to the area under the graph?
+A acceleration
+B average speed
+C distance travelled
+D kinetic energy
+
+(The question likely asks about measuring liquid volume, perhaps involving choice of cylinder size and how to read the meniscus.)
+| | cylinder | water level |
+|---|---|---|
+| A | larger one | bottom of meniscus |
+| B | larger one | top of meniscus |
+| C | smaller one | bottom of meniscus |
+| D | smaller one | top of meniscus |
+
+The Earth is a planet that orbits the Sun once in approximately 365 days.
+What does this enable us to explain?
+A the cycle of day and night
+B the cycle of phases of the moon
+C the periodic nature of the seasons
+D the apparent daily motion of the Sun
+
+Gas of volume 200 cm³ is trapped inside a container by a piston. (The diagram shows a cylindrical container with a piston on the right, trapping gas inside.)
+The piston is pushed to the right and the volume of the gas decreases to 100 cm³.
+The temperature of the gas remains constant.
+Which row states the effect that this has on the kinetic energy of the gas particles and the force per unit area exerted by the particles colliding with the inside walls of the container?
+| | kinetic energy | force per unit area |
+|---|---|---|
+| A | doubles | doubles |
+| B | doubles | stays the same |
+| C | stays the same | doubles |
+| D | stays the same | stays the same |
+
+What makes up the Universe?
+A many billions of galaxies
+B Mercury, Venus, the Earth, Mars, Jupiter, Saturn, Uranus and Neptune only
+C the Sun, the Earth and the Moon only
+D the Solar System only
+
+(The question asks about the effect of an electric field on different types of radiation.)
+| | type of radiation | effect of electric field on radiation |
+|---|---|---|
+| A |  | radiation deflected |
+| B |  | radiation not deflected |
+| C |  | radiation deflected |
+| D |  | radiation not deflected |
+
+A transformer is 100% efficient.
+Which pair of equations are both valid for the transformer?
+A IₚVₚ = IₛVₛ and Vₚ/Vₛ = Nₚ/Nₛ
+B Vₚ/Vₛ = Iₚ/Iₛ and Vₚ/Vₛ = Nₚ/Nₛ
+C Vₚ/Vₛ = Iₛ/Iₚ and Vₚ/Vₛ = Nₚ/Nₛ
+D IₚVₚ = IₛVₛ and Vₚ/Vₛ = Nₛ/Nₚ
+
+A liquid is evaporating. The liquid is not boiling.
+Which statement about the liquid at an instant in time is correct?
+A Any molecule can escape and from any part of the liquid.
+B Any molecule can escape, but only from the liquid’s surface.
+C Only molecules with enough energy can escape and only from the liquid’s surface.
+D Only molecules with enough energy can escape, but from any part of the liquid.
+
+The equation ∆p = ρg∆h can be used for a liquid.
+What is the meaning of the term ρ?
+A pressure due to the liquid
+B density of the liquid
+C total pressure due to the liquid and the air above the liquid
+D density of an object placed in the liquid
+
+(The diagram shows a force of 40 N being applied to push a box over a distance of 40 m.)
+How much power is required to push the box 40 m in 30 seconds?
+A 33 W
+B 30 W
+C 53 W
+D 480 W
+
+(The question likely asks about energy transformations during a specific process, such as braking a bicycle, and what energy stores decrease and increase.)
+| | decreases | increases |
+|---|---|---|
+| A | kinetic energy store of bicycle | chemical energy store of brakes |
+| B | kinetic energy store of bicycle | thermal energy store of brakes |
+| C | thermal energy store of brakes | kinetic energy store of bicycle |
+| D | thermal energy store of brakes | chemical energy store of bicycle |
+
+A student determines the position of the centre of gravity of a piece of card. The diagram shows the equipment that is available. (The diagram shows a clamp and stand, a pin, a weight on a thin string, a pencil, a stop-watch, and a piece of card.) The equipment is not drawn to scale.
+Which piece of equipment is not needed?
+A pencil
+B pin
+C weight on a thin string
+D stop-watch
+
+A student rubs a plastic rod with a cloth.
+The rod becomes electrically charged and is attracted by a negatively charged object.
+Which statement about the rod is correct?
+A It is negatively charged because it has gained electrons.
+B It is negatively charged because it has lost electrons.
+C It is positively charged because it has gained electrons.
+D It is positively charged because it has lost electrons.
+
+(The diagram shows two circuits, circuit 1 and circuit 2. Both circuits contain a light-emitting diode (LED) and components sensitive to environmental conditions, such as a thermistor and a light-dependent resistor (LDR), configured to make the LEDs emit light under certain conditions.)
+Which environmental conditions will cause the light-emitting diodes in circuit 1 and circuit 2 both to emit light?
+| | temperature | light intensity |
+|---|---|---|
+| A | high | high |
+| B | high | low |
+| C | low | high |
+| D | low | low |
+
+The nearest star to the Sun is 4 light-years away.
+A spaceship travels at 0.1% of the speed of light.
+What is the total time taken for a journey from the Sun to the star and back again?
+A 400 years
+B 800 years
+C 4000 years
+D 8000 years
+
+(The question asks to match astronomical phenomena with their causes.)
+| | the daily motion of the Sun across the sky | the cycle of phases of the Moon |
+|---|---|---|
+| A | the Earth rotates on its axis once every 24 hours | the Earth orbits the Sun once approximately every 365 days |
+| B | the Earth rotates on its axis once every 24 hours | the Moon orbits the Earth approximately once every month |
+| C | the Moon orbits the Earth approximately once every month | the Earth orbits the Sun once approximately every 365 days |
+| D | the Moon orbits the Earth approximately once every month | the Earth rotates on its axis once every 24 hours |
+
+The circuit in the diagram contains four switches, S₁, S₂, S₃ and S₄, connected to a heater. (The diagram shows a circuit with a heater and four switches (S₁, S₂, S₃, S₄) arranged in a combination of series and parallel branches, such that a specific combination of three switches needs to be closed for current to flow through the heater.)
+Which three switches must be closed for the heater to work?
+A S₁, S₂ and S₃
+B S₁, S₂ and S₄
+C S₁, S₃ and S₄
+D S₂, S₃ and S₄
+
+A student tests the electrical conduction of four materials:
+● aluminium
+● iron
+● plastic
+● silver
+Which materials are good conductors of electricity?
+A aluminium, iron and silver
+B aluminium and silver only
+C iron, silver and plastic
+D plastic only
+
+Which name is given to the quantity of matter in an object?
+A density
+B mass
+C volume
+D weight
+
+The table shows data for the hearing ranges of different animals. (Human hearing range is typically 20 Hz to 20000 Hz.)
+Which animal has the most similar hearing range to a human?
+| animal | hearing range/Hz |
+|---|---|
+| A turtle | 20–1000 |
+| B mouse | 1000–1000000 |
+| C moth | 20000–300000 |
+| D elephant | 16–12000 |
+
+The ray diagrams show the formation of an image by two different converging lenses. (Diagram 1 shows a converging lens forming an image. Diagram 2 shows a different converging lens forming an image. These diagrams would show the object position relative to the focal length for each lens.)
+Which row describes the images produced?
+| | diagram 1 | diagram 2 |
+|---|---|---|
+| A | real | real |
+| B | real | virtual |
+| C | virtual | real |
+| D | virtual | virtual |
+
+The diagram shows a ray of light in glass incident on the surface between the glass and air. (The diagram shows a boundary between a glass medium and an air medium above it. A light ray is shown originating in the glass and striking the interface, with a normal line indicated at the point of incidence.)
+What happens if the angle of incidence is made larger than the critical angle for the glass?
+A The angle of refraction becomes equal to 90°.
+B There is a refracted ray and a ray reflected inside the glass.
+C There is a refracted ray only.
+D There is only a ray reflected inside the glass.
+
+Infrared is a useful type of electromagnetic radiation. However, excessive exposure to infrared can cause harmful effects.
+Which row gives a use and a harmful effect for infrared?
+| | use | harmful effect |
+|---|---|---|
+| A | detection of cancer | mutations |
+| B | intruder alarms | skin burns |
+| C | detection of fake bank notes | cell damage |
+| D | thermal imaging | internal heating of body cells |
+
+Extremely small pollen grains in water are viewed through a microscope. The grains are seen to move continually and randomly.
+What is the reason for this random movement?
+A The grains are moved by randomly moving water molecules.
+B The grains are moved by random convection currents in the water.
+C The grains are moved by random rays of light reflecting off them.
+D The grains are moved by the random motion of their own atoms.
+
+What is the approximate diameter of the Milky Way?
+A 100000 kilometres
+B 1000000 kilometres
+C 100000 light-years
+D 1000000 light-years
+
+The following are three types of electromagnetic radiation listed in a particular order: microwaves, infrared, X-rays. The electromagnetic radiation is travelling in a vacuum.
+Which quantities increase in magnitude going from left to right across the list?
+A both speed and frequency
+B frequency only
+C speed only
+D neither speed nor frequency
+
+In which process does a gas turn into a liquid?
+A boiling
+B condensing
+C freezing
+D melting
+
+Four athletes run twice around a track. The table shows their times at the end of each lap.
+Which athlete runs the second lap the fastest?
+| | time at end of first lap/s | time at end of second lap/s |
+|---|---|---|
+| A | 22.99 | 47.04 |
+| B | 23.04 | 47.00 |
+| C | 23.16 | 47.18 |
+| D | 23.39 | 47.24 |
+
+Two small compasses are placed close to a strong bar magnet.
+(The diagram shows a bar magnet with North (N) and South (S) poles. Options A, B, C, D each show the bar magnet and two compasses placed at different positions around it. The compass needles in each option point in a specific direction relative to the magnet's field lines.)
+In which directions do the compass needles point?
+
+(The question asks to identify the approximate speed of sound in different media.)
+| | air | water | iron |
+|---|---|---|---|
+| A | 340 m/s | 1500 m/s | 5100 m/s |
+| B | 3.0 × 10⁸ m/s | 3.0 × 10⁸ m/s | 3.0 × 10⁸ m/s |
+| C | 3.0 × 10⁸ m/s | 3.0 × 10⁸ m/s | 3.0 × 10⁸ m/s |
+| D | 3.0 × 10⁸ m/s | 3.0 × 10⁸ m/s | 3.0 × 10⁸ m/s |
+
+What increases when the temperature of a copper block increases?
+A the number of copper atoms in the block
+B the melting point of the block
+C the internal energy of the block
+D the density of the block
+
+A magnetic field is represented in the diagram by magnetic field lines. (The diagram shows magnetic field lines emanating from a pole of a magnet or between two poles. Points A, B, C, D are marked at various locations, with some points being in areas where field lines are denser and some where they are sparser.)
+At which point is the magnetic field strongest?
+A
+B
+C
+D
+
+(The question asks to identify suitable materials for temporary and permanent magnets.)
+| | temporary magnet | permanent magnet |
+|---|---|---|
+| A | soft iron | soft iron |
+| B | soft iron | steel |
+| C | steel | soft iron |
+| D | steel | steel |
+
+White light enters a glass prism. The light leaving the other side of the prism is separated into colours. (Diagram 1 shows white light entering a prism and dispersing into a spectrum, with 'colour 1' and 'colour 2' indicated at the extremes of the dispersed light. Diagram 2 shows a similar setup but potentially with different labels or prism orientation, though the general phenomenon is dispersion.)
+Which row correctly describes what happens?
+| | path taken by the light | colour 1 | colour 2 |
+|---|---|---|---|
+| A | diagram 1 | red | violet |
+| B | diagram 1 | violet | red |
+| C | diagram 2 | red | violet |
+| D | diagram 2 | violet | red |
+
+The diagram shows a simple AC generator. (The diagram illustrates a fixed coil wound around a fixed iron core. A magnet is shown rotating around this coil. Three specific positions of the magnet are indicated as P, Q, and R during its rotation. At position P, the magnet's N pole is facing the coil. At position Q, the magnet is positioned such that the magnetic field in the coil is zero but changing most rapidly (e.g., the magnet is oriented perpendicular to the coil axis). At position R, the magnet's S pole is facing the coil, or it's another point in rotation.) The electromotive force (emf) output is a sine wave, a series of crests, zeros and troughs.
+The magnet is shown in three positions, P, Q and R, during its rotation. The magnetic field in the coil is zero at Q but changing most rapidly.
+Which statement about the induced emf in the coil is correct?
+A The magnitude of the emf at position Q is larger than that at position P.
+B The magnitude of the emf at position Q is zero.
+C The magnitude of the emf at position Q is smaller than at position R, but not zero.
+D The magnitude of the emf at position R is larger than at position P.
+
+What are the three main types of radiation emitted by the Sun?
+A infrared, radio waves and ultraviolet
+B infrared, visible light and ultraviolet
+C microwaves, visible light and X-rays
+D radio waves, X-rays and ultraviolet
+
+A single force acts upon an object and the volume of the object does not change.
+Which statement is correct?
+A The density of the object changes.
+B The velocity of the object changes.
+C The mass of the object changes.
+D The weight of the object changes.
+
+Two samples of the same material have the same mass but different surface areas. (Sample X has a small surface area, and Sample Y has a large surface area.)
+Each sample is heated to the same temperature and then left to cool to room temperature.
+Each sample is allowed to cool to the same final temperature.
+Which row correctly compares the decrease in internal energy and the initial rate of cooling for each sample?
+| | decrease in internal energy | initial rate of cooling |
+|---|---|---|
+| A | X loses more internal energy than Y | X cools down faster than Y |
+| B | Y loses more internal energy than X | Y cools down faster than X |
+| C | X and Y lose the same quantity of energy | X cools down faster than Y |
+| D | X and Y lose the same quantity of energy | Y cools down faster than X |
+
+Which planet is classed as a rocky planet?
+A Jupiter
+B Saturn
+C Uranus
+D Venus
+
+A simple model of the atom consists of small particles orbiting a central nucleus.
+Which row is correct?
+| | charge on nucleus | charge on orbiting particles |
+|---|---|---|
+| A | negative | negative |
+| B | negative | positive |
+| C | positive | negative |
+| D | positive | positive |
+
+Wet clothes are put out on a line to allow the water in the clothes to evaporate.
+Which type of weather would cause the water to evaporate most quickly?
+A a cold day with no wind
+B a cold day with wind
+C a hot day with no wind
+D a hot day with wind
+
+Which conditions are necessary for light to be totally internally reflected?
+| | incident light | angle of incidence |
+|---|---|---|
+| A | is in the less dense medium | less than the critical angle |
+| B | is in the less dense medium | greater than the critical angle |
+| C | is in the more dense medium | less than the critical angle |
+| D | is in the more dense medium | greater than the critical angle |
+
+During evaporation of a liquid, the most energetic particles escape. The temperature of the remaining liquid changes.
+Which row identifies where these particles escape from and describes the temperature change?
+| | place from which the particles escape | temperature of remaining liquid |
+|---|---|---|
+| C | surface of the liquid | decreases |
+| D | surface of the liquid | increases |
+| A | body of the liquid | decreases |
+| B | body of the liquid | increases |
+
+An isotope of radon is radioactive. It decays by emitting an -particle.
+What happens to the nucleus of a radon atom during the emission of the -particle?
+A It becomes the nucleus of a different isotope of radon with fewer neutrons.
+B It becomes the nucleus of a different isotope of radon with more neutrons.
+C It becomes the nucleus of an element with a higher proton number.
+D It becomes the nucleus of an element with a lower proton number.
+
+Which description of ultrasound is correct?
+A longitudinal waves with a frequency greater than 20000 Hz
+B longitudinal waves with a frequency less than 20 Hz
+C transverse waves with a frequency greater than 20000 Hz
+D transverse waves with a frequency less than 20 Hz
+
+--- Paper 4 ---
+
+Four submarines are submerged. The density of fresh water is 1000 kg/m³ and the density of sea water is 1020 kg/m³.
+Which submarine experiences the greatest pressure due to the water?
+(The diagram shows four scenarios, A, B, C, and D, each with a submarine submerged in water.
+A: Submarine in fresh water at 100 m depth.
+B: Submarine in fresh water at 120 m depth.
+C: Submarine in sea water at 100 m depth.
+D: Submarine in sea water at 120 m depth.)
+
+The diagram shows a ray of light passing from air into a transparent substance. (The diagram shows a boundary between air and a transparent substance. A light ray is incident from air into the substance. The angle of incidence (in air) is shown as 40° from the normal, and the angle of refraction (in the transparent substance) is shown as 30° from the normal.)
+What is the refractive index of the transparent substance?
+A 1.33
+B 1.29
+C 0.778
+D 0.750
+
+The dashed line on the graph shows the decay curve recorded from a sample of a particular radioactive isotope. The count rate includes background radiation.
+(The initial graph shows 'count rate (counts/minute)' on the y-axis, ranging from 0 to 80, and 'time (days)' on the x-axis, ranging from 0 to 10. A dashed line starts at approximately 70 counts/minute at time = 0 and decreases over time, eventually levelling off at a non-zero background count rate, e.g., around 10 or 20 counts/minute.)
+Which curve shows the corrected count rate for the decay?
+(Options A, B, C, and D each show a graph of 'corrected count rate (counts/minute)' versus 'time (days)'. Each graph shows a smooth decay curve, starting from a high value at time = 0 and decreasing over time, approaching zero. The differences between the options would be the initial corrected count rate and the half-life implied by the decay curve, based on the subtraction of a specific background radiation value from the original dashed curve.)
+
+The diagram shows some liquid in a measuring cylinder. (The diagram shows a measuring cylinder containing a liquid, with the liquid level clearly indicating a specific volume, for example, 20 cm³.)
+The mass of the liquid is 16 g.
+What is the density of the liquid?
+A 0.80 g / cm³
+B 1.3 g / cm³
+C 3.6 g / cm³
+D 3.20 g / cm³
+
+When the current is towards the top of the page and the direction of the magnetic field is unchanged, the force produced acts into the page.
+
+--- Paper 6 ---
+
+(The diagram, Fig. 3.1, shows a boat with two horizontal forces acting on it: an 80 N force acting backwards and a 200 N force acting forwards.)
+(a) (i) Calculate the resultant horizontal force on the boat in Fig. 3.1.
+size of resultant force = ________ N
+direction of resultant force = _________________________
+[2]
+(ii) Suggest what causes the 80 N force on the boat in Fig. 3.1.
+__________________________________________________________________________________
+[1]
+(iii) Another boat is travelling and the horizontal forces on this boat are balanced.
+Describe the horizontal motion of this boat.
+__________________________________________________________________________________
+[1]
+(b) (The diagram, Fig. 3.2, shows the wheel used to steer a boat. This would typically be a steering wheel or tiller arrangement, possibly with forces applied to it, for a question on moments or torque.)
+
+Which circuit shows the directions of the conventional current I and the flow of electrons?
+(The diagram shows four circuits, A, B, C, and D. Each circuit illustrates a conductor with arrows indicating the direction of conventional current (I) and the direction of electron flow. The options would differ in the relative directions shown for I and electron flow, e.g., in the same or opposite directions.)
+
+Brownian motion of particles is observed.
+Which statements describe the movement of the particles?
+(Options A, B, C, D are missing. They would describe different characteristics of the movement of particles in Brownian motion, such as continuous, random, jerky, or collisions with surrounding molecules.)

@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-hero card glass">
+  <p class="hero-kicker">Practice Session</p>
+  <h1>Question {{ idx + 1 }} of {{ total }}</h1>
+  <p class="hero-text">
+    Answer each question, then navigate with the buttons below.
+    Your answers are saved in your session as you go.
+  </p>
+</section>
+
+<section class="section single-col">
+  <article class="card question-card">
+    <div class="question-progress">
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: {{ ((idx + 1) / total * 100) | round }}%"></div>
+      </div>
+      <span class="progress-label">{{ idx + 1 }} / {{ total }}</span>
+    </div>
+
+    <div class="question-content">
+      {% if is_mcq %}
+        <div class="question-stem">{{ stem }}</div>
+        <form class="mcq-form" method="post">
+          {% for key, value in options %}
+            <label class="mcq-option">
+              <input type="radio" name="answer_value" value="{{ key }} {{ value }}"
+                {% set selected = answers.get(idx | string, '') %}
+                {% if selected == (key ~ ' ' ~ value) %}checked{% endif %}
+                onchange="this.form.action.value='save_answer'; this.form.answer_key.value='{{ idx }}'; this.form.submit()" />
+              <span class="mcq-label">{{ key }}</span>
+              <span class="mcq-text">{{ value }}</span>
+            </label>
+          {% endfor %}
+          <input type="hidden" name="answer_key" value="{{ idx }}" />
+          <input type="hidden" name="action" value="save_answer" />
+        </form>
+      {% else %}
+        <div class="question-stem">{{ stem }}</div>
+        <form method="post">
+          <textarea name="answer_value" rows="8" placeholder="Type your answer here...">{{ answers.get(idx | string, '') }}</textarea>
+          <input type="hidden" name="answer_key" value="{{ idx }}" />
+          <input type="hidden" name="action" value="save_answer" />
+          <button class="btn btn-secondary" type="submit">Save Answer</button>
+        </form>
+      {% endif %}
+    </div>
+  </article>
+
+  <div class="practice-nav">
+    <form method="post" style="display: inline;">
+      <input type="hidden" name="action" value="prev" />
+      <button class="btn btn-secondary" type="submit" {% if idx == 0 %}disabled{% endif %}>Previous</button>
+    </form>
+    <form method="post" style="display: inline;">
+      <input type="hidden" name="action" value="save_file" />
+      <button class="btn btn-secondary" type="submit">Save Answers to File</button>
+    </form>
+    <form method="post" action="{{ url_for('paper_lab_practice_end') }}" style="display: inline;">
+      <button class="btn btn-secondary" type="submit">End Session</button>
+    </form>
+    <form method="post" style="display: inline;">
+      <input type="hidden" name="action" value="next" />
+      <button class="btn btn-primary" type="submit" {% if idx >= total - 1 %}disabled{% endif %}>Next</button>
+    </form>
+  </div>
+
+  {% if genai_available %}
+    <article class="card">
+      <h2>AI Feedback (Gemini)</h2>
+      <form method="post">
+        <label>
+          Gemini API key
+          <input type="text" name="gemini_key" value="{{ gemini_key }}" placeholder="Leave blank for env var" />
+        </label>
+        <label>
+          Model
+          <input type="text" name="gemini_model" value="{{ gemini_model_name }}" />
+        </label>
+        <input type="hidden" name="action" value="get_feedback" />
+        <input type="hidden" name="answer_key" value="{{ idx }}" />
+        <button class="btn btn-primary" type="submit">Get Feedback for This Answer</button>
+      </form>
+      {% if feedback %}
+        <div class="feedback-box">
+          <pre>{{ feedback }}</pre>
+        </div>
+      {% endif %}
+    </article>
+  {% endif %}
+</section>
+{% endblock %}

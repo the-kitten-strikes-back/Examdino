@@ -9,7 +9,7 @@ from functools import wraps
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
-from flask import Flask, abort, flash, jsonify, redirect, render_template, request, send_file, url_for
+from flask import Flask, abort, flash, jsonify, redirect, render_template, request, send_file, session, url_for
 from flask_login import (
     LoginManager,
     UserMixin,
@@ -50,6 +50,17 @@ from igcse_lab import (
     fetch_session_download_links,
     parse_pdf_text_from_links,
     text_to_pdf,
+    spell_correct_text,
+    gemini_feedback,
+    gemini_fix_text,
+    gemini_list_models,
+    save_outputs,
+    _format_question_for_display,
+    _parse_mcq,
+    is_multiple_choice,
+    _WORDSEGMENT_AVAILABLE,
+    _TEXTBLOB_AVAILABLE,
+    _GENAI_AVAILABLE,
 )
 
 
@@ -71,6 +82,8 @@ if database_url and database_url.startswith("postgres://"):
     database_url = database_url.replace("postgres://", "postgresql://", 1)
 app.config["SQLALCHEMY_DATABASE_URI"] = database_url or f"sqlite:///{INSTANCE_DIR / 'examdino.db'}"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 db = SQLAlchemy()
 login_manager = LoginManager()
@@ -1104,6 +1117,10 @@ def paper_lab():
     max_pdfs = _parse_positive_int(request.form.get("max_pdfs", "8"), 8, 1, 20)
     max_questions = _parse_positive_int(request.form.get("max_questions", "1000"), 1000, 100, 5000)
     use_web = request.form.get("use_web") == "on"
+    use_wordsegment = request.form.get("use_wordsegment") == "on"
+    use_textblob = request.form.get("use_textblob") == "on"
+    gemini_key = request.form.get("gemini_api_key", "").strip() or GEMINI_API_KEY
+    gemini_model = request.form.get("gemini_model", "gemini-2.5-flash").strip()
     pasted_text = request.form.get("pasted_text", "").strip()
     uploaded_name = ""
     selected_folder_id = _parse_optional_int(request.form.get("folder_id"))
@@ -1155,7 +1172,14 @@ def paper_lab():
                     raw_text = web_text
 
         if raw_text:
-            bundle = build_paper_lab_bundle(selected_subject_name, raw_text, max_questions=max_questions)
+            bundle = build_paper_lab_bundle(
+                selected_subject_name,
+                raw_text,
+                max_questions=max_questions,
+                use_wordsegment=use_wordsegment,
+                use_textblob=use_textblob,
+                gemini_api_key=gemini_key,
+            )
             run_id = datetime.utcnow().strftime("%Y%m%d%H%M%S")
             run_dir = PAPER_LAB_DIR / run_id
             run_dir.mkdir(parents=True, exist_ok=True)
@@ -1189,6 +1213,17 @@ def paper_lab():
                     folder_id=selected_folder_id,
                 )
 
+    # Discover available runs for practice mode
+    previous_runs = []
+    if PAPER_LAB_DIR.exists():
+        for d in sorted(PAPER_LAB_DIR.iterdir(), reverse=True):
+            if d.is_dir() and (d / "questions.json").exists():
+                run_label = d.name
+                run_subject = selected_subject_name
+                previous_runs.append({"id": d.name, "label": f"{run_label} - {run_subject}"})
+                if len(previous_runs) >= 20:
+                    break
+
     return render_template(
         "paper_lab.html",
         page_title="IGCSE Paper Lab",
@@ -1201,6 +1236,13 @@ def paper_lab():
         max_pdfs=max_pdfs,
         max_questions=max_questions,
         use_web=use_web,
+        use_wordsegment=use_wordsegment,
+        use_textblob=use_textblob,
+        gemini_api_key=gemini_key,
+        gemini_model=gemini_model,
+        wordsegment_available=_WORDSEGMENT_AVAILABLE,
+        textblob_available=_TEXTBLOB_AVAILABLE,
+        genai_available=_GENAI_AVAILABLE,
         pasted_text=pasted_text,
         uploaded_name=uploaded_name,
         selected_session_url=selected_session_url,
@@ -1213,6 +1255,7 @@ def paper_lab():
         structure=IGCSE_STRUCTURE.get(selected_subject_name, []),
         paper_folders=paper_folders,
         selected_folder_id=selected_folder_id,
+        previous_runs=previous_runs,
     )
 
 
@@ -1227,6 +1270,158 @@ def paper_lab_artifact(run_id: str, filename: str):
         if not str(file_path).startswith(str(run_dir)) or not file_path.exists():
             abort(404)
     return send_file(file_path, as_attachment=True)
+
+
+@app.route("/paper-lab/practice", methods=["GET", "POST"])
+def paper_lab_practice():
+    practice_runs: list[dict[str, object]] = []
+    if PAPER_LAB_DIR.exists():
+        for d in sorted(PAPER_LAB_DIR.iterdir(), reverse=True):
+            if d.is_dir() and (d / "questions.json").exists():
+                mcq_path = d / "mcq_questions.json"
+                text_path = d / "text_questions.json"
+                has_mcq = mcq_path.exists() and mcq_path.stat().st_size > 50
+                has_text = text_path.exists() and text_path.stat().st_size > 50
+                practice_runs.append({
+                    "id": d.name,
+                    "label": f"Run {d.name}",
+                    "has_mcq": has_mcq,
+                    "has_text": has_text,
+                })
+                if len(practice_runs) >= 20:
+                    break
+
+    if request.method == "POST":
+        run_id = request.form.get("run_id", "").strip()
+        source_type = request.form.get("source_type", "questions")
+        practice_count = _parse_positive_int(request.form.get("practice_count", "10"), 10, 1, 100)
+        shuffle_q = request.form.get("shuffle_questions") == "on"
+
+        run_dir = PAPER_LAB_DIR / run_id
+        source_map = {
+            "questions": "questions.json",
+            "mcq": "mcq_questions.json",
+            "text": "text_questions.json",
+        }
+        source_file = run_dir / source_map.get(source_type, "questions.json")
+        if not source_file.exists():
+            flash(f"Question source {source_file.name} not found in run {run_id}.", "error")
+            return redirect(url_for("paper_lab_practice"))
+
+        all_questions = json.loads(source_file.read_text(encoding="utf-8"))
+        if not isinstance(all_questions, list) or not all_questions:
+            flash("No questions found in that source.", "error")
+            return redirect(url_for("paper_lab_practice"))
+
+        if shuffle_q:
+            random.shuffle(all_questions)
+        session["practice_questions"] = all_questions[:practice_count]
+        session["practice_answers"] = {}
+        session["practice_index"] = 0
+        session["practice_run_id"] = run_id
+        session["practice_source"] = source_file.name
+        return redirect(url_for("paper_lab_practice_session"))
+
+    return render_template(
+        "paper_lab_practice.html",
+        page_title="Paper Lab - Practice Mode",
+        active_page="paper_lab",
+        practice_runs=practice_runs,
+        wordsegment_available=_WORDSEGMENT_AVAILABLE,
+        textblob_available=_TEXTBLOB_AVAILABLE,
+        genai_available=_GENAI_AVAILABLE,
+        gemini_api_key_env=GEMINI_API_KEY,
+    )
+
+
+@app.route("/paper-lab/practice/session", methods=["GET", "POST"])
+def paper_lab_practice_session():
+    questions = session.get("practice_questions", [])
+    if not questions:
+        flash("No active practice session. Start one first.", "info")
+        return redirect(url_for("paper_lab_practice"))
+
+    answers: dict = session.get("practice_answers", {})
+    idx = session.get("practice_index", 0)
+    total = len(questions)
+    idx = max(0, min(idx, total - 1))
+
+    if request.method == "POST":
+        action = request.form.get("action", "")
+        if action == "next" and idx < total - 1:
+            session["practice_index"] = idx + 1
+        elif action == "prev" and idx > 0:
+            session["practice_index"] = idx - 1
+        elif action == "save_answer":
+            answer_key = request.form.get("answer_key", "")
+            answer_value = request.form.get("answer_value", "")
+            answers = dict(answers)
+            answers[answer_key] = answer_value
+            session["practice_answers"] = answers
+        elif action == "save_file":
+            out = {
+                "run_id": session.get("practice_run_id", ""),
+                "source": session.get("practice_source", ""),
+                "answers": [
+                    {"question": questions[i], "answer": answers.get(str(i), "")}
+                    for i in range(total)
+                ],
+            }
+            save_dir = PAPER_LAB_DIR / "practice_saves"
+            save_dir.mkdir(parents=True, exist_ok=True)
+            save_path = save_dir / f"practice_answers_{datetime.utcnow().strftime('%Y%m%d%H%M%S')}.json"
+            save_path.write_text(json.dumps(out, ensure_ascii=True, indent=2), encoding="utf-8")
+            flash(f"Answers saved to {save_path.name}", "success")
+        session.modified = True
+
+    current_question = questions[idx]
+    is_mcq = is_multiple_choice(current_question)
+
+    if is_mcq:
+        stem, options = _parse_mcq(current_question)
+    else:
+        stem = _format_question_for_display(current_question)
+        options = []
+
+    gemini_key = request.args.get("gemini_key", "").strip() or GEMINI_API_KEY
+    gemini_model_name = request.args.get("gemini_model", "gemini-1.5-flash").strip()
+    feedback = ""
+    if request.method == "POST" and request.form.get("action") == "get_feedback":
+        q_text = questions[idx]
+        a_text = answers.get(str(idx), "")
+        if a_text:
+            feedback = gemini_feedback(q_text, a_text, api_key=gemini_key, model=gemini_model_name)
+        else:
+            feedback = "Please provide an answer first."
+
+    return render_template(
+        "paper_lab_practice_session.html",
+        page_title="Practice Session",
+        active_page="paper_lab",
+        current_question=current_question,
+        questions=questions,
+        idx=idx,
+        total=total,
+        is_mcq=is_mcq,
+        stem=stem,
+        options=options,
+        answers=answers,
+        feedback=feedback,
+        gemini_key=gemini_key,
+        gemini_model_name=gemini_model_name,
+        genai_available=_GENAI_AVAILABLE,
+    )
+
+
+@app.route("/paper-lab/practice/end", methods=["POST"])
+def paper_lab_practice_end():
+    session.pop("practice_questions", None)
+    session.pop("practice_answers", None)
+    session.pop("practice_index", None)
+    session.pop("practice_run_id", None)
+    session.pop("practice_source", None)
+    flash("Practice session ended.", "info")
+    return redirect(url_for("paper_lab_practice"))
 
 
 @app.route("/library")

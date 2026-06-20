@@ -64,6 +64,31 @@
         Or paste source text
         <textarea name="pasted_text" rows="10" placeholder="Paste extracted paper text or notes here.">{{ pasted_text }}</textarea>
       </label>
+
+      <fieldset class="fieldset">
+        <legend>Processing options</legend>
+        <label class="inline-check">
+          <input type="checkbox" name="use_wordsegment" {% if use_wordsegment %}checked{% endif %} {% if not wordsegment_available %}disabled{% endif %} />
+          <span>Fix joined words (wordsegment) {{ '(unavailable)' if not wordsegment_available }}</span>
+        </label>
+        <label class="inline-check">
+          <input type="checkbox" name="use_textblob" {% if use_textblob %}checked{% endif %} {% if not textblob_available %}disabled{% endif %} />
+          <span>Spell-correct text (TextBlob) {{ '(unavailable)' if not textblob_available }}</span>
+        </label>
+      </fieldset>
+
+      <fieldset class="fieldset">
+        <legend>Gemini AI (optional)</legend>
+        <label>
+          API key
+          <input type="password" name="gemini_api_key" value="{{ gemini_api_key }}" placeholder="Leave blank to use GEMINI_API_KEY env var" />
+        </label>
+        <label>
+          Model
+          <input type="text" name="gemini_model" value="{{ gemini_model }}" placeholder="gemini-2.5-flash" />
+        </label>
+      </fieldset>
+
       {% if paper_folders %}
         <label>
           Save to folder
@@ -123,6 +148,12 @@
         <h3>Sample paper preview</h3>
         <pre class="preview-box">{{ bundle.sample_text[:3500] }}</pre>
 
+        {% if bundle.questions %}
+          <h3>Practice</h3>
+          <p>Use these questions for interactive practice.</p>
+          <a class="btn btn-secondary" href="{{ url_for('paper_lab_practice') }}">Open Practice Mode</a>
+        {% endif %}
+
         {% if browser_sessions %}
           <h3>Session browser</h3>
           <div class="stack">
@@ -161,6 +192,23 @@
         <p>
           For Cambridge subjects, the lab can generate a paper bundle using the structure map ported from the IGCSE project.
         </p>
+        <a class="btn btn-secondary" href="{{ url_for('paper_lab_practice') }}" style="margin-top: 0.5rem;">Practice Mode</a>
+        {% if previous_runs %}
+          <h3>Previous runs</h3>
+          <div class="stack">
+            {% for run in previous_runs[:5] %}
+              <article class="mini-card">
+                <strong>{{ run.label }}</strong>
+                <div class="chip-row" style="margin-top: 0.5rem;">
+                  <a class="chip" href="{{ url_for('paper_lab_artifact', run_id=run.id, filename='questions.json') }}">questions.json</a>
+                  <a class="chip" href="{{ url_for('paper_lab_artifact', run_id=run.id, filename='mcq_questions.json') }}">mcq</a>
+                  <a class="chip" href="{{ url_for('paper_lab_artifact', run_id=run.id, filename='text_questions.json') }}">text</a>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+          <a class="btn btn-secondary" href="{{ url_for('paper_lab_practice') }}" style="margin-top: 1rem;">Practice Mode</a>
+        {% endif %}
       {% endif %}
     </article>
   </section>

@@ -4,25 +4,35 @@ import json
 import os
 import random
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import signal
+import tempfile
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
-
-try:
-    from pypdf import PdfReader
-except Exception:  # pragma: no cover
-    PdfReader = None
+import pdfplumber
 
 try:
     from wordsegment import load as ws_load, segment as ws_segment
     _WORDSEGMENT_AVAILABLE = True
     ws_load()
-except Exception:  # pragma: no cover
+except Exception:
     _WORDSEGMENT_AVAILABLE = False
+
+try:
+    from textblob import TextBlob
+    _TEXTBLOB_AVAILABLE = True
+except Exception:
+    _TEXTBLOB_AVAILABLE = False
+
+try:
+    import google.generativeai as genai
+    _GENAI_AVAILABLE = True
+except Exception:
+    _GENAI_AVAILABLE = False
 
 
 IGCSE_SUBJECT_CODES = {
@@ -55,7 +65,7 @@ IGCSE_SUBJECT_CODES = {
 IGCSE_STRUCTURE = {
     "Accounting": [("Section A", "multiple", 35), ("Section B", "text", 5)],
     "Mathematics": [("Paper 1", "text", 20), ("Paper 2", "text", 20)],
-    "Afrikaans": [("Reading and Writing", "text", 30), ("Listening", "text", 20)],
+    "Afrikaans": [("Reading and Writing", "text", 30)],
     "Agriculture": [("Section 1", "text", 35), ("Section 2", "text", 5)],
     "Art and Design": [("Practical", "text", 100)],
     "Bahasa Indonesia": [("Reading and Writing", "text", 4), ("Listening", "text", 2)],
@@ -94,41 +104,46 @@ def fetch_past_papers(subject_code: str, year_range: str | None = None) -> list[
     subject_name = get_igcse_subject_name(subject_code)
     if subject_name == "Code not found":
         return []
-
+    base_url = "https://pastpapers.papacambridge.com/"
     slug = subject_name.lower().replace(" ", "-")
-    url = urljoin(BASE_URL, f"papers/caie/igcse-{slug}-{subject_code}")
-    response = requests.get(url, timeout=20)
+    url = urljoin(base_url, f"papers/caie/igcse-{slug}-{subject_code}")
+    response = requests.get(url, timeout=15)
     if response.status_code != 200:
         return []
-
-    soup = BeautifulSoup(response.content, "html.parser")
-    paper_links = soup.find_all("a", class_="kt-widget4__title kt-nav__link-text cursor colorgrey stylefont fonthover")
+    ugly_soup = BeautifulSoup(response.content, "html.parser")
+    ugly_soup.prettify()
     if years:
-        paper_links = [paper for paper in paper_links if paper.text.strip() and any(year in paper.text for year in years)]
-
-    paper_urls = [urljoin(BASE_URL, paper.get("href", "")) for paper in paper_links]
+        papers = ugly_soup.find_all("a", class_="kt-widget4__title kt-nav__link-text cursor colorgrey stylefont fonthover")
+        papers = [p for p in papers if p.text.strip() and any(year in p.text for year in years)]
+    else:
+        papers = ugly_soup.find_all("a", class_="kt-widget4__title kt-nav__link-text cursor colorgrey stylefont fonthover")
+    paper_urls = [urljoin(base_url, paper.get("href", "")) for paper in papers]
     if not paper_urls:
         return []
-
-    download_links: list[str] = []
-    with ThreadPoolExecutor(max_workers=min(8, max(1, len(paper_urls)))) as executor:
-        futures = [executor.submit(_fetch_paper_downloads, paper_url) for paper_url in paper_urls]
+    download_links = []
+    with ProcessPoolExecutor() as executor:
+        futures = [executor.submit(_fetch_paper_downloads, url) for url in paper_urls]
         for future in as_completed(futures):
             try:
                 download_links.extend(future.result())
             except Exception:
                 pass
-
+    if not download_links:
+        return []
     if subject_code in {"0500", "0457"}:
-        return [link for link in download_links if "qp" in link.lower() or "in" in link.lower()]
-    return [link for link in download_links if "qp" in link.lower()]
+        filtered_links = [link for link in download_links if "qp" in link.lower() or "in" in link.lower()]
+    else:
+        filtered_links = [link for link in download_links if "qp" in link.lower()]
+    return filtered_links
 
 
 def _fetch_paper_downloads(url: str) -> list[str]:
-    response = requests.get(url, timeout=20)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.content, "html.parser")
-    return [urljoin(BASE_URL, a.get("href", "")) for a in soup.find_all("a", class_="badge badge-info")]
+    uglier_soup = BeautifulSoup(requests.get(url, timeout=15).content, "html.parser")
+    uglier_soup.prettify()
+    return [
+        urljoin(BASE_URL, a.get("href", ""))
+        for a in uglier_soup.find_all("a", class_="badge badge-info")
+    ]
 
 
 def fetch_session_download_links(page_url: str) -> list[str]:
@@ -176,34 +191,357 @@ def build_session_catalog(subject_code: str, year_range: str | None = None, limi
 
 
 def _download_to_file(url: str, filename: str) -> None:
-    response = requests.get(url, timeout=45)
+    response = requests.get(url, timeout=30)
     response.raise_for_status()
     with open(filename, "wb") as f:
         f.write(response.content)
 
 
-def parse_pdf_text_from_links(download_links: list[str], max_pdfs: int = 10) -> str:
-    if not download_links or PdfReader is None:
-        return ""
+def _parse_single_pdf(link: str, timeout_seconds: int = 120) -> str:
+    def _timeout_handler(signum, frame):
+        raise TimeoutError("PDF parse timed out")
 
-    text_parts: list[str] = []
-    for index, link in enumerate(download_links[:max_pdfs], start=1):
-        tmp_path = Path(os.path.join("/tmp", f"examdino_igcse_{index}.pdf"))
+    tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf")
+    tmp.close()
+    filename = tmp.name
+    try:
+        signal.signal(signal.SIGALRM, _timeout_handler)
+        signal.alarm(timeout_seconds)
+        _download_to_file(link, filename)
+        text_parts = []
+        with pdfplumber.open(filename) as pdf:
+            for page_num, page in enumerate(pdf.pages, start=1):
+                text = page.extract_text()
+                if text:
+                    text_parts.append(f"--- {os.path.basename(filename)} | Page {page_num} ---\n{text}\n\n")
+                try:
+                    tables = page.extract_tables()
+                except Exception:
+                    tables = []
+                for t_idx, table in enumerate(tables, start=1):
+                    if not table:
+                        continue
+                    lines = []
+                    for row in table:
+                        row_vals = [cell if cell is not None else "" for cell in row]
+                        lines.append(" | ".join(row_vals))
+                    if lines:
+                        table_text = "\n".join(lines)
+                        text_parts.append(
+                            f"--- {os.path.basename(filename)} | Page {page_num} | Table {t_idx} ---\n{table_text}\n\n"
+                        )
+        return "".join(text_parts)
+    except Exception:
+        return ""
+    finally:
+        signal.alarm(0)
         try:
-            _download_to_file(link, str(tmp_path))
-            reader = PdfReader(str(tmp_path))
-            for page_index, page in enumerate(reader.pages, start=1):
-                extracted = page.extract_text() or ""
-                if extracted.strip():
-                    text_parts.append(f"--- source_{index} | page {page_index} ---\n{extracted}\n\n")
-        except Exception:
-            continue
-        finally:
+            os.remove(filename)
+        except OSError:
+            pass
+
+
+def parse_pdfs(download_links: list[str], max_workers: int | None = None, timeout_seconds: int = 120, max_pdfs: int = 10) -> str:
+    if not download_links:
+        return ""
+    download_links = download_links[:max_pdfs]
+    all_text_parts = []
+    with ProcessPoolExecutor(max_workers=max_workers) as executor:
+        futures = [executor.submit(_parse_single_pdf, link, timeout_seconds) for link in download_links]
+        for future in as_completed(futures):
             try:
-                tmp_path.unlink(missing_ok=True)
+                all_text_parts.append(future.result())
+            except Exception:
+                all_text_parts.append("")
+    return "".join(all_text_parts)
+
+
+def parse_pdf_text_from_links(download_links: list[str], max_pdfs: int = 10) -> str:
+    return parse_pdfs(download_links, max_pdfs=max_pdfs)
+
+
+def _clean_text_for_questions(text: str) -> str:
+    cleaned = re.sub(r"(?m)^--- .*? ---\s*$", "", text)
+    cleaned = cleaned.replace("\r\n", "\n").replace("\r", "\n")
+    lines = []
+    boilerplate_line_patterns = [
+        r"^Section\s+[ABC]$",
+        r"^Answer\s+Question\s+\d+$",
+        r"^Answer\s+any\s+.*questions.*$",
+        r"^Answer\s+all\s+parts\s+of\s+Question.*$",
+        r"^Read\s+the\s+source\s+material.*$",
+        r"^Source\s+material:.*$",
+        r"^INSTRUCTIONS$",
+        r"^INFORMATION$",
+        r"^READ\s+THESE\s+INSTRUCTIONS\s+FIRST$",
+        r"^Additional\s+Materials:.*$",
+        r"^You\s+must\s+answer.*$",
+        r"^You\s+will\s+need:.*$",
+        r"^You\s+may\s+use.*$",
+        r"^The\s+total\s+mark.*$",
+        r"^The\s+number\s+of\s+marks.*$",
+        r"^Write\s+your.*$",
+        r"^Do\s+not\s+use.*$",
+        r"^Choose\s+the\s+one.*$",
+        r"^Each\s+correct\s+answer.*$",
+        r"^Any\s+rough\s+working.*$",
+        r"^Soft\s+clean\s+eraser$",
+        r"^Soft\s+pencil.*$",
+        r"^\[Turn\s+over.*$",
+    ]
+    boilerplate_line_re = re.compile("|".join(boilerplate_line_patterns), re.IGNORECASE)
+    for line in cleaned.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            lines.append("")
+            continue
+        if re.fullmatch(r"\d+", stripped):
+            continue
+        if stripped.upper() == "BLANK PAGE":
+            continue
+        if stripped.startswith("\u00a9 UCLES"):
+            continue
+        if boilerplate_line_re.match(stripped):
+            continue
+        lines.append(line)
+    cleaned = "\n".join(lines)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+clean_text_for_questions = _clean_text_for_questions
+
+
+def extract_questions(text: str) -> list[str]:
+    cleaned = _clean_text_for_questions(text)
+    pattern = re.compile(r"(?m)^(?:Question\s*)?\d{1,2}\s+(?=(?:\(|[A-Z]))")
+    matches = list(pattern.finditer(cleaned))
+    if not matches:
+        return []
+    questions = []
+    for i, match in enumerate(matches):
+        start = match.start()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(cleaned)
+        chunk = cleaned[start:end].strip()
+        for stop in [
+            "Permission to reproduce",
+            "Copyright Acknowledgements",
+            "This document consists",
+            "UNIVERSITY OF CAMBRIDGE INTERNATIONAL EXAMINATIONS",
+            "International General Certificate of Secondary Education",
+        ]:
+            idx = chunk.find(stop)
+            if idx != -1:
+                chunk = chunk[:idx].strip()
+                break
+        if chunk:
+            questions.append(chunk)
+    return questions
+
+
+def is_multiple_choice(question_text: str) -> bool:
+    mcq_pattern = re.compile(r"(?m)^\s*A\s+.+\n^\s*B\s+.+\n^\s*C\s+.+\n^\s*D\s+.+", re.DOTALL)
+    if mcq_pattern.search(question_text):
+        return True
+    option_count = len(re.findall(r"(?m)^\s*[ABCD]\s+", question_text))
+    return option_count >= 4
+
+
+def _segment_joined_words(text: str, enabled: bool = True) -> str:
+    if not enabled or not _WORDSEGMENT_AVAILABLE:
+        return text
+
+    def segment_run(match):
+        words = ws_segment(match.group(0))
+        return " ".join(words)
+
+    fixed_lines = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            fixed_lines.append(line)
+            continue
+        if " " not in line and re.search(r"[A-Za-z]{12,}", line):
+            line = re.sub(r"[A-Za-z]{8,}", segment_run, line)
+        else:
+            line = re.sub(r"[A-Za-z]{12,}", segment_run, line)
+        fixed_lines.append(line)
+    return "\n".join(fixed_lines)
+
+
+maybe_segment_joined_words = _segment_joined_words
+
+
+def generate_paper_json(mcq_questions: list[str], text_questions: list[str], structure_list: list[tuple[str, str, int]]) -> list[dict[str, object]]:
+    paper = []
+    for section_name, question_type, num_questions in structure_list:
+        if question_type == "multiple":
+            selected_questions = random.sample(mcq_questions, min(num_questions, len(mcq_questions)))
+        elif question_type == "text":
+            selected_questions = random.sample(text_questions, min(num_questions, len(text_questions)))
+        else:
+            raise ValueError(f"Unknown question type: {question_type}")
+        paper.append({"section": section_name, "questions": selected_questions})
+    return paper
+
+
+def _clean_sample_text(text: str) -> str:
+    cleaned_lines = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            cleaned_lines.append("")
+            continue
+        if stripped.startswith("\u00a9UCLES"):
+            continue
+        line = line.replace("\\n", "\n")
+        line = re.sub(r"\\+1\b", "", line)
+        line = re.sub(r"\b\\1\b", "", line)
+        line = re.sub(r"\\\d+\s+\\\d+", "", line)
+        if re.fullmatch(r"\(cid:\d+\)+", stripped):
+            continue
+        line = re.sub(r"\$(\d)", r"$ \1", line)
+        line = re.sub(r"([A-Za-z])\$(\d)", r"\1 $\2", line)
+        line = re.sub(r"(\d)([A-Za-z])", r"\1 \2", line)
+        line = re.sub(r"([A-Za-z])([0-9])", r"\1 \2", line)
+        if "|" in line:
+            if re.fullmatch(r"(\s*\|\s*){6,}\s*", line):
+                continue
+            line = re.sub(r"\s*\|\s*", " | ", line)
+            line = re.sub(r"\s{2,}", " ", line)
+        cleaned_lines.append(line)
+    text = "\n".join(cleaned_lines)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+def gemini_fix_text(text: str, api_key: str = "", model: str = "gemini-2.5-flash") -> str:
+    if not _GENAI_AVAILABLE:
+        return text
+    if not api_key:
+        return text
+    prompt = (
+        "You are a helpful assistant for cleaning up OCR-extracted text from IGCSE papers. "
+        "Fix common OCR errors, tidy tables, remove irrelevant boilerplate, remove question numbers, and(if needed/if images/data required are missing) generate images/data that fit the context. Preserve question integrity. Do not write anything except the cleaned text.\n\n"
+        "If there is a missing image/diagram, explain what the image/diagram should contain in the text. Example: for a question on Hooke's law you can say: '(The graph(x:spring length, y:force) shows a line that slants upwards.)'\n\n"
+        f"Original text:\n{text}\n\nCleaned text:"
+    )
+    try:
+        genai.configure(api_key=api_key)
+        model_obj = genai.GenerativeModel(model_name=model)
+        response = model_obj.generate_content(prompt)
+        return response.text
+    except Exception as e:
+        return f"Gemini API error: {e}"
+
+
+def generate_sample_paper(paper: list[dict[str, object]], gemini_api_key: str = "") -> str:
+    sample_lines = []
+    seen = set()
+    for section in paper:
+        sample_lines.append(f"--- {section['section']} ---\n")
+        for question in section["questions"]:
+            normalized = re.sub(r"\s+", " ", str(question)).strip().lower()
+            if normalized in seen:
+                continue
+            seen.add(normalized)
+            sample_lines.append(str(question) + "\n\n")
+    raw = "\n".join(sample_lines)
+    text = _clean_sample_text(raw)
+    text = gemini_fix_text(text, api_key=gemini_api_key, model="gemini-2.5-flash")
+    return text
+
+
+def save_outputs(all_extracted_text: str, questions: list[str], output_dir: str = ".") -> tuple[list[str], list[str], list[str]]:
+    first_1000_questions = questions[:1000]
+    mcq_questions = [q for q in first_1000_questions if is_multiple_choice(q)]
+    text_questions = [q for q in first_1000_questions if not is_multiple_choice(q)]
+
+    with open(os.path.join(output_dir, "extracted_igcse_papers.txt"), "w", encoding="utf-8") as f:
+        f.write(all_extracted_text)
+    with open(os.path.join(output_dir, "extracted_igcse_questions_1000.json"), "w", encoding="utf-8") as f:
+        json.dump(first_1000_questions, f, ensure_ascii=True, indent=2)
+    with open(os.path.join(output_dir, "multiple_choice.json"), "w", encoding="utf-8") as f:
+        json.dump(mcq_questions, f, ensure_ascii=True, indent=2)
+    with open(os.path.join(output_dir, "text_questions.json"), "w", encoding="utf-8") as f:
+        json.dump(text_questions, f, ensure_ascii=True, indent=2)
+
+    return first_1000_questions, mcq_questions, text_questions
+
+
+def spell_correct_text(text: str, progress_cb=None) -> str:
+    if not _TEXTBLOB_AVAILABLE:
+        return text
+    lines = text.splitlines()
+    total = max(len(lines), 1)
+    corrected = []
+    for i, line in enumerate(lines, start=1):
+        if re.search(r"[A-Za-z]", line):
+            try:
+                line = str(TextBlob(line).correct())
             except Exception:
                 pass
-    return "".join(text_parts)
+        corrected.append(line)
+        if progress_cb and i % 50 == 0:
+            progress_cb(i / total)
+    if progress_cb:
+        progress_cb(1.0)
+    return "\n".join(corrected)
+
+
+def gemini_feedback(question: str, answer: str, api_key: str = "", model: str = "gemini-1.5-flash") -> str:
+    if not _GENAI_AVAILABLE:
+        return "google-generativeai is not installed."
+    if not api_key:
+        return "GEMINI_API_KEY is not set."
+    prompt = (
+        "You are an IGCSE examiner. Provide concise feedback (strengths + improvements) "
+        "and, if appropriate, a short suggested answer outline.\n\n"
+        f"Question:\n{question}\n\nStudent answer:\n{answer}"
+    )
+    try:
+        genai.configure(api_key=api_key)
+        model_obj = genai.GenerativeModel(model_name=model)
+        response = model_obj.generate_content(prompt)
+        return response.text
+    except Exception as e:
+        return f"Gemini API error: {e}"
+
+
+def gemini_list_models(api_key: str) -> list[str]:
+    if not _GENAI_AVAILABLE:
+        return []
+    if not api_key:
+        return []
+    try:
+        genai.configure(api_key=api_key)
+        models = genai.list_models()
+        return [m.name for m in models if "generateContent" in getattr(m, "supported_generation_methods", [])]
+    except Exception:
+        return []
+
+
+def _format_question_for_display(question: str) -> str:
+    if is_multiple_choice(question):
+        text = re.sub(r"\s([ABCD])\s", r"\n\1 ", question)
+        text = re.sub(r"(\?)\s+(?=[ABCD]\s)", r"\1\n", text)
+        return text.strip()
+    return question.strip()
+
+
+def _parse_mcq(question: str) -> tuple[str, list[tuple[str, str]]]:
+    text = _format_question_for_display(question)
+    lines = text.splitlines()
+    stem_lines = []
+    options = []
+    for line in lines:
+        m = re.match(r"^([ABCD])\s+(.*)$", line.strip())
+        if m:
+            options.append((m.group(1), m.group(2).strip()))
+        else:
+            stem_lines.append(line)
+    stem = "\n".join(stem_lines).strip()
+    return stem, options[:4]
 
 
 def text_to_pdf(text: str, output_path: str, page_width: int = 595, page_height: int = 842, margin: int = 50, font_size: int = 11, leading: int = 14) -> str:
@@ -280,143 +618,25 @@ def text_to_pdf(text: str, output_path: str, page_width: int = 595, page_height:
     return output_path
 
 
-def clean_text_for_questions(text: str) -> str:
-    cleaned = re.sub(r"(?m)^--- .*? ---\s*$", "", text)
-    cleaned = cleaned.replace("\r\n", "\n").replace("\r", "\n")
-    boilerplate_line_patterns = [
-        r"^Section\s+[ABC]$",
-        r"^Answer\s+Question\s+\d+$",
-        r"^Answer\s+any\s+.*questions.*$",
-        r"^Answer\s+all\s+parts\s+of\s+Question.*$",
-        r"^Read\s+the\s+source\s+material.*$",
-        r"^Source\s+material:.*$",
-        r"^INSTRUCTIONS$",
-        r"^INFORMATION$",
-        r"^READ\s+THESE\s+INSTRUCTIONS\s+FIRST$",
-        r"^Additional\s+Materials:.*$",
-        r"^You\s+must\s+answer.*$",
-        r"^You\s+will\s+need:.*$",
-        r"^You\s+may\s+use.*$",
-        r"^The\s+total\s+mark.*$",
-        r"^The\s+number\s+of\s+marks.*$",
-        r"^Write\s+your.*$",
-        r"^Do\s+not\s+use.*$",
-        r"^Choose\s+the\s+one.*$",
-        r"^Each\s+correct\s+answer.*$",
-        r"^Any\s+rough\s+working.*$",
-        r"^Soft\s+clean\s+eraser$",
-        r"^Soft\s+pencil.*$",
-        r"^\[Turn\s+over.*$",
-    ]
-    boilerplate_line_re = re.compile("|".join(boilerplate_line_patterns), re.IGNORECASE)
-
-    lines: list[str] = []
-    for line in cleaned.splitlines():
-        stripped = line.strip()
-        if not stripped:
-            lines.append("")
-            continue
-        if re.fullmatch(r"\d+", stripped):
-            continue
-        if stripped.upper() == "BLANK PAGE":
-            continue
-        if stripped.startswith("\u00a9 UCLES"):
-            continue
-        if boilerplate_line_re.match(stripped):
-            continue
-        lines.append(line)
-    cleaned = "\n".join(lines)
-    return re.sub(r"\n{3,}", "\n\n", cleaned).strip()
-
-
-def extract_questions(text: str) -> list[str]:
-    cleaned = clean_text_for_questions(text)
-    pattern = re.compile(r"(?m)^(?:Question\s*)?\d{1,2}\s+(?=(?:\(|[A-Z]))")
-    matches = list(pattern.finditer(cleaned))
-    if not matches:
-        return []
-    questions: list[str] = []
-    for i, match in enumerate(matches):
-        start = match.start()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(cleaned)
-        chunk = cleaned[start:end].strip()
-        for stop in [
-            "Permission to reproduce",
-            "Copyright Acknowledgements",
-            "This document consists",
-            "UNIVERSITY OF CAMBRIDGE INTERNATIONAL EXAMINATIONS",
-            "International General Certificate of Secondary Education",
-        ]:
-            idx = chunk.find(stop)
-            if idx != -1:
-                chunk = chunk[:idx].strip()
-                break
-        if chunk:
-            questions.append(chunk)
-    return questions
-
-
-def is_multiple_choice(question_text: str) -> bool:
-    mcq_pattern = re.compile(r"(?m)^\s*A\s+.+\n^\s*B\s+.+\n^\s*C\s+.+\n^\s*D\s+.+", re.DOTALL)
-    if mcq_pattern.search(question_text):
-        return True
-    return len(re.findall(r"(?m)^\s*[ABCD]\s+", question_text)) >= 4
-
-
-def maybe_segment_joined_words(text: str) -> str:
-    if not _WORDSEGMENT_AVAILABLE:
-        return text
-
-    def segment_run(match):
-        return " ".join(ws_segment(match.group(0)))
-
-    fixed_lines: list[str] = []
-    for line in text.splitlines():
-        if " " not in line and re.search(r"[A-Za-z]{12,}", line):
-            line = re.sub(r"[A-Za-z]{8,}", segment_run, line)
-        else:
-            line = re.sub(r"[A-Za-z]{12,}", segment_run, line)
-        fixed_lines.append(line)
-    return "\n".join(fixed_lines)
-
-
-def generate_paper_json(mcq_questions: list[str], text_questions: list[str], structure_list: list[tuple[str, str, int]]) -> list[dict[str, object]]:
-    paper = []
-    for section_name, question_type, num_questions in structure_list:
-        if question_type == "multiple":
-            selected_questions = random.sample(mcq_questions, min(num_questions, len(mcq_questions)))
-        elif question_type == "text":
-            selected_questions = random.sample(text_questions, min(num_questions, len(text_questions)))
-        else:
-            raise ValueError(f"Unknown question type: {question_type}")
-        paper.append({"section": section_name, "questions": selected_questions})
-    return paper
-
-
-def generate_sample_paper(paper: list[dict[str, object]]) -> str:
-    sample_lines = []
-    seen = set()
-    for section in paper:
-        sample_lines.append(f"--- {section['section']} ---\n")
-        for question in section["questions"]:
-            normalized = re.sub(r"\s+", " ", str(question)).strip().lower()
-            if normalized in seen:
-                continue
-            seen.add(normalized)
-            sample_lines.append(str(question) + "\n\n")
-    return "\n".join(sample_lines).strip()
-
-
-def build_paper_lab_bundle(subject_name: str, raw_text: str, max_questions: int = 1000) -> dict[str, object]:
+def build_paper_lab_bundle(
+    subject_name: str,
+    raw_text: str,
+    max_questions: int = 1000,
+    use_wordsegment: bool = True,
+    use_textblob: bool = False,
+    gemini_api_key: str = "",
+) -> dict[str, object]:
     raw_text = raw_text.replace(".", "")
-    raw_text = maybe_segment_joined_words(raw_text)
+    raw_text = _segment_joined_words(raw_text, enabled=use_wordsegment)
+    if use_textblob:
+        raw_text = spell_correct_text(raw_text)
     questions = extract_questions(raw_text)
     first_questions = questions[:max_questions]
     mcq_questions = [q for q in first_questions if is_multiple_choice(q)]
     text_questions = [q for q in first_questions if not is_multiple_choice(q)]
     structure = IGCSE_STRUCTURE.get(subject_name, [])
     paper = generate_paper_json(mcq_questions, text_questions, structure) if structure else []
-    sample_text = generate_sample_paper(paper) if paper else ""
+    sample_text = generate_sample_paper(paper, gemini_api_key=gemini_api_key) if paper else ""
     return {
         "raw_text": raw_text,
         "questions": first_questions,
