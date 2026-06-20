@@ -43,7 +43,7 @@
       <span>Shuffle questions</span>
     </label>
 
-    <button class="btn btn-primary" type="submit">Start Practice Session</button>
+    <button class="btn btn-primary" type="submit"><i class="fas fa-play"></i> Start Practice Session</button>
   </form>
 
   <article class="card">
@@ -62,7 +62,7 @@
       </div>
     {% else %}
       <p>No previous runs found. Run the Paper Lab first to generate question sets.</p>
-      <a class="btn btn-primary" href="{{ url_for('paper_lab') }}">Go to Paper Lab</a>
+      <a class="btn btn-primary" href="{{ url_for('paper_lab') }}"><i class="fas fa-flask"></i> Go to Paper Lab</a>
     {% endif %}
   </article>
 </section>

@@ -42,7 +42,7 @@
           <textarea name="answer_value" rows="8" placeholder="Type your answer here...">{{ answers.get(idx | string, '') }}</textarea>
           <input type="hidden" name="answer_key" value="{{ idx }}" />
           <input type="hidden" name="action" value="save_answer" />
-          <button class="btn btn-secondary" type="submit">Save Answer</button>
+          <button class="btn btn-secondary" type="submit"><i class="fas fa-save"></i> Save Answer</button>
         </form>
       {% endif %}
     </div>
@@ -51,18 +51,18 @@
   <div class="practice-nav">
     <form method="post" style="display: inline;">
       <input type="hidden" name="action" value="prev" />
-      <button class="btn btn-secondary" type="submit" {% if idx == 0 %}disabled{% endif %}>Previous</button>
+      <button class="btn btn-secondary" type="submit" {% if idx == 0 %}disabled{% endif %}><i class="fas fa-arrow-left"></i> Previous</button>
     </form>
     <form method="post" style="display: inline;">
       <input type="hidden" name="action" value="save_file" />
-      <button class="btn btn-secondary" type="submit">Save Answers to File</button>
+      <button class="btn btn-secondary" type="submit"><i class="fas fa-download"></i> Save Answers to File</button>
     </form>
     <form method="post" action="{{ url_for('paper_lab_practice_end') }}" style="display: inline;">
-      <button class="btn btn-secondary" type="submit">End Session</button>
+      <button class="btn btn-secondary" type="submit"><i class="fas fa-stop"></i> End Session</button>
     </form>
     <form method="post" style="display: inline;">
       <input type="hidden" name="action" value="next" />
-      <button class="btn btn-primary" type="submit" {% if idx >= total - 1 %}disabled{% endif %}>Next</button>
+      <button class="btn btn-primary" type="submit" {% if idx >= total - 1 %}disabled{% endif %}>Next <i class="fas fa-arrow-right"></i></button>
     </form>
   </div>
 
@@ -80,7 +80,7 @@
         </label>
         <input type="hidden" name="action" value="get_feedback" />
         <input type="hidden" name="answer_key" value="{{ idx }}" />
-        <button class="btn btn-primary" type="submit">Get Feedback for This Answer</button>
+        <button class="btn btn-primary" type="submit"><i class="fas fa-robot"></i> Get Feedback for This Answer</button>
       </form>
       {% if feedback %}
         <div class="feedback-box">

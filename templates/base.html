@@ -1,25 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="{{ site_tagline }}"
-    />
+    <meta name="description" content="{{ site_tagline }}" />
     <title>{{ page_title or "ExamDino" }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
   </head>
   <body class="page-{{ active_page or 'home' }}">
-    <div class="bg-sheen bg-sheen-one"></div>
-    <div class="bg-sheen bg-sheen-two"></div>
-
     <header class="site-header">
       <div class="site-shell topbar">
         <a class="brand" href="{{ url_for('home') }}">
@@ -29,25 +17,30 @@
             <p class="brand-copy">IGCSE study framework</p>
           </div>
         </a>
-        <nav class="topnav" aria-label="Primary">
-          {% for item in nav_items %}
-            <a
-              href="{{ url_for(item.endpoint) }}"
-              class="{% if active_page == item.endpoint %}active{% endif %}"
-            >
-              {{ item.label }}
-            </a>
-          {% endfor %}
-          {% if current_user.is_authenticated %}
-            <a href="{{ url_for('dashboard') }}" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
-            <form class="nav-form" method="post" action="{{ url_for('logout') }}">
-              <button type="submit">Logout</button>
-            </form>
-          {% else %}
-            <a href="{{ url_for('login') }}" class="{% if active_page == 'login' %}active{% endif %}">Login</a>
-            <a href="{{ url_for('register') }}" class="{% if active_page == 'register' %}active{% endif %}">Register</a>
-          {% endif %}
-        </nav>
+        <div style="display: flex; align-items: center; gap: 0;">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </button>
+          <nav class="topnav" aria-label="Primary">
+            {% for item in nav_items %}
+              <a
+                href="{{ url_for(item.endpoint) }}"
+                class="{% if active_page == item.endpoint %}active{% endif %}"
+              >
+                {{ item.label }}
+              </a>
+            {% endfor %}
+            {% if current_user.is_authenticated %}
+              <a href="{{ url_for('dashboard') }}" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
+              <form class="nav-form" method="post" action="{{ url_for('logout') }}" style="display:inline">
+                <button type="submit">Logout</button>
+              </form>
+            {% else %}
+              <a href="{{ url_for('login') }}" class="{% if active_page == 'login' %}active{% endif %}">Login</a>
+              <a href="{{ url_for('register') }}" class="{% if active_page == 'register' %}active{% endif %}">Register</a>
+            {% endif %}
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -61,29 +54,72 @@
           </section>
         {% endif %}
       {% endwith %}
+
       {% block content %}{% endblock %}
     </main>
 
     <footer class="site-footer">
-      <div class="site-shell footer-grid">
+      <div class="footer-grid">
         <div>
           <p class="eyebrow">ExamDino</p>
-          <h2>The massive IGCSE toolkit</h2>
-          <p>{{ site_tagline }}</p>
+          <h2>The IGCSE toolkit</h2>
+          <p>A massive IGCSE study framework for courses, notes, past papers, quizzes, uploads, planning, and paper generation.</p>
         </div>
         <div class="footer-links">
-          <a href="{{ url_for('courses') }}">Courses</a>
-          <a href="{{ url_for('papers') }}">Past Papers</a>
-          <a href="{{ url_for('upload_page') }}">Upload Studio</a>
-          <a href="{{ url_for('planner') }}">Planner</a>
+          {% for item in nav_items %}
+            <a href="{{ url_for(item.endpoint) }}">{{ item.label }}</a>
+          {% endfor %}
+          {% if current_user.is_authenticated %}
+            <a href="{{ url_for('dashboard') }}">Dashboard</a>
+          {% else %}
+            <a href="{{ url_for('login') }}">Login</a>
+            <a href="{{ url_for('register') }}">Register</a>
+          {% endif %}
         </div>
       </div>
-      <div class="site-shell footer-meta">
-        <span>&copy; {{ current_year }} ExamDino</span>
-        <span>Render deployable Flask app</span>
+      <div class="footer-copy">
+        <p>&copy; {{ current_year }} ExamDino. Built for IGCSE students.</p>
       </div>
     </footer>
 
-    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+      (function() {
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        function setTheme(theme) {
+          html.setAttribute('data-theme', theme);
+          localStorage.setItem('theme', theme);
+          if (themeToggle) {
+            themeToggle.innerHTML = '<i class="fas fa-' + (theme === 'light' ? 'moon' : 'sun') + '"></i>';
+          }
+        }
+
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        setTheme(savedTheme);
+
+        if (themeToggle) {
+          themeToggle.addEventListener('click', function() {
+            const current = html.getAttribute('data-theme');
+            setTheme(current === 'light' ? 'dark' : 'light');
+          });
+        }
+
+        // Scroll animations
+        const observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('fade-in-up');
+            }
+          });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.addEventListener('DOMContentLoaded', function() {
+          document.querySelectorAll('.card, .mini-card, .facts-grid > div, .page-hero').forEach(function(el) {
+            observer.observe(el);
+          });
+        });
+      })();
+    </script>
   </body>
 </html>

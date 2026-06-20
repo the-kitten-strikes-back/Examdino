@@ -106,7 +106,7 @@
         <input type="checkbox" name="use_web" {% if use_web %}checked{% endif %} />
         <span>Fetch current papers from the web</span>
       </label>
-      <button class="btn btn-primary" type="submit">Run Paper Lab</button>
+      <button class="btn btn-primary" type="submit"><i class="fas fa-play"></i> Run Paper Lab</button>
       {% if uploaded_name %}
         <p class="note">Loaded file: {{ uploaded_name }}</p>
       {% endif %}
@@ -141,7 +141,7 @@
         </div>
         {% if artifact_links.get("generated_paper.pdf") %}
           <div style="margin-top: 1rem;">
-            <a class="btn btn-primary" href="{{ artifact_links.get('generated_paper.pdf') }}">Download generated paper as PDF</a>
+            <a class="btn btn-primary" href="{{ artifact_links.get('generated_paper.pdf') }}"><i class="fas fa-file-pdf"></i> Download generated paper as PDF</a>
           </div>
         {% endif %}
 
@@ -151,7 +151,7 @@
         {% if bundle.questions %}
           <h3>Practice</h3>
           <p>Use these questions for interactive practice.</p>
-          <a class="btn btn-secondary" href="{{ url_for('paper_lab_practice') }}">Open Practice Mode</a>
+          <a class="btn btn-secondary" href="{{ url_for('paper_lab_practice') }}"><i class="fas fa-graduation-cap"></i> Open Practice Mode</a>
         {% endif %}
 
         {% if browser_sessions %}
